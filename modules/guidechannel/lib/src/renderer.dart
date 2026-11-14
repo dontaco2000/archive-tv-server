@@ -1,5 +1,6 @@
 import 'dart:convert';
 import 'dart:io';
+import 'dart:math' as math;
 import 'dart:typed_data';
 
 import 'package:image/image.dart' as img;
@@ -7,6 +8,9 @@ import 'package:image/image.dart' as img;
 import 'layout.dart';
 import 'snapshot.dart';
 import 'header_logo.dart';
+import 'weather.dart';
+
+part 'weather_renderer.dart';
 
 final _navy = img.ColorRgb8(0x10, 0x1A, 0x5C);
 final _navyDark = img.ColorRgb8(0x0B, 0x13, 0x48);
@@ -46,10 +50,15 @@ int textWidth(img.BitmapFont f, String s) {
 const _days = ['MON', 'TUE', 'WED', 'THU', 'FRI', 'SAT', 'SUN'];
 const _months = ['JAN', 'FEB', 'MAR', 'APR', 'MAY', 'JUN', 'JUL', 'AUG', 'SEP', 'OCT', 'NOV', 'DEC'];
 
+/// Something that draws 640x480 yuv420p frames for [GuideChannel]: the guide listings or the weather.
+abstract interface class FrameSource {
+  Uint8List frameYuv(DateTime now, double seconds);
+}
+
 /// Draws guide frames (640x480 RGB24). The scrolling grid is pre-rendered as one tall strip and
 /// only redrawn when the minute or the snapshot changes; the top band is redrawn once a second;
 /// each frame is just two memcpy's.
-class GuideRenderer {
+class GuideRenderer implements FrameSource {
   Snapshot _snap;
   final img.Image _logoMark = img.decodePng(base64Decode(headerLogoPngBase64))!;
   final Map<String, img.Image?> _logos = {};
@@ -142,98 +151,14 @@ class GuideRenderer {
     return _frameY;
   }
 
-  /// Copies [lines] lines of [lineBytes] from the looping [src] (ring of [ringLines]) starting at line [y].
-  static void _ring(Uint8List dst, int at, Uint8List src, int lineBytes, int ringLines, int y, int lines) {
-    while (lines > 0) {
-      final take = lines < ringLines - y ? lines : ringLines - y;
-      dst.setRange(at, at + take * lineBytes, src, y * lineBytes);
-      at += take * lineBytes;
-      lines -= take;
-      y = 0;
-    }
-  }
-
-  /// RGB image (even width/height) -> I420 planes Y, U, V back to back.
-  static Uint8List _toYuv(img.Image im) {
-    final w = im.width, h = im.height, rgb = im.buffer.asUint8List();
-    final out = Uint8List(w * h * 3 ~/ 2);
-    final uAt = w * h, vAt = uAt + w * h ~/ 4, cw = w ~/ 2;
-    for (var i = 0, p = 0; i < w * h; i++, p += 3) {
-      out[i] = ((66 * rgb[p] + 129 * rgb[p + 1] + 25 * rgb[p + 2] + 128) >> 8) + 16;
-    }
-    for (var y = 0; y < h; y += 2) {
-      for (var x = 0; x < w; x += 2) {
-        var r = 0, g = 0, b = 0;
-        for (final p in [(y * w + x) * 3, (y * w + x + 1) * 3, ((y + 1) * w + x) * 3, ((y + 1) * w + x + 1) * 3]) {
-          r += rgb[p];
-          g += rgb[p + 1];
-          b += rgb[p + 2];
-        }
-        final c = (y ~/ 2) * cw + x ~/ 2;
-        out[uAt + c] = (((-38 * r - 74 * g + 112 * b) >> 2) + 128 >> 8) + 128;
-        out[vAt + c] = (((112 * r - 94 * g - 18 * b) >> 2) + 128 >> 8) + 128;
-      }
-    }
-    return out;
-  }
-
   /// [frame] as an image (for PNG screenshots).
   img.Image frameImage(DateTime now, double seconds) => img.Image.fromBytes(
       width: frameWidth, height: frameHeight, bytes: Uint8List.fromList(frame(now, seconds)).buffer, numChannels: 3);
 
-  void _text(img.Image im, String s, img.BitmapFont f, int x, int y, img.Color c, {bool shadow = true}) {
-    if (shadow) img.drawString(im, s, font: f, x: x + 1, y: y + 1, color: _shadow);
-    img.drawString(im, s, font: f, x: x, y: y, color: c);
-  }
-
-  void _rect(img.Image im, int x0, int y0, int x1, int y1, img.Color c) =>
-      img.fillRect(im, x1: x0, y1: y0, x2: x1 - 1, y2: y1 - 1, color: c);
-
-  void _stripes(img.Image im, int x0, int y0, int x1, int y1) {
-    for (var y = y0; y < y1; y += 2) {
-      _rect(im, x0, y, x1, y + 1, _navyDark);
-    }
-  }
-
-  // Left-pointing / right-pointing arrow: the programme continues outside the window.
-  void _arrow(img.Image im, int x, int y, bool left, img.Color c) {
-    for (var i = 0; i < 7; i++) {
-      final xx = left ? x + i : x + 6 - i;
-      _rect(im, xx, y + 7 - i, xx + 1, y + 8 + i, c);
-    }
-  }
-
-  img.Image? _logo(String? path) {
-    if (path == null) return null;
-    return _logos.putIfAbsent(path, () {
-      try {
-        final f = File(path);
-        if (!f.existsSync()) return null;
-        final src = img.decodeImage(f.readAsBytesSync());
-        if (src == null) return null;
-        const maxW = 96, maxH = 72;
-        final k = (maxW / src.width) < (maxH / src.height) ? maxW / src.width : maxH / src.height;
-        return img.copyResize(src,
-            width: (src.width * k).round(), height: (src.height * k).round(), interpolation: img.Interpolation.average);
-      } on Object {
-        return null; // a broken logo never stops the channel
-      }
-    });
-  }
-
   void _drawHead(DateTime now, DateTime ws, int info) {
     final h = _head;
-    _rect(h, 0, 0, frameWidth, topHeight, _navy);
-    _stripes(h, 0, 0, frameWidth, topHeight);
-    img.compositeImage(h, _logoMark, dstX: 8, dstY: 4);
-
-    // GUIDE and the ticking clock under the wordmark
+    _topBand(h, _logoMark, 'GUIDE', now);
     final l = now.toLocal();
-    final t = '${clock12(l)}:${l.second.toString().padLeft(2, '0')}';
-    _text(h, 'GUIDE', _big, 14, 90, _yellow);
-    final cx = 216 - textWidth(_big, t) - textWidth(_small, ampm(l)) - 4;
-    _text(h, t, _big, cx, 90, _white);
-    _text(h, ampm(l), _small, 216 - textWidth(_small, ampm(l)), 98, _yellow);
 
     // info strip: one channel at a time, now and next
     const x0 = 228, y0 = 8, x1 = 632, y1 = 118;
@@ -243,7 +168,7 @@ class GuideRenderer {
       final c = _snap.channels[info];
       final (bg, fg) = genreColors(c.genre);
       var tx = x0 + 10;
-      final logo = _logo(c.logo);
+      final logo = _loadLogo(_logos, c.logo);
       if (logo != null) {
         _rect(h, x0 + 6, y0 + 6, x0 + 106, y0 + 82, _navyDark);
         img.compositeImage(h, logo, dstX: x0 + 6 + (100 - logo.width) ~/ 2, dstY: y0 + 8 + (72 - logo.height) ~/ 2);
@@ -358,4 +283,94 @@ class GuideRenderer {
     }
     return s;
   }
+}
+
+/// The top band's left part: navy stripes, the Archive TV wordmark, [label] and the ticking clock under it.
+void _topBand(img.Image h, img.Image logoMark, String label, DateTime now) {
+  _rect(h, 0, 0, frameWidth, topHeight, _navy);
+  _stripes(h, 0, 0, frameWidth, topHeight);
+  img.compositeImage(h, logoMark, dstX: 8, dstY: 4);
+  final l = now.toLocal();
+  final t = '${clock12(l)}:${l.second.toString().padLeft(2, '0')}';
+  final cx = 216 - textWidth(_big, t) - textWidth(_small, ampm(l)) - 4;
+  // a label too long for the big font beside the clock (WEATHER) uses the small one
+  final big = 14 + textWidth(_big, label) + 6 <= 216 - textWidth(_big, '12:00:00') - textWidth(_small, 'PM') - 4;
+  _text(h, label, big ? _big : _small, 14, big ? 90 : 98, _yellow);
+  _text(h, t, _big, cx, 90, _white);
+  _text(h, ampm(l), _small, 216 - textWidth(_small, ampm(l)), 98, _yellow);
+}
+
+/// Copies [lines] lines of [lineBytes] from the looping [src] (ring of [ringLines]) starting at line [y].
+void _ring(Uint8List dst, int at, Uint8List src, int lineBytes, int ringLines, int y, int lines) {
+  while (lines > 0) {
+    final take = lines < ringLines - y ? lines : ringLines - y;
+    dst.setRange(at, at + take * lineBytes, src, y * lineBytes);
+    at += take * lineBytes;
+    lines -= take;
+    y = 0;
+  }
+}
+
+/// RGB image (even width/height) -> I420 planes Y, U, V back to back.
+Uint8List _toYuv(img.Image im) {
+  final w = im.width, h = im.height, rgb = im.buffer.asUint8List();
+  final out = Uint8List(w * h * 3 ~/ 2);
+  final uAt = w * h, vAt = uAt + w * h ~/ 4, cw = w ~/ 2;
+  for (var i = 0, p = 0; i < w * h; i++, p += 3) {
+    out[i] = ((66 * rgb[p] + 129 * rgb[p + 1] + 25 * rgb[p + 2] + 128) >> 8) + 16;
+  }
+  for (var y = 0; y < h; y += 2) {
+    for (var x = 0; x < w; x += 2) {
+      var r = 0, g = 0, b = 0;
+      for (final p in [(y * w + x) * 3, (y * w + x + 1) * 3, ((y + 1) * w + x) * 3, ((y + 1) * w + x + 1) * 3]) {
+        r += rgb[p];
+        g += rgb[p + 1];
+        b += rgb[p + 2];
+      }
+      final c = (y ~/ 2) * cw + x ~/ 2;
+      out[uAt + c] = (((-38 * r - 74 * g + 112 * b) >> 2) + 128 >> 8) + 128;
+      out[vAt + c] = (((112 * r - 94 * g - 18 * b) >> 2) + 128 >> 8) + 128;
+    }
+  }
+  return out;
+}
+
+void _text(img.Image im, String s, img.BitmapFont f, int x, int y, img.Color c, {bool shadow = true}) {
+  if (shadow) img.drawString(im, s, font: f, x: x + 1, y: y + 1, color: _shadow);
+  img.drawString(im, s, font: f, x: x, y: y, color: c);
+}
+
+void _rect(img.Image im, int x0, int y0, int x1, int y1, img.Color c) =>
+    img.fillRect(im, x1: x0, y1: y0, x2: x1 - 1, y2: y1 - 1, color: c);
+
+void _stripes(img.Image im, int x0, int y0, int x1, int y1) {
+  for (var y = y0; y < y1; y += 2) {
+    _rect(im, x0, y, x1, y + 1, _navyDark);
+  }
+}
+
+// Left-pointing / right-pointing arrow: the programme continues outside the window.
+void _arrow(img.Image im, int x, int y, bool left, img.Color c) {
+  for (var i = 0; i < 7; i++) {
+    final xx = left ? x + i : x + 6 - i;
+    _rect(im, xx, y + 7 - i, xx + 1, y + 8 + i, c);
+  }
+}
+
+img.Image? _loadLogo(Map<String, img.Image?> cache, String? path) {
+  if (path == null) return null;
+  return cache.putIfAbsent(path, () {
+    try {
+      final f = File(path);
+      if (!f.existsSync()) return null;
+      final src = img.decodeImage(f.readAsBytesSync());
+      if (src == null) return null;
+      const maxW = 96, maxH = 72;
+      final k = (maxW / src.width) < (maxH / src.height) ? maxW / src.width : maxH / src.height;
+      return img.copyResize(src,
+          width: (src.width * k).round(), height: (src.height * k).round(), interpolation: img.Interpolation.average);
+    } on Object {
+      return null; // a broken logo never stops the channel
+    }
+  });
 }

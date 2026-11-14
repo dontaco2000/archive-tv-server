@@ -5,7 +5,8 @@ import 'renderer.dart';
 import 'snapshot.dart';
 
 /// The guide channel as a live MPEG-TS stream: Dart draws yuv420p frames at a constant [fps] into
-/// ffmpeg's stdin, ffmpeg adds silent stereo audio and encodes h264/aac MPEG-TS (640x480 4:3).
+/// ffmpeg's stdin, ffmpeg adds the audio ([audioInput]: silence by default) and encodes h264/aac MPEG-TS
+/// (640x480 4:3). [GuideChannel.frames] streams any other [FrameSource] (the weather channel).
 ///
 /// ```dart
 /// final g = GuideChannel(snapshot);
@@ -15,7 +16,10 @@ import 'snapshot.dart';
 /// await g.stop();
 /// ```
 class GuideChannel {
-  final GuideRenderer renderer;
+  final FrameSource source;
+
+  /// The listings renderer (only for a channel made with the default constructor).
+  GuideRenderer get renderer => source as GuideRenderer;
   final String ffmpeg;
   final int fps;
 
@@ -37,7 +41,35 @@ class GuideChannel {
   /// viewer's player gets a buffer instead of starting at exactly real time (Plex stutters otherwise).
   final double lead;
 
+  /// ffmpeg input arguments of the audio track (input 1), e.g. raw PCM from a URL. Default: silence.
+  final List<String> audioInput;
+
+  static const silence = ['-f', 'lavfi', '-i', 'anullsrc=r=44100:cl=stereo'];
+
   GuideChannel(Snapshot snapshot,
+      {String ffmpeg = 'ffmpeg',
+      int fps = 15,
+      String preset = 'veryfast',
+      String maxrate = '1500k',
+      String out = 'pipe:1',
+      bool realtime = true,
+      void Function(String)? log,
+      double lead = 0,
+      List<String> audioInput = silence,
+      double hold = 7,
+      double scroll = 1})
+      : this.frames(GuideRenderer(snapshot, hold: hold, scroll: scroll),
+            ffmpeg: ffmpeg,
+            fps: fps,
+            preset: preset,
+            maxrate: maxrate,
+            out: out,
+            realtime: realtime,
+            log: log,
+            lead: lead,
+            audioInput: audioInput);
+
+  GuideChannel.frames(this.source,
       {this.ffmpeg = 'ffmpeg',
       this.fps = 15,
       this.preset = 'veryfast',
@@ -46,9 +78,7 @@ class GuideChannel {
       this.realtime = true,
       this.log,
       this.lead = 0,
-      double hold = 7,
-      double scroll = 1})
-      : renderer = GuideRenderer(snapshot, hold: hold, scroll: scroll);
+      this.audioInput = silence});
 
   Process? _p;
   bool _stopping = false;
@@ -77,10 +107,7 @@ class GuideChannel {
         '$fps',
         '-i',
         'pipe:0',
-        '-f',
-        'lavfi',
-        '-i',
-        'anullsrc=r=44100:cl=stereo',
+        ...audioInput,
         '-map',
         '0:v',
         '-map',
@@ -139,7 +166,7 @@ class GuideChannel {
       for (var i = 0; !_stopping && (total == null || i < total); i++) {
         final sec = i / fps;
         final now = realtime && lead <= 0 ? DateTime.now() : t0.add(Duration(microseconds: (sec * 1e6).round()));
-        p.stdin.add(renderer.frameYuv(now, sec));
+        p.stdin.add(source.frameYuv(now, sec));
         await p.stdin.flush(); // backpressure: never queue more than a frame
         if (realtime) {
           final ahead = ((sec - lead) * 1000).round() - clock.elapsedMilliseconds;

@@ -16,11 +16,12 @@ Looking for the app itself (Windows, Fire TV, Android)? Get the [latest Archive 
 - XMLTV guide 7 days ahead with channel logos, genres, marathons and themed blocks.
 - Each channel is encoded live by ffmpeg into one steady format (640x480 4:3, H.264 + AAC MPEG-TS), so Plex never sees a codec change between programmes.
 - Burned-in Archive TV watermark with channel number and name, STAND BY / BUILDING cards, and channel **99 Guide**: a Prevue-style scrolling listings channel.
+- Channel **41 Cumulus**: a local weather channel (current conditions, hourly, today, extended forecast, NWS alerts). The Guide and Cumulus play smooth-jazz background music from the Internet Archive, like the app's weather channel.
 - Dead-link checker, daily pool refresh, night-only adult blocks (see below).
 
 ## Content disclaimer
 
-**We are not responsible for the content.** All video and audio comes from the Internet Archive (archive.org) and its uploaders. Archive TV Server only indexes and plays it. Archive TV is **not affiliated with or endorsed by the Internet Archive.** Some channels (such as Headliner, Teaser, Haunt and Bedlam) and the night-time blocks on many others can include mature content (strong language, violence, crude humor, sports like MMA). R-rated programmes air only in a late-night window (22:00 to 05:00 by default) and can be switched off completely (`late_night_adult_mode = false`, see Settings). Use Plex's own managed-user restrictions for anything stricter.
+**We are not responsible for the content.** All video and audio comes from the Internet Archive (archive.org) and its uploaders. Archive TV Server only indexes and plays it. Archive TV is **not affiliated with or endorsed by the Internet Archive.** Weather data comes from Open-Meteo and the US National Weather Service (weather.gov) and may be wrong or late: don't rely on it for safety decisions. Some channels (such as Headliner, Teaser, Haunt and Bedlam) and the night-time blocks on many others can include mature content (strong language, violence, crude humor, sports like MMA). R-rated programmes air only in a late-night window (22:00 to 05:00 by default) and can be switched off completely (`late_night_adult_mode = false`, see Settings). Use Plex's own managed-user restrictions for anything stricter.
 
 ## Requirements
 
@@ -28,8 +29,8 @@ Looking for the app itself (Windows, Fire TV, Android)? Get the [latest Archive 
 - **A Linux x64 machine on the same LAN as Plex** (it can be the Plex machine itself). Tested on Ubuntu 22.04.
 - **ffmpeg with https support**, installed at `/opt/archivetv-server/bin/ffmpeg` (any path works with `--ffmpeg`). Use a recent build: the server was tested with the [BtbN FFmpeg-Builds](https://github.com/BtbN/FFmpeg-Builds/releases) `n8.1` `linux64-gpl` static build. The johnvansickle.com static build **segfaults on every https input** (static-glibc DNS problem), so don't use that one. Ubuntu's own ffmpeg 4.4 works for plain streaming but lacks some filters newer features use.
 - **Fonts:** `fonts-dejavu-core` (Ubuntu: `sudo apt install fonts-dejavu-core`) for the overlays and STAND BY cards.
-- **Internet access:** every channel streams from archive.org.
-- **CPU:** about 0.75-0.9 of a CPU core per channel being watched (software x264, `veryfast`, measured on a 2012 AMD FX-4300). 4 tuners by default, i.e. up to 4 channels at once (the Guide channel counts as one); lower `tuners` on a weak box, and remember Plex may also transcode for some clients.
+- **Internet access:** every channel streams from archive.org; the weather channel also reads api.open-meteo.com and api.weather.gov.
+- **CPU:** about 0.75-0.9 of a CPU core per channel being watched (software x264, `veryfast`, measured on a 2012 AMD FX-4300). 4 tuners by default, i.e. up to 4 channels at once (the Guide and weather channels count as one each; they cost less than a programme channel: a mostly still picture plus an mp3 decoder for the music); lower `tuners` on a weak box, and remember Plex may also transcode for some clients.
 - **Disk:** a few hundred MB for the data folder (channel pools, saved days, item titles, dead-link lists); allow 1 GB. No video is stored.
 - **Port:** TCP 8100 (change with `--port`), reachable from the Plex server.
 
@@ -136,7 +137,7 @@ The channel lineup is the Archive TV app's own config. When the app changes it, 
 
 Then restart the service (or run `deploy.sh`) and do "After the channel list changes" above. Changed channels rebuild at the next daily refresh; to rebuild one now, delete `data/pools/pool-<n>.json` and restart.
 
-The weather channel (Cumulus) is app-only and is skipped by the server.
+The weather channel (Cumulus, the `weatherstar` channel in `channels.json`) is drawn natively by the server, not the app's WeatherStar 4000+ web page (no browser on the server): current conditions, hourly forecast, today (sunrise/sunset, UV, wind), extended forecast and active NWS alerts, each screen holding about 9 seconds. Weather data comes from [Open-Meteo](https://open-meteo.com) (no key) and, in the US, weather.gov alerts; it refreshes every 15 minutes while someone watches and is cached in `data/weather.json` (a failed refresh keeps the last report and shows its "updated" time). Its music sources (the Archive item `smooth-jazz-fm-1991`) are also the Guide channel's music; the track list is built once a day and saved in `data/music/`.
 
 ## Settings
 
@@ -157,8 +158,13 @@ The weather channel (Cumulus) is app-only and is skipped by the server.
 | `discretion_strip` | `false` | VIEWER DISCRETION ADVISED strip when tuning in during an R programme. |
 | `late_night_notice` | `false` | LATE NIGHT ADULT MODE line on banners and cards during the window. |
 | `guide_channel` | `true` | Channel 99 "Guide": scrolling listings of every channel. |
+| `guide_music` | `true` | Smooth-jazz background music on the Guide (the app's weather music, from the Internet Archive). |
+| `weather_channel` | `true` | The weather channel (41 Cumulus). |
+| `weather_music` | `true` | Smooth-jazz background music on the weather channel. |
+| `weather_location` | `Hattiesburg, MS; 31.3271, -89.2903` | Place name; latitude, longitude (decimal degrees). |
+| `weather_units` | `imperial` | `imperial` (F, mph, inHg, miles) or `metric` (C, km/h, hPa, km). |
 
-Times (late-night window, guide channel clock) use the server's local time zone: set the box to the viewers' time zone.
+Times (late-night window, guide and weather channel clocks, hourly forecast) use the server's local time zone: set the box to the viewers' time zone.
 
 ## Troubleshooting
 
@@ -177,12 +183,12 @@ Times (late-night window, guide channel clock) use the server's local time zone:
 
 - `server/`: the Dart server (HDHomeRun API, XMLTV, stream engine, settings) and its `config/` (channels, rated list, renumber map, logos, watermark).
 - `modules/overlays/`: ffmpeg filter graphs for the burned-in overlays.
-- `modules/guidechannel/`: the Prevue-style Guide channel renderer.
+- `modules/guidechannel/`: the Prevue-style Guide channel renderer and the weather channel (data + screens).
 - `deploy.sh`, `archivetv-server.service`: deployment helpers.
 
 ## How it relates to the app
 
-[Archive TV](https://github.com/dontaco2000/archive-tv) is the Windows/Android app. This server reuses its pure-Dart core (channel config, pools, deterministic scheduler, guide blocks, dead-link checker), so a channel on the server airs the same kind of schedule as in the app. The app's interactive guide, menu, remote, On Demand and weather channel do not exist inside Plex; Plex draws its own guide.
+[Archive TV](https://github.com/dontaco2000/archive-tv) is the Windows/Android app. This server reuses its pure-Dart core (channel config, pools, deterministic scheduler, guide blocks, dead-link checker), so a channel on the server airs the same kind of schedule as in the app. The app's interactive guide, menu, remote and On Demand do not exist inside Plex; Plex draws its own guide. The weather channel on Plex is a simplified native rendering (fixed screens, no radar), not the WeatherStar 4000+ page the app shows.
 
 ## Porting and forks
 

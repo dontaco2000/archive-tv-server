@@ -3,9 +3,10 @@ import 'dart:io';
 
 import 'package:archive_tv_core/archive_tv_core.dart';
 import 'package:archive_tv_overlays/archive_tv_overlays.dart' as ov;
-import 'package:guidechannel/guidechannel.dart' show GuideChannel, Snapshot;
+import 'package:guidechannel/guidechannel.dart' show GuideChannel, Snapshot, WeatherFeed, WeatherRenderer;
 
 import 'engine.dart';
+import 'music.dart';
 
 /// What the stream engine needs from the scheduler (the [Engine]; tests use a fake).
 abstract interface class Schedule {
@@ -195,6 +196,7 @@ class Session {
 
   GuideChannel? _guide;
   Timer? _guideTimer;
+  MusicFeed? _music;
 
   Session(this.channel, this.s, this.gen);
 
@@ -203,6 +205,7 @@ class Session {
   Future<void> start() async {
     _pos = null;
     if (channel.number == guideNumber && s.guideSnapshot != null) return _startGuide();
+    if (channel.type == 'weatherstar' && s.weather != null) return _startWeather();
     final f = File('${s.tmpDir.path}/ch${channel.number}.ffconcat');
     f.parent.createSync(recursive: true);
     final url = '${s.selfBase}/internal/item/${channel.number}?g=$gen';
@@ -231,10 +234,7 @@ class Session {
 
   /// The guide channel: one shared listings stream, snapshot refreshed every 5 minutes.
   Future<void> _startGuide() async {
-    final g = _guide = GuideChannel(s.guideSnapshot!(), ffmpeg: s.ffmpeg, lead: leadSeconds, log: (l) {
-      if (l.isNotEmpty) s.log('ch$guideNumber guide: $l');
-    });
-    await g.start();
+    final g = GuideChannel(s.guideSnapshot!(), ffmpeg: s.ffmpeg, lead: leadSeconds, audioInput: _audioInput(), log: _panelLog);
     _guideTimer = Timer.periodic(const Duration(minutes: 5), (_) {
       try {
         g.snapshot = s.guideSnapshot!();
@@ -242,10 +242,52 @@ class Session {
         s.log('ch$guideNumber: snapshot failed: $e');
       }
     });
+    await _startPanel(g);
+  }
+
+  /// The weather channel: native weather screens; the data refreshes while watched (every 15 min).
+  Future<void> _startWeather() async {
+    final w = s.weather!;
+    w.feed.refreshIfStale();
+    _guideTimer = Timer.periodic(const Duration(minutes: 1), (_) => w.feed.refreshIfStale());
+    await _startPanel(GuideChannel.frames(WeatherRenderer(() => w.feed.current, logoPath: w.logo, place: w.feed.place.name),
+        ffmpeg: s.ffmpeg, lead: leadSeconds, audioInput: _audioInput(), log: _panelLog));
+  }
+
+  void _panelLog(String l) {
+    if (l.isNotEmpty) s.log('ch${channel.number} panel: $l');
+  }
+
+  Future<void> _startPanel(GuideChannel g) async {
+    _guide = g;
+    await g.start();
     g.output.listen(_fanOut, onDone: () {
-      if (!stopped) s.log('ch$guideNumber: guide stream ended');
+      if (!stopped) s.log('ch${channel.number}: stream ended');
       stop();
     });
+  }
+
+  /// The panel's audio: the music as PCM from `/internal/music/<n>` ([serveMusic]), or silence.
+  List<String> _audioInput() {
+    final order = s.music?.call(channel) ?? const [];
+    if (order.isEmpty) return GuideChannel.silence;
+    _music = MusicFeed(order,
+        ffmpeg: s.ffmpeg,
+        playlist: File('${s.tmpDir.path}/music${channel.number}.ffconcat'),
+        spawn: s.spawn,
+        lead: leadSeconds,
+        clock: s.clock,
+        log: (l) => s.log('ch${channel.number} $l'));
+    return [...pcmInput, '-i', '${s.selfBase}/internal/music/${channel.number}?g=$gen'];
+  }
+
+  /// Answers the panel ffmpeg's `/internal/music` request (silent end when there is no music).
+  Future<void> serveMusic(HttpResponse res) async {
+    try {
+      await _music?.serve(res);
+    } finally {
+      await res.close().catchError((_) {});
+    }
   }
 
   void _fanOut(List<int> chunk) {
@@ -307,6 +349,7 @@ class Session {
     stopped = true;
     _idle?.cancel();
     _guideTimer?.cancel();
+    _music?.stop();
     unawaited(_guide?.stop());
     _outer?.kill();
     for (final p in _inner) {
@@ -515,6 +558,12 @@ class Streamer {
 
   /// The guide channel's listings (null: no guide channel).
   final Snapshot Function()? guideSnapshot;
+
+  /// The weather channel's data and logo (null: no weather channel).
+  final ({WeatherFeed feed, String? logo})? weather;
+
+  /// Music tracks (play order) for the guide/weather channel; null or empty = silence.
+  final List<Entry> Function(Channel)? music;
   final Spawn spawn;
   final DateTime Function() clock;
   final void Function(String) log;
@@ -533,6 +582,8 @@ class Streamer {
     this.font,
     this.overlays,
     this.guideSnapshot,
+    this.weather,
+    this.music,
     Spawn? spawn,
     DateTime Function()? clock,
     void Function(String)? log,

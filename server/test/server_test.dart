@@ -6,6 +6,7 @@ import 'package:archive_tv_core/archive_tv_core.dart';
 import 'package:archivetv_server/engine.dart';
 import 'package:archivetv_server/guide.dart';
 import 'package:archivetv_server/hdhr.dart';
+import 'package:archivetv_server/music.dart';
 import 'package:archivetv_server/settings.dart';
 import 'package:archivetv_server/streamer.dart';
 import 'package:archivetv_server/titles.dart';
@@ -441,6 +442,142 @@ void main() {
     expect(tue.where((s) => s.entry.id.startsWith('game')), isEmpty);
     expect(tue.where((s) => s.entry.id.startsWith('ad')), isEmpty);
   });
+
+  group('guide/weather music, weather channel', () {
+    Entry track(String name, double s, [String item = 'smooth-jazz-fm-1991']) => Entry(
+        id: '$item/$name.mp3', itemId: item, file: '$name.mp3', title: name, durationSeconds: s, url: "https://archive.org/download/$item/$name.mp3");
+    final pool = [
+      track('A', 1800),
+      track('B', 3600),
+      track("Joe's C", 2700),
+      track('tiny', 30), // too short
+      track('huge', 5 * 3600), // too long
+    ];
+
+    test('track order: sensible lengths, stable shuffle, clock rotation', () {
+      final o = musicOrder(pool);
+      expect(o.map((e) => e.file).toSet(), {'A.mp3', 'B.mp3', "Joe's C.mp3"});
+      expect(musicOrder(pool.reversed.toList()).map((e) => e.id), o.map((e) => e.id)); // input order does not matter
+      // back to back since the epoch: 8100 s cycle
+      final cycle = DateTime.fromMillisecondsSinceEpoch(8100 * 1000 * 1000);
+      expect(musicIndexAt(o, cycle), 0);
+      expect(musicIndexAt(o, cycle.add(Duration(seconds: o[0].durationSeconds.round() - 1))), 0);
+      expect(musicIndexAt(o, cycle.add(Duration(seconds: o[0].durationSeconds.round() + 1))), 1);
+      expect(musicIndexAt(o, cycle.add(const Duration(seconds: 8099))), 2);
+      expect(musicIndexAt(const [], cycle), 0);
+    });
+
+    test('playlist, fades and decoder arguments', () {
+      final o = musicOrder(pool);
+      final p = musicPlaylist(o, 1);
+      final files = RegExp(r"^file '(.*)'$", multiLine: true).allMatches(p).map((m) => m[1]).toList();
+      expect(p, startsWith('ffconcat version 1.0\n'));
+      expect(files.length, 3);
+      expect(files.first, o[1].url.replaceAll("'", r"'\''"));
+      expect(p, contains(r"Joe'\''s C.mp3"));
+      expect('option rw_timeout 10000000'.allMatches(p).length, 3);
+      final f = musicFilter(o, 1);
+      final b1 = o[1].durationSeconds, b2 = b1 + o[2].durationSeconds;
+      expect(f, "aresample=44100,dynaudnorm=f=500:g=31:p=0.7:m=8,volume='0.5*if(isnan(t),1,"
+          "min(1,abs(t-${b1.toStringAsFixed(2)}))*min(1,abs(t-${b2.toStringAsFixed(2)})))':eval=frame");
+      expect(musicFilter([o.first], 0), contains("volume='0.5':eval=frame"));
+      final a = musicDecoderArgs('/t/m.ffconcat', f);
+      expect(a.sublist(a.indexOf('-f'), a.indexOf('-i') + 2), ['-f', 'concat', '-safe', '0', '-protocol_whitelist', 'file,http,https,tcp,tls,crypto', '-i', '/t/m.ffconcat']);
+      expect(a.sublist(a.length - 7), ['-f', 's16le', '-ar', '44100', '-ac', '2', 'pipe:1']);
+      expect(a, containsAllInOrder(['-vn', '-af', f]));
+    });
+
+    test('feed: silence while the decoder has nothing, music sample-aligned, decoder failure = silence', () async {
+      final o = musicOrder(pool);
+      final logs = <String>[];
+      final dir = Directory.systemTemp.createTempSync('atvmusic');
+      addTearDown(() => dir.deleteSync(recursive: true));
+      final procs = <FakeProcess>[];
+      final feed = MusicFeed(o,
+          ffmpeg: 'ffmpeg',
+          playlist: File('${dir.path}/m.ffconcat'),
+          spawn: (exe, args) async {
+            expect(args, contains('${dir.path}/m.ffconcat'));
+            return (procs..add(FakeProcess(String.fromCharCodes(List.filled(10, 7)), '', 0))).last;
+          },
+          lead: 0.1,
+          log: logs.add);
+      expect(feed.take(8), List.filled(8, 0)); // nothing buffered: silence
+      final out = _Sink();
+      final served = feed.serve(out, tick: const Duration(milliseconds: 5));
+      await Future<void>.delayed(const Duration(milliseconds: 60));
+      feed.stop();
+      await served;
+      expect(File('${dir.path}/m.ffconcat').readAsStringSync(), startsWith('ffconcat'));
+      expect(out.bytes.length % 4, 0);
+      expect(out.bytes.length, greaterThanOrEqualTo((0.1 * 44100).floor() * 4)); // the lead went out at once
+      // 10 decoded bytes: 8 played (two whole samples), 2 wait for the rest of their sample
+      expect(out.bytes.where((b) => b == 7).length, 8);
+      expect(logs.first, startsWith('music: '));
+      // a decoder that can't start: silence and a log line, no throw
+      final bad = MusicFeed(o, ffmpeg: 'ffmpeg', playlist: File('${dir.path}/b.ffconcat'), spawn: (e, a) => throw const ProcessException('ffmpeg', [], 'missing'), log: logs.add);
+      final out2 = _Sink();
+      final s2 = bad.serve(out2, tick: const Duration(milliseconds: 5));
+      await Future<void>.delayed(const Duration(milliseconds: 30));
+      bad.stop();
+      await s2;
+      expect(out2.bytes.every((b) => b == 0), true);
+      expect(out2.bytes, isNotEmpty);
+      expect(logs.last, contains('decoder did not start'));
+    });
+
+    test('library: saved list loads, a failed build keeps it, nothing at all = silent', () async {
+      final dir = Directory.systemTemp.createTempSync('atvlib');
+      addTearDown(() => dir.deleteSync(recursive: true));
+      final config = parseChannelConfig('{"channels":[{"number":41,"name":"Cumulus","type":"weatherstar",'
+          '"sources":[{"identifiers":["smooth-jazz-fm-1991"],"mediatype":"audio","ignoreYear":true}]}]}');
+      final cumulus = config.channels.single;
+      final logs = <String>[];
+      final empty = MusicLibrary(cumulus, config, _NoApi(), dir, log: logs.add);
+      expect(empty.order, isEmpty);
+      await empty.refresh(); // _NoApi throws: logged, still silent
+      expect(empty.order, isEmpty);
+      expect(logs.last, contains('stay silent'));
+      PoolStore(Directory('${dir.path}/music')).save(41, pool, builtAt: DateTime.now().subtract(const Duration(days: 2)));
+      final lib = MusicLibrary(cumulus, config, _NoApi(), dir, log: logs.add);
+      expect(lib.order.length, 3);
+      await lib.refresh(); // stale: tries, fails, keeps the saved list
+      expect((lib.order.length, logs.last.contains('keeping the saved list')), (3, true));
+      expect(MusicLibrary(null, config, _NoApi(), dir).order, isEmpty);
+    });
+
+    test('weather channel in the lineup and XMLTV; settings keys', () {
+      const cumulus = Channel(number: 41, name: 'Cumulus', genre: 'News & Docs', type: 'weatherstar', logo: 'Logos/4x3/cumulus.png');
+      final slots = weatherChannelSlots(DateTime(2026, 11, 12, 19, 40), 2);
+      expect(slots.first.start, DateTime(2026, 11, 12, 19));
+      final xml = buildXmltv('http://h', [(channel: cumulus, slots: slots, rated: (_) => false)]);
+      expect('<title lang="en">Local Weather</title>'.allMatches(xml).length, 2);
+      expect(xml, contains('Local weather: current conditions'));
+      expect(xml, contains('<category lang="en">News &amp; Docs</category>'));
+      expect(logoPath('/c', cumulus), '/c/logos/cumulus.png');
+      final d = Settings.parse(Settings.defaultText);
+      expect((d.guideMusic, d.weatherChannel, d.weatherMusic, d.weatherName, d.weatherLat, d.weatherLon, d.weatherImperial),
+          (true, true, true, 'Hattiesburg, MS', 31.3271, -89.2903, true));
+      expect(d.warnings, isEmpty);
+      final s = Settings.parse('guide_music = off\nweather_channel = no\nweather_location = Oxford, MS; 34.3665,-89.5192\nweather_units = Metric');
+      expect((s.guideMusic, s.weatherChannel, s.weatherName, s.weatherLat, s.weatherLon, s.weatherImperial),
+          (false, false, 'Oxford, MS', 34.3665, -89.5192, false));
+      final bad = Settings.parse('weather_location = Oxford\nweather_units = kelvin\nguide_music = loud');
+      expect((bad.weatherName, bad.weatherImperial, bad.guideMusic, bad.warnings.length), ('Hattiesburg, MS', true, true, 3));
+      expect(Settings.parse('weather_location = North Pole; 95, 0').warnings.single, contains('weather_location'));
+    });
+  });
+}
+
+/// Collects what a [MusicFeed] serves.
+class _Sink implements IOSink {
+  final bytes = <int>[];
+  @override
+  void add(List<int> data) => bytes.addAll(data);
+  @override
+  Future<void> flush() async {}
+  @override
+  dynamic noSuchMethod(Invocation i) => super.noSuchMethod(i);
 }
 
 class _NoApi implements ArchiveApi {

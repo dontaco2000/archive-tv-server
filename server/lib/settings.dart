@@ -43,6 +43,19 @@ class Settings {
   /// Channel 99 "Guide" (scrolling listings).
   final bool guideChannel;
 
+  /// Smooth-jazz background music (the app's weather-channel music) on the guide / the weather channel.
+  final bool guideMusic, weatherMusic;
+
+  /// The weather channel (Cumulus, the weather channel of channels.json): native weather screens.
+  final bool weatherChannel;
+
+  /// Its place: name and coordinates (default Hattiesburg, MS).
+  final String weatherName;
+  final double weatherLat, weatherLon;
+
+  /// false = metric (Celsius, km/h, hPa, km).
+  final bool weatherImperial;
+
   final List<String> warnings;
 
   const Settings({
@@ -61,6 +74,13 @@ class Settings {
     this.discretionStrip = false,
     this.lateNightNotice = false,
     this.guideChannel = true,
+    this.guideMusic = true,
+    this.weatherMusic = true,
+    this.weatherChannel = true,
+    this.weatherName = 'Hattiesburg, MS',
+    this.weatherLat = 31.3271,
+    this.weatherLon = -89.2903,
+    this.weatherImperial = true,
     this.warnings = const [],
   });
 
@@ -107,6 +127,17 @@ late_night_notice = false
 
 # Channel 99 "Guide": scrolling listings of every channel.
 guide_channel = true
+# Smooth-jazz background music on the Guide (the app's weather music, from the Internet Archive).
+guide_music = true
+
+# Weather channel (Cumulus): current conditions, hourly, today, extended forecast and NWS alerts
+# (Open-Meteo + weather.gov, no key), with the same smooth-jazz music.
+weather_channel = true
+weather_music = true
+# Place name; latitude, longitude (decimal degrees, e.g. from latlong.net).
+weather_location = Hattiesburg, MS; 31.3271, -89.2903
+# imperial (F, mph, inHg, miles) or metric (C, km/h, hPa, km).
+weather_units = imperial
 ''';
 
   factory Settings.parse(String text, {int defaultTuners = 4}) {
@@ -158,6 +189,24 @@ guide_channel = true
         bannerSecs = n;
       }
     }
+    var (wName, wLat, wLon) = ('Hattiesburg, MS', 31.3271, -89.2903);
+    if (kv['weather_location'] case final v? when v.isNotEmpty) {
+      final m = RegExp(r'^(.+);\s*(-?\d+(?:\.\d+)?)\s*,\s*(-?\d+(?:\.\d+)?)$').firstMatch(v);
+      final lat = m == null ? null : double.parse(m[2]!), lon = m == null ? null : double.parse(m[3]!);
+      if (lat == null || lon == null || lat.abs() > 90 || lon.abs() > 180 || m![1]!.trim().isEmpty) {
+        warn.add('weather_location = "$v" is not "Name; lat, lon", using Hattiesburg, MS');
+      } else {
+        (wName, wLat, wLon) = (m[1]!.trim(), lat, lon);
+      }
+    }
+    var imperial = true;
+    if (kv['weather_units'] case final v? when v.isNotEmpty) {
+      if (v.toLowerCase() == 'metric') {
+        imperial = false;
+      } else if (v.toLowerCase() != 'imperial') {
+        warn.add('weather_units = "$v" is not imperial/metric, using imperial');
+      }
+    }
     var start = time('late_night_start'), end = time('late_night_end');
     if ((start == null) != (end == null)) {
       warn.add('late_night_start and late_night_end must both be set, using rated.json');
@@ -179,6 +228,13 @@ guide_channel = true
       discretionStrip: flag('discretion_strip', false),
       lateNightNotice: flag('late_night_notice', false),
       guideChannel: flag('guide_channel', true),
+      guideMusic: flag('guide_music', true),
+      weatherMusic: flag('weather_music', true),
+      weatherChannel: flag('weather_channel', true),
+      weatherName: wName,
+      weatherLat: wLat,
+      weatherLon: wLon,
+      weatherImperial: imperial,
       warnings: warn,
     );
   }
@@ -205,5 +261,7 @@ guide_channel = true
       '${windowStart == null ? 'rated.json' : '${_hm(windowStart!)}-${_hm(windowEnd!)}'}, tuners=$tuners, '
       'overlays=$overlays, watermark=$watermark, watermark_label=$watermarkLabel, rated_watermark=$ratedWatermark, '
       'tune_banner=$tuneBanner (${tuneBannerSeconds}s), corner_bug=$cornerBug, discretion_card=$discretionCard, '
-      'discretion_strip=$discretionStrip, late_night_notice=$lateNightNotice, guide_channel=$guideChannel';
+      'discretion_strip=$discretionStrip, late_night_notice=$lateNightNotice, guide_channel=$guideChannel, guide_music=$guideMusic, '
+      'weather_channel=$weatherChannel, weather_music=$weatherMusic, weather_location=$weatherName; $weatherLat, $weatherLon, '
+      'weather_units=${weatherImperial ? 'imperial' : 'metric'}';
 }

@@ -45,6 +45,20 @@ dart run bin/guidechannel.dart --snapshot snap.json [--out out.ts|stdout] [--fps
 
 Default is live: frames paced to the wall clock, MPEG-TS on stdout, snapshot file re-read every 60 s.
 
+## Weather channel
+
+The same stream can carry a native weather channel (`WeatherRenderer`, `WeatherFeed`, `lib/src/weather*.dart`):
+the guide's top band with WEATHER and the clock, a box with the place, page title and "updated" time, and
+pages that hold 9 s and slide 1 s: alerts (when any), current conditions, hourly, today, extended forecast.
+Data: Open-Meteo `/v1/forecast` (no key) plus weather.gov active alerts (US, no key), cached to a JSON file,
+refreshed when older than 15 minutes; a failed fetch keeps the last report. CLI:
+
+```
+dart run bin/guidechannel.dart --weather "Hattiesburg, MS;31.3271,-89.2903" [--metric] [--logo PNG] --png shots/
+```
+
+`GuideChannel(audioInput: [...])` replaces the silent audio track (e.g. raw PCM music from a URL).
+
 ## API
 
 ```dart

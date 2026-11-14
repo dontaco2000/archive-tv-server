@@ -6,10 +6,12 @@ import 'package:archive_tv_core/archive_tv_core.dart';
 import 'package:archivetv_server/engine.dart';
 import 'package:archivetv_server/guide.dart';
 import 'package:archivetv_server/hdhr.dart';
+import 'package:archivetv_server/music.dart';
 import 'package:archivetv_server/settings.dart';
 import 'package:archivetv_server/streamer.dart';
 import 'package:archivetv_server/titles.dart';
 import 'package:archivetv_server/xmltv.dart';
+import 'package:guidechannel/guidechannel.dart' show Place, WeatherFeed;
 import 'package:http/http.dart' as http;
 
 void log(String m) => stdout.writeln('${DateTime.now().toIso8601String().substring(0, 19)} $m');
@@ -69,7 +71,16 @@ Future<void> main(List<String> args) async {
 
   final wm = File('$configDir/wm_native3_50.png'), wmR = File('$configDir/wm_native3_50_R.png');
   final guideCh = settings.guideChannel ? guideChannel : null;
-  final lineup = [...engine.channels, if (guideCh != null) guideCh];
+  // The weather channel of channels.json (Cumulus): its sources are also the guide's music.
+  final weatherConfig = config.channels.where((c) => c.type == 'weatherstar').firstOrNull;
+  final weatherCh = settings.weatherChannel ? weatherConfig : null;
+  final lineup = [...engine.channels, if (weatherCh != null) weatherCh, if (guideCh != null) guideCh]
+    ..sort((a, b) => a.number.compareTo(b.number));
+  final music = MusicLibrary(weatherConfig, config, archive, dataDir, log: log);
+  final weatherFeed = weatherCh == null
+      ? null
+      : WeatherFeed(Place(settings.weatherName, settings.weatherLat, settings.weatherLon),
+          imperial: settings.weatherImperial, cacheFile: File('${dataDir.path}/weather.json'), log: log);
   final streamer = Streamer(
     schedule: engine,
     ffmpeg: opt('ffmpeg', '/opt/archivetv-server/bin/ffmpeg'),
@@ -92,6 +103,8 @@ Future<void> main(List<String> args) async {
           )
         : null,
     guideSnapshot: guideCh == null ? null : () => guideSnapshot(engine, DateTime.now(), logo: logoFile),
+    weather: weatherFeed == null ? null : (feed: weatherFeed, logo: logoFile(weatherCh!)),
+    music: (c) => (c.number == guideNumber ? settings.guideMusic : settings.weatherMusic) ? music.order : const [],
     log: log,
   );
   final byNumber = {for (final c in lineup) c.number: c};
@@ -114,6 +127,7 @@ Future<void> main(List<String> args) async {
             slots: guideSlots(engine, c, from, 7 * 24 + 2),
             rated: (e) => engine.isRated(c, e),
           ),
+      if (weatherCh != null) (channel: weatherCh, slots: weatherChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
       if (guideCh != null) (channel: guideCh, slots: guideChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
     ]);
     (guideVersion, guideAt, guideBase) = (engine.version, now, base);
@@ -190,6 +204,16 @@ Future<void> main(List<String> args) async {
             return;
           }
         }
+      } else if (RegExp(r'^/internal/music/(\d+)$').firstMatch(path) case final m?) {
+        final s = streamer.byGen(int.parse(m.group(1)!), int.tryParse(req.uri.queryParameters['g'] ?? '') ?? -1);
+        if (s == null) {
+          res.statusCode = 410;
+        } else {
+          res.headers.contentType = ContentType('audio', 'L16');
+          res.bufferOutput = false;
+          await s.serveMusic(res);
+          return;
+        }
       } else if (RegExp(r'^/internal/item/(\d+)$').firstMatch(path) case final m?) {
         final s = streamer.byGen(int.parse(m.group(1)!), int.tryParse(req.uri.queryParameters['g'] ?? '') ?? -1);
         if (s == null) {
@@ -216,6 +240,7 @@ Future<void> main(List<String> args) async {
   });
 
   if (args.contains('--no-refresh')) return;
+  if (!args.contains('--load-only')) unawaited(music.refresh());
   unawaited(() async {
     // Saved pools load at once (old ones stay on air); missing ones build, one channel at a time.
     for (final c in engine.channels) {
@@ -228,6 +253,7 @@ Future<void> main(List<String> args) async {
     while (true) {
       await engine.dailyRefresh(DateTime.now());
       unawaited(enrichTitles());
+      unawaited(music.refresh());
       final now = DateTime.now();
       final midnight = DateTime(now.year, now.month, now.day + 1, 0, 1);
       await Future<void>.delayed(midnight.difference(now));

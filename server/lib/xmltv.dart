@@ -44,7 +44,9 @@ String buildXmltv(String base, List<GuideRow> rows) {
       final rated = r.rated(e);
       final desc = [
         if (info.description != null) info.description!,
-        if (e.itemId.isEmpty)
+        if (e.id == 'weather')
+          'Local weather: current conditions, hourly, today and extended forecast, and weather alerts, with smooth jazz.'
+        else if (e.itemId.isEmpty)
           'Scrolling listings for every Archive TV channel: what is on now and next.'
         else if (block)
           'A block of programmes from the Internet Archive, starting with archive.org/details/${e.itemId}.'
@@ -72,8 +74,14 @@ String buildXmltv(String base, List<GuideRow> rows) {
 }
 
 /// The guide channel's own listing: one "Archive TV Guide" programme per hour over [hours] from [from].
-List<Slot> guideChannelSlots(DateTime from, int hours) {
+List<Slot> guideChannelSlots(DateTime from, int hours) => _hourly(from, hours,
+    const Entry(id: 'guide', itemId: '', file: '', title: 'Archive TV Guide', durationSeconds: 3600, url: ''));
+
+/// The weather channel's listing: one "Local Weather" programme per hour.
+List<Slot> weatherChannelSlots(DateTime from, int hours) => _hourly(from, hours,
+    const Entry(id: 'weather', itemId: '', file: '', title: 'Local Weather', durationSeconds: 3600, url: ''));
+
+List<Slot> _hourly(DateTime from, int hours, Entry e) {
   final h = DateTime(from.year, from.month, from.day, from.hour);
-  const e = Entry(id: 'guide', itemId: '', file: '', title: 'Archive TV Guide', durationSeconds: 3600, url: '');
   return [for (var i = 0; i < hours; i++) Slot(e, h.add(Duration(hours: i)), h.add(Duration(hours: i + 1)))];
 }
