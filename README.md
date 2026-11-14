@@ -2,6 +2,8 @@
 
 A **Plex Live TV source** for the [Archive TV](https://github.com/dontaco2000/archive-tv) channels. It pretends to be an HDHomeRun network tuner and serves an XMLTV guide, so every Plex client (TV apps, phones, Plex Web) can watch the Archive TV channels under **Live TV**, with a full programme guide, and nothing extra to install on the viewing devices.
 
+Looking for the app itself (Windows, Fire TV, Android)? Get the [latest Archive TV release](https://github.com/dontaco2000/archive-tv/releases/latest).
+
 - ~60 clock-synced channels (cartoons, movies, sitcoms, game shows, news, music videos, sports, ...), the same schedule logic as the Archive TV app.
 - XMLTV guide 7 days ahead with channel logos, genres, marathons and themed blocks.
 - Each channel is encoded live by ffmpeg into one steady format (640x480 4:3, H.264 + AAC MPEG-TS), so Plex never sees a codec change between programmes.
