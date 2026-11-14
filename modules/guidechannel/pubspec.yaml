@@ -1,0 +1,13 @@
+name: guidechannel
+description: Prevue-style scrolling TV listings channel for Archive TV Server (640x480 h264/aac MPEG-TS via ffmpeg).
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  image: ^4.2.0
+
+dev_dependencies:
+  test: ^1.25.0

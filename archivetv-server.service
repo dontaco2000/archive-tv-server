@@ -1,0 +1,16 @@
+[Unit]
+Description=Archive TV Server (HDHomeRun tuner + XMLTV for Plex Live TV)
+After=network-online.target
+Wants=network-online.target
+
+[Service]
+# Change to the user that owns /opt/archivetv-server (see README).
+User=archivetv
+WorkingDirectory=/opt/archivetv-server
+ExecStart=/opt/archivetv-server/archivetv-server --port 8100 --config /opt/archivetv-server/config --data /opt/archivetv-server/data --ffmpeg /opt/archivetv-server/bin/ffmpeg --tuners 4
+Restart=always
+RestartSec=5
+KillMode=control-group
+
+[Install]
+WantedBy=multi-user.target

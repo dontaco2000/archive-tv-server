@@ -1,0 +1,3209 @@
+{
+ "version": 1,
+ "generated": "2026-11-13T00:58:35.770909Z",
+ "channels": [
+  {
+   "number": 2,
+   "name": "Funnies",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/funnies.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T00:42:33.730Z",
+     "title": "X-Men"
+    },
+    {
+     "start": "2026-11-13T00:42:33.730Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T01:39:06.100Z",
+     "title": "Spider-Man"
+    },
+    {
+     "start": "2026-11-13T01:39:06.100Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Recess"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T02:45:51.080Z",
+     "title": "Gargoyles"
+    },
+    {
+     "start": "2026-11-13T02:45:51.080Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:44:50.900Z",
+     "title": "Exosquad"
+    },
+    {
+     "start": "2026-11-13T03:44:50.900Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:42:29.880Z",
+     "title": "Beast Wars"
+    },
+    {
+     "start": "2026-11-13T04:42:29.880Z",
+     "end": "2026-11-13T05:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:00:00.000Z",
+     "end": "2026-11-13T05:26:14.710Z",
+     "title": "Clifford The Big Red Dog S01E03E04 AMZN"
+    },
+    {
+     "start": "2026-11-13T05:26:14.710Z",
+     "end": "2026-11-13T05:49:22.950Z",
+     "title": "Sid The Science Kid S01E10"
+    },
+    {
+     "start": "2026-11-13T05:49:22.950Z",
+     "end": "2026-11-13T06:13:46.750Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:13:46.750Z",
+     "end": "2026-11-13T06:37:02.940Z",
+     "title": "S5E13 Bug-Busting Babies"
+    },
+    {
+     "start": "2026-11-13T06:37:02.940Z",
+     "end": "2026-11-13T06:59:16.970Z",
+     "title": "Episode 42-Incident on Ranger 7"
+    }
+   ]
+  },
+  {
+   "number": 3,
+   "name": "Sakura",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/sakura.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T00:41:25.640Z",
+     "title": "Digimon"
+    },
+    {
+     "start": "2026-11-13T00:41:25.640Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T01:42:37.040Z",
+     "title": "Dragon Ball Z"
+    },
+    {
+     "start": "2026-11-13T01:42:37.040Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T02:47:07.400Z",
+     "title": "Naruto"
+    },
+    {
+     "start": "2026-11-13T02:47:07.400Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:46:59.910Z",
+     "title": "Cowboy Bebop"
+    },
+    {
+     "start": "2026-11-13T03:46:59.910Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:45:54.370Z",
+     "title": "Death Note"
+    },
+    {
+     "start": "2026-11-13T04:45:54.370Z",
+     "end": "2026-11-13T05:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:00:00.000Z",
+     "end": "2026-11-13T05:42:11.710Z",
+     "title": "Ultimate Muscle"
+    },
+    {
+     "start": "2026-11-13T05:42:11.710Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:23:32.480Z",
+     "title": "Force 5-Grandizer-21"
+    },
+    {
+     "start": "2026-11-13T06:23:32.480Z",
+     "end": "2026-11-13T06:43:15.140Z",
+     "title": "Magical DoReMi - 26"
+    },
+    {
+     "start": "2026-11-13T06:43:15.140Z",
+     "end": "2026-11-13T08:06:31.190Z",
+     "title": "Zatch Bell Movie 01 - Unlisted Demon 101 (101st Devil)"
+    }
+   ]
+  },
+  {
+   "number": 4,
+   "name": "Playroom",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/playroom.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:27:33.290Z",
+     "end": "2026-11-13T00:43:31.880Z",
+     "title": "Pingu"
+    },
+    {
+     "start": "2026-11-13T00:43:31.880Z",
+     "end": "2026-11-13T01:04:40.760Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:04:40.760Z",
+     "end": "2026-11-13T01:59:11.660Z",
+     "title": "05. Blue's Clues Rhythm and Blue (1999 VHS)"
+    },
+    {
+     "start": "2026-11-13T01:59:11.660Z",
+     "end": "2026-11-13T02:04:30.330Z",
+     "title": "Pingu S02E02 - Pingu's Admirer (1991)"
+    },
+    {
+     "start": "2026-11-13T02:04:30.330Z",
+     "end": "2026-11-13T03:05:15.710Z",
+     "title": "Blue's Clues Stop, Look And Listen! Vhs (2000)"
+    },
+    {
+     "start": "2026-11-13T03:05:15.710Z",
+     "end": "2026-11-13T03:21:07.540Z",
+     "title": "Pingu"
+    },
+    {
+     "start": "2026-11-13T03:21:07.540Z",
+     "end": "2026-11-13T03:31:49.450Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:31:49.450Z",
+     "end": "2026-11-13T04:05:30.610Z",
+     "title": "The Adventures of Pingu (1993, Audio Tape 2)"
+    },
+    {
+     "start": "2026-11-13T04:05:30.610Z",
+     "end": "2026-11-13T04:10:35.930Z",
+     "title": "aaf-pingu s05e01 pingus bouncy fun"
+    },
+    {
+     "start": "2026-11-13T04:10:35.930Z",
+     "end": "2026-11-13T04:31:02.830Z",
+     "title": "Blue's Clues - S05E24 - Our Neighborhood Festival"
+    },
+    {
+     "start": "2026-11-13T04:31:02.830Z",
+     "end": "2026-11-13T04:36:26.830Z",
+     "title": "aaf-pingu s04e07 pingu has a day off"
+    },
+    {
+     "start": "2026-11-13T04:36:26.830Z",
+     "end": "2026-11-13T05:00:38.870Z",
+     "title": "Little Bear Opposites Day Wish Upon A Star Sleepy Head Monster - Ep. 61"
+    },
+    {
+     "start": "2026-11-13T05:00:38.870Z",
+     "end": "2026-11-13T05:24:50.910Z",
+     "title": "Little Bear 5x07 I Can Do That Pied Piper Little Bear The Big Swings"
+    },
+    {
+     "start": "2026-11-13T05:24:50.910Z",
+     "end": "2026-11-13T05:30:15.470Z",
+     "title": "aaf-pingu s01e01 pingu is introduced"
+    },
+    {
+     "start": "2026-11-13T05:30:15.470Z",
+     "end": "2026-11-13T05:51:34.030Z",
+     "title": "Pingu"
+    },
+    {
+     "start": "2026-11-13T05:51:34.030Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Blue's Clues: Blue's Big Band (Promotional Copy)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:42:10.240Z",
+     "title": "Blue's Clues Blue's Birthday Vhs (1998)"
+    },
+    {
+     "start": "2026-11-13T06:42:10.240Z",
+     "end": "2026-11-13T06:47:32.700Z",
+     "title": "Pingu - 101 - Pingu Helps Grandfather"
+    },
+    {
+     "start": "2026-11-13T06:47:32.700Z",
+     "end": "2026-11-13T09:08:31.400Z",
+     "title": "Pingu - Series 3 (1995- 1996)"
+    }
+   ]
+  },
+  {
+   "number": 5,
+   "name": "Storytime",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/storytime.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:15:43.720Z",
+     "end": "2026-11-13T01:10:12.410Z",
+     "title": "Wishbone"
+    },
+    {
+     "start": "2026-11-13T01:10:12.410Z",
+     "end": "2026-11-13T01:38:58.630Z",
+     "title": "BTL FARMER KENS PUZZLE PART 1"
+    },
+    {
+     "start": "2026-11-13T01:38:58.630Z",
+     "end": "2026-11-13T01:52:31.420Z",
+     "title": "The Letter People – 17 – Meet Mister Z (1978)"
+    },
+    {
+     "start": "2026-11-13T01:52:31.420Z",
+     "end": "2026-11-13T02:21:34.950Z",
+     "title": "1997 Reading Rainbow - Giving Thanks Native American VHS PBS"
+    },
+    {
+     "start": "2026-11-13T02:21:34.950Z",
+     "end": "2026-11-13T03:19:33.430Z",
+     "title": "2 Reading Rainbow Episodes WGBH (1989)"
+    },
+    {
+     "start": "2026-11-13T03:19:33.430Z",
+     "end": "2026-11-13T03:27:33.710Z",
+     "title": "Season 1, Episode 07 - Hickory Dickory Dock"
+    },
+    {
+     "start": "2026-11-13T03:27:33.710Z",
+     "end": "2026-11-13T03:57:35.910Z",
+     "title": "StorageLabs TinyUDF Volume"
+    },
+    {
+     "start": "2026-11-13T03:57:35.910Z",
+     "end": "2026-11-13T04:14:26.280Z",
+     "title": "CBEEBIES Clifford The Big Red Dog Clifford's Carnival"
+    },
+    {
+     "start": "2026-11-13T04:14:26.280Z",
+     "end": "2026-11-13T04:42:25.490Z",
+     "title": "Wishbone 118 Hot Diggety Dog"
+    },
+    {
+     "start": "2026-11-13T04:42:25.490Z",
+     "end": "2026-11-13T05:10:58.610Z",
+     "title": "Long Ago and Far Away - 18: Noah's Ark"
+    },
+    {
+     "start": "2026-11-13T05:10:58.610Z",
+     "end": "2026-11-13T05:39:35.610Z",
+     "title": "1989 Reading Rainbow - Mufaro's Beautiful Daughters VHS"
+    },
+    {
+     "start": "2026-11-13T05:39:35.610Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:26:56.020Z",
+     "title": "Wishbone (Season 1, Episode 17) Frankenbone"
+    },
+    {
+     "start": "2026-11-13T06:26:56.020Z",
+     "end": "2026-11-13T06:52:40.830Z",
+     "title": "Super Why! S1Ep1 - The Three Little Pigs (2007) (UK Dub)"
+    },
+    {
+     "start": "2026-11-13T06:52:40.830Z",
+     "end": "2026-11-13T07:06:46.950Z",
+     "title": "The Letter People – 20 – Meet Miss E (1978)"
+    }
+   ]
+  },
+  {
+   "number": 6,
+   "name": "Homeroom",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/homeroom.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:17:12.470Z",
+     "end": "2026-11-13T00:45:48.820Z",
+     "title": "3 2 1 Contact - Season 2 - Survival: Protection Episode 3 (1983)"
+    },
+    {
+     "start": "2026-11-13T00:45:48.820Z",
+     "end": "2026-11-13T01:15:48.590Z",
+     "title": "Ghost Writer S1 Disc 21"
+    },
+    {
+     "start": "2026-11-13T01:15:48.590Z",
+     "end": "2026-11-13T01:44:38.520Z",
+     "title": "DragonflyTV Spinning"
+    },
+    {
+     "start": "2026-11-13T01:44:38.520Z",
+     "end": "2026-11-13T02:11:53.700Z",
+     "title": "Where in the World is Carmen Sandiego? - S1E02 - The Case of the Cribbed Crater"
+    },
+    {
+     "start": "2026-11-13T02:11:53.700Z",
+     "end": "2026-11-13T02:45:20.970Z",
+     "title": "Won't You Be My Neighbor (Mister Rogers Collab Special)"
+    },
+    {
+     "start": "2026-11-13T02:45:20.970Z",
+     "end": "2026-11-13T04:42:41.410Z",
+     "title": "Romper Room Roberto Solo Broadcast Various Network Television"
+    },
+    {
+     "start": "2026-11-13T04:42:41.410Z",
+     "end": "2026-11-13T05:05:04.920Z",
+     "title": "3 2 1 Contact - Surfaces: Shapes and Functions at the Surface - Episode 152 1980"
+    },
+    {
+     "start": "2026-11-13T05:05:04.920Z",
+     "end": "2026-11-13T05:33:41.990Z",
+     "title": "3-2-1 Contact - Near Far - Animals using sound sonar & How Blind Person Navigate -- Ep. 142 - 1980"
+    },
+    {
+     "start": "2026-11-13T05:33:41.990Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "ZOOM Season 3, Episode 102 (2001)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:29:08.190Z",
+     "title": "Wild Kratts (2011) S01E01 Mom of a Croc"
+    },
+    {
+     "start": "2026-11-13T06:29:08.190Z",
+     "end": "2026-11-13T06:57:17.390Z",
+     "title": "Where in the World is Carmen Sandiego? - S1E14 - The Case of the Purloined Pen"
+    },
+    {
+     "start": "2026-11-13T06:57:17.390Z",
+     "end": "2026-11-13T09:24:20.650Z",
+     "title": "ELEC CO VOL2 DISC3"
+    }
+   ]
+  },
+  {
+   "number": 7,
+   "name": "Capes",
+   "genre": "Kids & Animation",
+   "logo": "../../server/config/logos/capes.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:05:14.740Z",
+     "end": "2026-11-13T00:32:36.980Z",
+     "title": "Challenge of the Super Friends - Attack of the Legion of Doom"
+    },
+    {
+     "start": "2026-11-13T00:32:36.980Z",
+     "end": "2026-11-13T00:53:18.290Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T00:53:18.290Z",
+     "end": "2026-11-13T01:39:05.050Z",
+     "title": "02x04 The Kirkwood Haunting"
+    },
+    {
+     "start": "2026-11-13T01:39:05.050Z",
+     "end": "2026-11-13T02:03:41.790Z",
+     "title": "The Incredible Hulk 1982 Episode 13 – The Hulk Destroys Bruce Banner"
+    },
+    {
+     "start": "2026-11-13T02:03:41.790Z",
+     "end": "2026-11-13T02:24:51.640Z",
+     "title": "Spider-Woman 1979 S01E03 The Amazon Adventure 4K UHD"
+    },
+    {
+     "start": "2026-11-13T02:24:51.640Z",
+     "end": "2026-11-13T03:00:11.520Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:00:11.520Z",
+     "end": "2026-11-13T03:22:06.750Z",
+     "title": "Episode 09-Iron Man to the Second Power, Part 1"
+    },
+    {
+     "start": "2026-11-13T03:22:06.750Z",
+     "end": "2026-11-13T03:38:36.710Z",
+     "title": "07. Into The Electric Furnace"
+    },
+    {
+     "start": "2026-11-13T03:38:36.710Z",
+     "end": "2026-11-13T04:00:02.960Z",
+     "title": "1x10. In Arms Way-Cloud"
+    },
+    {
+     "start": "2026-11-13T04:00:02.960Z",
+     "end": "2026-11-13T04:16:45.930Z",
+     "title": "13. Hurled To Destruction"
+    },
+    {
+     "start": "2026-11-13T04:16:45.930Z",
+     "end": "2026-11-13T04:38:06.100Z",
+     "title": "2x08. Island of Dr. Mystico"
+    },
+    {
+     "start": "2026-11-13T04:38:06.100Z",
+     "end": "2026-11-13T04:58:07.120Z",
+     "title": "The Tick (1994) - S03E07 - Tick vs. Europe"
+    },
+    {
+     "start": "2026-11-13T04:58:07.120Z",
+     "end": "2026-11-13T05:19:32.900Z",
+     "title": "2x10. Freak-A-Panel-Tomb of Invisibo"
+    },
+    {
+     "start": "2026-11-13T05:19:32.900Z",
+     "end": "2026-11-13T05:40:57.420Z",
+     "title": "S01 E04 - Golem"
+    },
+    {
+     "start": "2026-11-13T05:40:57.420Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:21:11.810Z",
+     "title": "Spider-Woman 1979 S01E07 The Kongo Spider 4K UHD"
+    },
+    {
+     "start": "2026-11-13T06:21:11.810Z",
+     "end": "2026-11-13T06:38:17.710Z",
+     "title": "Underdog S1E24"
+    },
+    {
+     "start": "2026-11-13T06:38:17.710Z",
+     "end": "2026-11-13T07:00:37.110Z",
+     "title": "Batman The Complete S2D24"
+    }
+   ]
+  },
+  {
+   "number": 10,
+   "name": "Teaser",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/teaser.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "More Trailers"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "More Trailers"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "More Trailers"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:00:19.310Z",
+     "title": "Trailers"
+    }
+   ]
+  },
+  {
+   "number": 11,
+   "name": "Haunt",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/haunt.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:11:13.340Z",
+     "end": "2026-11-13T00:36:45.580Z",
+     "title": "Mil Gritos Tiene La Noche ( 1982)"
+    },
+    {
+     "start": "2026-11-13T00:36:45.580Z",
+     "end": "2026-11-13T01:48:56.710Z",
+     "title": "Begotten (original) - 1991 E. Elias Merhige"
+    },
+    {
+     "start": "2026-11-13T01:48:56.710Z",
+     "end": "2026-11-13T03:39:59.670Z",
+     "title": "LSOH Workprint 1986"
+    },
+    {
+     "start": "2026-11-13T03:39:59.670Z",
+     "end": "2026-11-13T05:08:58.050Z",
+     "title": "Red Blooded American Girl 1990"
+    },
+    {
+     "start": "2026-11-13T05:08:58.050Z",
+     "end": "2026-11-13T05:50:27.350Z",
+     "title": "The Scariest Places on Earth - Ep 27 - Return to Lucedio - The Cursed Italian Monastery Dare"
+    },
+    {
+     "start": "2026-11-13T05:50:27.350Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "The Killer Shrews"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:22:54.910Z",
+     "title": "S04E01 Fogbound"
+    },
+    {
+     "start": "2026-11-13T06:22:54.910Z",
+     "end": "2026-11-13T07:34:03.340Z",
+     "title": "the brain that wouldnt die"
+    }
+   ]
+  },
+  {
+   "number": 12,
+   "name": "Warp",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/warp.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T00:47:55.140Z",
+     "title": "Doctor Who"
+    },
+    {
+     "start": "2026-11-13T00:47:55.140Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T01:50:04.000Z",
+     "title": "Space: 1999 S1E1"
+    },
+    {
+     "start": "2026-11-13T01:50:04.000Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T02:49:08.040Z",
+     "title": "Blake's 7 S1E1"
+    },
+    {
+     "start": "2026-11-13T02:49:08.040Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:42:04.600Z",
+     "title": "Babylon 5 S1E1"
+    },
+    {
+     "start": "2026-11-13T03:42:04.600Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:50:03.080Z",
+     "title": "Survivors S1E1"
+    },
+    {
+     "start": "2026-11-13T04:50:03.080Z",
+     "end": "2026-11-13T05:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:00:00.000Z",
+     "end": "2026-11-13T05:48:55.400Z",
+     "title": "The Prisoner S1E1"
+    },
+    {
+     "start": "2026-11-13T05:48:55.400Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:46:44.860Z",
+     "title": "Episode 12"
+    },
+    {
+     "start": "2026-11-13T06:46:44.860Z",
+     "end": "2026-11-13T07:09:45.960Z",
+     "title": "Land of the lost (1991) - S02E08 - (In Dinos We Trust)"
+    }
+   ]
+  },
+  {
+   "number": 13,
+   "name": "Drive-In",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/drivein.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:53:48.590Z",
+     "end": "2026-11-13T01:33:48.090Z",
+     "title": "The File On Thelma Jordan"
+    },
+    {
+     "start": "2026-11-13T01:33:48.090Z",
+     "end": "2026-11-13T03:09:57.130Z",
+     "title": "Hercules Unchained"
+    },
+    {
+     "start": "2026-11-13T03:09:57.130Z",
+     "end": "2026-11-13T04:07:15.130Z",
+     "title": "The Amazing Transparent Man"
+    },
+    {
+     "start": "2026-11-13T04:07:15.130Z",
+     "end": "2026-11-13T05:48:36.410Z",
+     "title": "Angel on My Shoulder"
+    },
+    {
+     "start": "2026-11-13T05:48:36.410Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Teenagers From Outer Space (1959) David Love"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T08:02:51.170Z",
+     "title": "Meet John Doe"
+    }
+   ]
+  },
+  {
+   "number": 14,
+   "name": "Deathgrip",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/deathgrip.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T22:34:44.390Z",
+     "end": "2026-11-13T01:31:53.860Z",
+     "title": "Season 10"
+    },
+    {
+     "start": "2026-11-13T01:31:53.860Z",
+     "end": "2026-11-13T01:50:48.340Z",
+     "title": "Ultraman Tiga Episode 14: Nowhere To Hide (4Kids English Dub) HD Reconstruction"
+    },
+    {
+     "start": "2026-11-13T01:50:48.340Z",
+     "end": "2026-11-13T02:15:30.210Z",
+     "title": "Dragon Ball Z Episode 214 - Vegeta's Pride (Original Toonami Broadcast)"
+    },
+    {
+     "start": "2026-11-13T02:15:30.210Z",
+     "end": "2026-11-13T03:08:27.410Z",
+     "title": "Masked RIder Pilot and Power Rangers Crossover Episode"
+    },
+    {
+     "start": "2026-11-13T03:08:27.410Z",
+     "end": "2026-11-13T04:38:57.650Z",
+     "title": "Bruce Lee True Story ( 1976)"
+    },
+    {
+     "start": "2026-11-13T04:38:57.650Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Ninja Death I"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:18:45.530Z",
+     "title": "Mystic Knights Of Tir Na Nog S01E13 Tyrune Returns"
+    },
+    {
+     "start": "2026-11-13T06:18:45.530Z",
+     "end": "2026-11-13T08:20:55.330Z",
+     "title": "Toonami - 2002-11-05 - Dragon Ball, Dragon Ball Z, He-Man, Transformers"
+    }
+   ]
+  },
+  {
+   "number": 15,
+   "name": "Saddle",
+   "genre": "Movies",
+   "logo": "../../server/config/logos/saddle.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:28:02.500Z",
+     "end": "2026-11-13T00:53:51.390Z",
+     "title": "''Judge Roy Bean'' - Black Jack"
+    },
+    {
+     "start": "2026-11-13T00:53:51.390Z",
+     "end": "2026-11-13T01:43:56.020Z",
+     "title": "Wagon Train S02E31 The Kate Parker Story"
+    },
+    {
+     "start": "2026-11-13T01:43:56.020Z",
+     "end": "2026-11-13T02:33:17.420Z",
+     "title": "Bonanza - (S02E02) The Mission"
+    },
+    {
+     "start": "2026-11-13T02:33:17.420Z",
+     "end": "2026-11-13T02:58:01.550Z",
+     "title": "The Lone Ranger 1949 (S01E06) War Horse"
+    },
+    {
+     "start": "2026-11-13T02:58:01.550Z",
+     "end": "2026-11-13T03:29:30.500Z",
+     "title": "Chapter 01 - Hi-Yo Silver"
+    },
+    {
+     "start": "2026-11-13T03:29:30.500Z",
+     "end": "2026-11-13T04:17:31.110Z",
+     "title": "Wagon Train - The Malachi Hobart Story"
+    },
+    {
+     "start": "2026-11-13T04:17:31.110Z",
+     "end": "2026-11-13T04:34:35.030Z",
+     "title": "Overland Mail 14"
+    },
+    {
+     "start": "2026-11-13T04:34:35.030Z",
+     "end": "2026-11-13T05:48:28.350Z",
+     "title": "The Over-the-Hill Gang Rides Again"
+    },
+    {
+     "start": "2026-11-13T05:48:28.350Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Wagon Train - Alias Bill Hawks"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:26:02.360Z",
+     "title": "Death Valley Days - Dear Teacher"
+    },
+    {
+     "start": "2026-11-13T06:26:02.360Z",
+     "end": "2026-11-13T06:43:23.460Z",
+     "title": "Fighting with Kit Carson 6"
+    },
+    {
+     "start": "2026-11-13T06:43:23.460Z",
+     "end": "2026-11-13T07:08:06.330Z",
+     "title": "The Cisco Kid s01e09"
+    }
+   ]
+  },
+  {
+   "number": 20,
+   "name": "Chuckles",
+   "genre": "TV",
+   "logo": "../../server/config/logos/chuckles.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:19:32.660Z",
+     "end": "2026-11-13T00:40:52.680Z",
+     "title": "10 Welcome To The Dollhouse"
+    },
+    {
+     "start": "2026-11-13T00:40:52.680Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Weeknight Sitcom Block"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:48:57.860Z",
+     "title": "Soap"
+    },
+    {
+     "start": "2026-11-13T03:48:57.860Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:28:19.180Z",
+     "title": "Duet S03E14 - True Stories"
+    },
+    {
+     "start": "2026-11-13T04:28:19.180Z",
+     "end": "2026-11-13T04:48:40.180Z",
+     "title": "Godzilla S2 E18 - The Ballard of Gens Du Marais"
+    },
+    {
+     "start": "2026-11-13T04:48:40.180Z",
+     "end": "2026-11-13T05:29:09.230Z",
+     "title": "Family Affair S01 E01 & E02 - The Viewing Room"
+    },
+    {
+     "start": "2026-11-13T05:29:09.230Z",
+     "end": "2026-11-13T05:53:57.300Z",
+     "title": "The Golden Girls S02E08 Vacation"
+    },
+    {
+     "start": "2026-11-13T05:53:57.300Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:22:14.950Z",
+     "title": "Saved by the Bell - 03x20 - Hold me Tight"
+    },
+    {
+     "start": "2026-11-13T06:22:14.950Z",
+     "end": "2026-11-13T06:47:37.320Z",
+     "title": "Hey Dude S05E05 Baby"
+    },
+    {
+     "start": "2026-11-13T06:47:37.320Z",
+     "end": "2026-11-13T07:09:58.090Z",
+     "title": "Home Improvement S05E20 The Bud Bowl"
+    }
+   ]
+  },
+  {
+   "number": 21,
+   "name": "Winners",
+   "genre": "TV",
+   "logo": "../../server/config/logos/winners.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:12:14.710Z",
+     "end": "2026-11-13T00:59:42.750Z",
+     "title": "001 1986-05-02 Subs"
+    },
+    {
+     "start": "2026-11-13T00:59:42.750Z",
+     "end": "2026-11-13T01:43:47.460Z",
+     "title": "Season 4, Episode 06 (2013-08-25)"
+    },
+    {
+     "start": "2026-11-13T01:43:47.460Z",
+     "end": "2026-11-13T02:04:48.770Z",
+     "title": "Episode 103"
+    },
+    {
+     "start": "2026-11-13T02:04:48.770Z",
+     "end": "2026-11-13T02:25:38.850Z",
+     "title": "S1986E028 Card Sharks 1986 02 12"
+    },
+    {
+     "start": "2026-11-13T02:25:38.850Z",
+     "end": "2026-11-13T02:42:04.930Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:42:04.930Z",
+     "end": "2026-11-13T03:03:22.770Z",
+     "title": "Wheel (May 1, 1997)"
+    },
+    {
+     "start": "2026-11-13T03:03:22.770Z",
+     "end": "2026-11-13T03:23:03.320Z",
+     "title": "s00e41 Michael v Dorian"
+    },
+    {
+     "start": "2026-11-13T03:23:03.320Z",
+     "end": "2026-11-13T03:47:28.120Z",
+     "title": "Episode 115"
+    },
+    {
+     "start": "2026-11-13T03:47:28.120Z",
+     "end": "2026-11-13T04:07:30.360Z",
+     "title": "Wheel (May 29, 1996)"
+    },
+    {
+     "start": "2026-11-13T04:07:30.360Z",
+     "end": "2026-11-13T04:37:17.810Z",
+     "title": "Wheel (October 15, 1996)"
+    },
+    {
+     "start": "2026-11-13T04:37:17.810Z",
+     "end": "2026-11-13T05:37:21.990Z",
+     "title": "Season 5, Episode 02-B (2014-08-03)"
+    },
+    {
+     "start": "2026-11-13T05:37:21.990Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Wheel (January 8, 1996)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:22:12.030Z",
+     "title": "10 Flipped Out vs. Bug Lady & the Fl"
+    },
+    {
+     "start": "2026-11-13T06:22:12.030Z",
+     "end": "2026-11-13T06:43:51.420Z",
+     "title": "S02E068 Press Your Luck 1984 04 05 142"
+    },
+    {
+     "start": "2026-11-13T06:43:51.420Z",
+     "end": "2026-11-13T07:11:42.100Z",
+     "title": "Wheel (April 1, 1997)"
+    }
+   ]
+  },
+  {
+   "number": 24,
+   "name": "Camcorder",
+   "genre": "TV",
+   "logo": "../../server/config/logos/camcorder.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:26:58.160Z",
+     "end": "2026-11-13T00:37:29.760Z",
+     "title": "ALCF Jim Hubbard Films Gay Pride New York 1987 Clip 5003"
+    },
+    {
+     "start": "2026-11-13T00:37:29.760Z",
+     "end": "2026-11-13T01:10:29.230Z",
+     "title": "Former President Jimmy Carter's Boyhood Home - Plains, Georgia"
+    },
+    {
+     "start": "2026-11-13T01:10:29.230Z",
+     "end": "2026-11-13T02:10:01.380Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:10:01.380Z",
+     "end": "2026-11-13T02:34:11.060Z",
+     "title": "Eyewitness to Extinction: The Chinese River Dolphin"
+    },
+    {
+     "start": "2026-11-13T02:34:11.060Z",
+     "end": "2026-11-13T04:01:38.310Z",
+     "title": "Robbins Barstow Memorial Service"
+    },
+    {
+     "start": "2026-11-13T04:01:38.310Z",
+     "end": "2026-11-13T04:24:44.520Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:24:44.520Z",
+     "end": "2026-11-13T04:53:21.540Z",
+     "title": "Kids, Dogs, and Kittens"
+    },
+    {
+     "start": "2026-11-13T04:53:21.540Z",
+     "end": "2026-11-13T05:03:07.870Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:03:07.870Z",
+     "end": "2026-11-13T05:54:07.260Z",
+     "title": "Wedding/Party"
+    },
+    {
+     "start": "2026-11-13T05:54:07.260Z",
+     "end": "2026-11-13T06:10:54.110Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:10:54.110Z",
+     "end": "2026-11-13T07:54:54.170Z",
+     "title": "Lavigne Home Movie 1991 (Full Tape)"
+    }
+   ]
+  },
+  {
+   "number": 25,
+   "name": "Headliner",
+   "genre": "TV",
+   "logo": "../../server/config/logos/headliner.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:18:02.170Z",
+     "end": "2026-11-13T01:25:25.480Z",
+     "title": "Closing Night at Valencia Rose"
+    },
+    {
+     "start": "2026-11-13T01:25:25.480Z",
+     "end": "2026-11-13T02:41:59.010Z",
+     "title": "Sinbad - Afros & Bellbottoms"
+    },
+    {
+     "start": "2026-11-13T02:41:59.010Z",
+     "end": "2026-11-13T03:09:23.890Z",
+     "title": "FullFrontalComedy ep07"
+    },
+    {
+     "start": "2026-11-13T03:09:23.890Z",
+     "end": "2026-11-13T04:08:10.380Z",
+     "title": "dvd-6658-saturday-night-live-richard-pryor-1980-02-06"
+    },
+    {
+     "start": "2026-11-13T04:08:10.380Z",
+     "end": "2026-11-13T04:26:52.320Z",
+     "title": "Robin Williams' Comedy Roast of Washington, DC (2000)"
+    },
+    {
+     "start": "2026-11-13T04:26:52.320Z",
+     "end": "2026-11-13T04:54:42.020Z",
+     "title": "FullFrontalComedy ep13"
+    },
+    {
+     "start": "2026-11-13T04:54:42.020Z",
+     "end": "2026-11-13T05:16:45.420Z",
+     "title": "JEFF DUNHAM SPARK OF INSANITY4"
+    },
+    {
+     "start": "2026-11-13T05:16:45.420Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Mark Lamarr Uncensored & Live (1997)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:24:09.690Z",
+     "title": "JEFF DUNHAM SPARK OF INSANITY4"
+    },
+    {
+     "start": "2026-11-13T06:24:09.690Z",
+     "end": "2026-11-13T08:22:27.340Z",
+     "title": "George Carlin Jammin In New York, Doin It Again 1992"
+    }
+   ]
+  },
+  {
+   "number": 26,
+   "name": "Cablecast",
+   "genre": "TV",
+   "logo": "../../server/config/logos/cablecast.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:03:44.100Z",
+     "end": "2026-11-13T01:03:41.730Z",
+     "title": "Aggression & Self-Determination: Massacre in East Timor"
+    },
+    {
+     "start": "2026-11-13T01:03:41.730Z",
+     "end": "2026-11-13T02:04:09.830Z",
+     "title": "Alternative Views #146: THREE MILE ISLAND AFTERMATH"
+    },
+    {
+     "start": "2026-11-13T02:04:09.830Z",
+     "end": "2026-11-13T02:33:38.470Z",
+     "title": "The Killing State"
+    },
+    {
+     "start": "2026-11-13T02:33:38.470Z",
+     "end": "2026-11-13T03:57:53.590Z",
+     "title": "Viacom Public Access (channel 25, S. F.) Flipper, Faith No More Featuring Courteny Love"
+    },
+    {
+     "start": "2026-11-13T03:57:53.590Z",
+     "end": "2026-11-13T04:06:31.910Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:06:31.910Z",
+     "end": "2026-11-13T04:43:41.310Z",
+     "title": "The John King Show - Various Clips (1990s) New York Public Access TV Show"
+    },
+    {
+     "start": "2026-11-13T04:43:41.310Z",
+     "end": "2026-11-13T05:42:27.870Z",
+     "title": "Alternative Views #258: HIROSHIMA AND NAGASAKI: WHAT PEOPLE EXPERIENCED"
+    },
+    {
+     "start": "2026-11-13T05:42:27.870Z",
+     "end": "2026-11-13T06:05:49.950Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:05:49.950Z",
+     "end": "2026-11-13T06:27:03.890Z",
+     "title": "The Two Italian Guys Show (Syracuse Public Access 1999)"
+    },
+    {
+     "start": "2026-11-13T06:27:03.890Z",
+     "end": "2026-11-13T07:26:16.680Z",
+     "title": "Alternative Views #074: THE CIA: ON COMPANY BUSINESS"
+    }
+   ]
+  },
+  {
+   "number": 27,
+   "name": "Porch",
+   "genre": "TV",
+   "logo": "../../server/config/logos/porch.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:03:58.190Z",
+     "end": "2026-11-13T00:49:13.420Z",
+     "title": "S03 E04"
+    },
+    {
+     "start": "2026-11-13T00:49:13.420Z",
+     "end": "2026-11-13T01:15:29.170Z",
+     "title": "The Beverly Hillbillies - S01E04 - The Clampetts Meet Mrs. Drysdale"
+    },
+    {
+     "start": "2026-11-13T01:15:29.170Z",
+     "end": "2026-11-13T01:40:58.810Z",
+     "title": "Green Acres S5E20 The Confrontation"
+    },
+    {
+     "start": "2026-11-13T01:40:58.810Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T03:38:21.750Z",
+     "title": "The Waltons S0E0"
+    },
+    {
+     "start": "2026-11-13T03:38:21.750Z",
+     "end": "2026-11-13T04:00:34.970Z",
+     "title": "VTS 02 1"
+    },
+    {
+     "start": "2026-11-13T04:00:34.970Z",
+     "end": "2026-11-13T04:25:51.620Z",
+     "title": "VTS 01 1"
+    },
+    {
+     "start": "2026-11-13T04:25:51.620Z",
+     "end": "2026-11-13T05:14:46.130Z",
+     "title": "Mama's Family"
+    },
+    {
+     "start": "2026-11-13T05:14:46.130Z",
+     "end": "2026-11-13T05:37:14.840Z",
+     "title": "The Real Mccoys S02E05 The New Well"
+    },
+    {
+     "start": "2026-11-13T05:37:14.840Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "VTS 03 1"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:22:13.240Z",
+     "title": "VTS 04 1"
+    },
+    {
+     "start": "2026-11-13T06:22:13.240Z",
+     "end": "2026-11-13T06:47:39.180Z",
+     "title": "Green Acres S01E22 The Day of Decision"
+    },
+    {
+     "start": "2026-11-13T06:47:39.180Z",
+     "end": "2026-11-13T07:09:08.680Z",
+     "title": "Mama's Family | Ep. 20 | Ellen's Boyfriend"
+    }
+   ]
+  },
+  {
+   "number": 28,
+   "name": "Simmer",
+   "genre": "TV",
+   "logo": "../../server/config/logos/simmer.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:19:58.120Z",
+     "end": "2026-11-13T00:45:58.850Z",
+     "title": "Cooking with Georgia + Dez #263"
+    },
+    {
+     "start": "2026-11-13T00:45:58.850Z",
+     "end": "2026-11-13T01:13:54.980Z",
+     "title": "The Frugal Gourmet - Shellfish (1989 - S06E13)"
+    },
+    {
+     "start": "2026-11-13T01:13:54.980Z",
+     "end": "2026-11-13T01:47:33.380Z",
+     "title": "The French Chef with Julia Child S08E04 The French Chef Chicken Dinner In Half An Hour"
+    },
+    {
+     "start": "2026-11-13T01:47:33.380Z",
+     "end": "2026-11-13T02:20:04.910Z",
+     "title": "The French Chef with Julia Child S03E03 Pizza Variations"
+    },
+    {
+     "start": "2026-11-13T02:20:04.910Z",
+     "end": "2026-11-13T03:00:39.760Z",
+     "title": "Iron Chef Japan Chinese Cabbage ( 11.08.1996)"
+    },
+    {
+     "start": "2026-11-13T03:00:39.760Z",
+     "end": "2026-11-13T03:29:27.250Z",
+     "title": "Two.Fat.Ladies.S01E05.Game.SDTV"
+    },
+    {
+     "start": "2026-11-13T03:29:27.250Z",
+     "end": "2026-11-13T03:56:01.460Z",
+     "title": "The Frugal Gourmet - Italian Pasta Dishes with Carlo Middione (1993)"
+    },
+    {
+     "start": "2026-11-13T03:56:01.460Z",
+     "end": "2026-11-13T04:44:36.370Z",
+     "title": "Iron Chef Japan Soft Shelled Crab ( 09.13.1996)s"
+    },
+    {
+     "start": "2026-11-13T04:44:36.370Z",
+     "end": "2026-11-13T05:13:46.890Z",
+     "title": "0208 - Cocktail Party"
+    },
+    {
+     "start": "2026-11-13T05:13:46.890Z",
+     "end": "2026-11-13T05:28:04.750Z",
+     "title": "Fish Tales"
+    },
+    {
+     "start": "2026-11-13T05:28:04.750Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "The Frugal Gourmet - Dumplings (1985)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:26:43.730Z",
+     "title": "Kids Can Cook Too! Yan Can Cook KQED"
+    },
+    {
+     "start": "2026-11-13T06:26:43.730Z",
+     "end": "2026-11-13T06:38:02.550Z",
+     "title": "Mum's Chocolate Cake 2"
+    },
+    {
+     "start": "2026-11-13T06:38:02.550Z",
+     "end": "2026-11-13T07:07:50.050Z",
+     "title": "The French Chef with Julia Child S07E07 The French Chef Strawberry Tarts"
+    }
+   ]
+  },
+  {
+   "number": 29,
+   "name": "Lighthouse",
+   "genre": "TV",
+   "logo": "../../server/config/logos/lighthouse.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:24:53.650Z",
+     "end": "2026-11-13T01:08:41.710Z",
+     "title": "03 Closing"
+    },
+    {
+     "start": "2026-11-13T01:08:41.710Z",
+     "end": "2026-11-13T01:36:42.950Z",
+     "title": "Adventures In Odyssey - #09 Someone To Watch Over Me 1996"
+    },
+    {
+     "start": "2026-11-13T01:36:42.950Z",
+     "end": "2026-11-13T02:59:27.910Z",
+     "title": "Jonah A VeggieTales Movie"
+    },
+    {
+     "start": "2026-11-13T02:59:27.910Z",
+     "end": "2026-11-13T03:13:31.070Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:13:31.070Z",
+     "end": "2026-11-13T04:24:09.140Z",
+     "title": "Dolly Parton's Precious Memories (1999) WOC"
+    },
+    {
+     "start": "2026-11-13T04:24:09.140Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Jonah A VeggieTales Movie VHS Fanmde 2003"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:24:19.400Z",
+     "title": "08 Go West Young Man"
+    },
+    {
+     "start": "2026-11-13T06:24:19.400Z",
+     "end": "2026-11-13T06:35:49.650Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:35:49.650Z",
+     "end": "2026-11-13T07:00:06.650Z",
+     "title": "05 Star Quest"
+    }
+   ]
+  },
+  {
+   "number": 30,
+   "name": "Newsdesk",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/newsdesk.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:40:18.340Z",
+     "end": "2026-11-13T00:37:46.550Z",
+     "title": "PBS Newshour 02 08 2000"
+    },
+    {
+     "start": "2026-11-13T00:37:46.550Z",
+     "end": "2026-11-13T00:55:51.400Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T00:55:51.400Z",
+     "end": "2026-11-13T01:32:28.960Z",
+     "title": "Andrea Canning Dateline NBC Alpha Gamma Delta Military Connected"
+    },
+    {
+     "start": "2026-11-13T01:32:28.960Z",
+     "end": "2026-11-13T02:32:33.830Z",
+     "title": "DVD Video Recording Title26"
+    },
+    {
+     "start": "2026-11-13T02:32:33.830Z",
+     "end": "2026-11-13T03:11:55.250Z",
+     "title": "AKA EBENEZER(DR LIKEE) SHARED SHOCKING LIFE EXPERIENCE ON OKUKUSEKU THE TALK SHOW - Okukuseku THE TALK SHOW"
+    },
+    {
+     "start": "2026-11-13T03:11:55.250Z",
+     "end": "2026-11-13T05:05:11.500Z",
+     "title": "Amazon Empire: The Rise And Reign Of Jeff Bezos | FRONTLINE"
+    },
+    {
+     "start": "2026-11-13T05:05:11.500Z",
+     "end": "2026-11-13T05:26:55.200Z",
+     "title": "News Magazine of the Screen, The (Vol. 7, Issue 4)"
+    },
+    {
+     "start": "2026-11-13T05:26:55.200Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "NBC Nightly News (9/12/04)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:02:53.170Z",
+     "title": "60 Minutes Selects / Cuba and The Cameraman / Edward R. Murrow Awards"
+    }
+   ]
+  },
+  {
+   "number": 31,
+   "name": "Lens",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/lens.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:41:55.440Z",
+     "end": "2026-11-13T00:31:35.040Z",
+     "title": "s02e07 - Last Waterholes of the Outback"
+    },
+    {
+     "start": "2026-11-13T00:31:35.040Z",
+     "end": "2026-11-13T01:20:31.640Z",
+     "title": "The Private Life of Plants - 01 - Travelling"
+    },
+    {
+     "start": "2026-11-13T01:20:31.640Z",
+     "end": "2026-11-13T01:50:06.820Z",
+     "title": "outtakes"
+    },
+    {
+     "start": "2026-11-13T01:50:06.820Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T02:54:20.970Z",
+     "title": "The World at War S1E1"
+    },
+    {
+     "start": "2026-11-13T02:54:20.970Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:50:03.730Z",
+     "title": "Civilisation S1E1"
+    },
+    {
+     "start": "2026-11-13T03:50:03.730Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:49:30.000Z",
+     "title": "Connections S1E1"
+    },
+    {
+     "start": "2026-11-13T04:49:30.000Z",
+     "end": "2026-11-13T05:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:00:00.000Z",
+     "end": "2026-11-13T05:52:16.980Z",
+     "title": "Hollywood Pt. 04 Hollywood Goes to War"
+    },
+    {
+     "start": "2026-11-13T05:52:16.980Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:48:56.560Z",
+     "title": "the private life of plants 1 travelling"
+    },
+    {
+     "start": "2026-11-13T06:48:56.560Z",
+     "end": "2026-11-13T07:36:33.120Z",
+     "title": "Inside Nature's Giants - Asian Elephant"
+    }
+   ]
+  },
+  {
+   "number": 32,
+   "name": "Byte",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/byte.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:04:56.070Z",
+     "end": "2026-11-13T00:33:17.800Z",
+     "title": "Business Application Software"
+    },
+    {
+     "start": "2026-11-13T00:33:17.800Z",
+     "end": "2026-11-13T00:57:56.340Z",
+     "title": "Windows 95"
+    },
+    {
+     "start": "2026-11-13T00:57:56.340Z",
+     "end": "2026-11-13T01:25:53.510Z",
+     "title": "The New Amigas"
+    },
+    {
+     "start": "2026-11-13T01:25:53.510Z",
+     "end": "2026-11-13T01:54:51.740Z",
+     "title": "Amiga 2500"
+    },
+    {
+     "start": "2026-11-13T01:54:51.740Z",
+     "end": "2026-11-13T02:24:28.010Z",
+     "title": "Low End Computers"
+    },
+    {
+     "start": "2026-11-13T02:24:28.010Z",
+     "end": "2026-11-13T02:53:20.770Z",
+     "title": "Computer Games"
+    },
+    {
+     "start": "2026-11-13T02:53:20.770Z",
+     "end": "2026-11-13T03:19:32.700Z",
+     "title": "Smart TV"
+    },
+    {
+     "start": "2026-11-13T03:19:32.700Z",
+     "end": "2026-11-13T03:46:35.120Z",
+     "title": "Internet"
+    },
+    {
+     "start": "2026-11-13T03:46:35.120Z",
+     "end": "2026-11-13T04:09:36.600Z",
+     "title": "Computer Music"
+    },
+    {
+     "start": "2026-11-13T04:09:36.600Z",
+     "end": "2026-11-13T04:38:47.850Z",
+     "title": "IBM Personal System 2"
+    },
+    {
+     "start": "2026-11-13T04:38:47.850Z",
+     "end": "2026-11-13T05:07:35.210Z",
+     "title": "CC1308 greatest games"
+    },
+    {
+     "start": "2026-11-13T05:07:35.210Z",
+     "end": "2026-11-13T05:36:43.320Z",
+     "title": "Y2K - Year 2000"
+    },
+    {
+     "start": "2026-11-13T05:36:43.320Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Spreadsheet Wars"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:28:59.770Z",
+     "title": "Computer Ergonomics"
+    },
+    {
+     "start": "2026-11-13T06:28:59.770Z",
+     "end": "2026-11-13T06:57:41.490Z",
+     "title": "Windows 3.0"
+    },
+    {
+     "start": "2026-11-13T06:57:41.490Z",
+     "end": "2026-11-13T07:26:51.240Z",
+     "title": "Amiga 3000"
+    }
+   ]
+  },
+  {
+   "number": 33,
+   "name": "Cumulus",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/cumulus.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T05:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T05:00:00.000Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:00:00.000Z",
+     "title": "Local Forecast & Radar"
+    }
+   ]
+  },
+  {
+   "number": 34,
+   "name": "Curious",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/curious.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:13:30.520Z",
+     "end": "2026-11-13T00:37:18.620Z",
+     "title": "Ep16 The Case of the Three Uncles"
+    },
+    {
+     "start": "2026-11-13T00:37:18.620Z",
+     "end": "2026-11-13T01:38:55.280Z",
+     "title": "COSMOS 05"
+    },
+    {
+     "start": "2026-11-13T01:38:55.280Z",
+     "end": "2026-11-13T02:05:00.510Z",
+     "title": "Exploring The World Of Music 11 Composers and Improvisers"
+    },
+    {
+     "start": "2026-11-13T02:05:00.510Z",
+     "end": "2026-11-13T02:32:02.080Z",
+     "title": "Mathematics Illuminated 04 Topologys Twists and Turns"
+    },
+    {
+     "start": "2026-11-13T02:32:02.080Z",
+     "end": "2026-11-13T02:38:11.440Z",
+     "title": "32 Mood Disorders Hereditary Factors"
+    },
+    {
+     "start": "2026-11-13T02:38:11.440Z",
+     "end": "2026-11-13T03:07:13.310Z",
+     "title": "The Mechanical Universe 14 Potential Energy"
+    },
+    {
+     "start": "2026-11-13T03:07:13.310Z",
+     "end": "2026-11-13T03:33:13.670Z",
+     "title": "01 Its the Little Things"
+    },
+    {
+     "start": "2026-11-13T03:33:13.670Z",
+     "end": "2026-11-13T03:58:40.540Z",
+     "title": "Unseen Life on Earth 05 Genetic Transfer"
+    },
+    {
+     "start": "2026-11-13T03:58:40.540Z",
+     "end": "2026-11-13T04:26:32.580Z",
+     "title": "The Joy of Painting - S20E11 - Change of Seasons"
+    },
+    {
+     "start": "2026-11-13T04:26:32.580Z",
+     "end": "2026-11-13T04:51:55.500Z",
+     "title": "Death a Personal Understanding 04 The Deathbed"
+    },
+    {
+     "start": "2026-11-13T04:51:55.500Z",
+     "end": "2026-11-13T05:19:25.810Z",
+     "title": "46 Fin de Siècle - The Western Tradition (1989) - Remastered"
+    },
+    {
+     "start": "2026-11-13T05:19:25.810Z",
+     "end": "2026-11-13T05:47:35.860Z",
+     "title": "The Joy of Painting - S22E02 - Hint of Springtime"
+    },
+    {
+     "start": "2026-11-13T05:47:35.860Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Discovering Psychology 14 The Mind Hidden and Divided"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:26:35.970Z",
+     "title": "A Biography Of America 21 FDR And The Depression"
+    },
+    {
+     "start": "2026-11-13T06:26:35.970Z",
+     "end": "2026-11-13T06:54:05.560Z",
+     "title": "17 The Dark Ages - The Western Tradition (1989) - Remastered"
+    },
+    {
+     "start": "2026-11-13T06:54:05.560Z",
+     "end": "2026-11-13T07:21:26.700Z",
+     "title": "Western Tradition 22 Cities and Cathedrals of the Middle Ages"
+    }
+   ]
+  },
+  {
+   "number": 35,
+   "name": "Patrol",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/patrol.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:47:00.700Z",
+     "end": "2026-11-13T01:08:40.470Z",
+     "title": "Cops"
+    },
+    {
+     "start": "2026-11-13T01:08:40.470Z",
+     "end": "2026-11-13T02:03:54.520Z",
+     "title": "The Best Of Real Stories Of The Highway Patrol VHS"
+    },
+    {
+     "start": "2026-11-13T02:03:54.520Z",
+     "end": "2026-11-13T03:07:26.660Z",
+     "title": "Cops"
+    },
+    {
+     "start": "2026-11-13T03:07:26.660Z",
+     "end": "2026-11-13T04:07:26.720Z",
+     "title": "Cops - Las Vegas Heat - two episodes (WJW, 11-11-2006)"
+    },
+    {
+     "start": "2026-11-13T04:07:26.720Z",
+     "end": "2026-11-13T07:03:14.690Z",
+     "title": "Cops Marathon"
+    }
+   ]
+  },
+  {
+   "number": 36,
+   "name": "Evidence",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/evidence.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:49:44.850Z",
+     "end": "2026-11-13T01:32:14.810Z",
+     "title": "31 Ghost in the Machine"
+    },
+    {
+     "start": "2026-11-13T01:32:14.810Z",
+     "end": "2026-11-13T02:16:04.170Z",
+     "title": "s20e39 - 2007-08-04"
+    },
+    {
+     "start": "2026-11-13T02:16:04.170Z",
+     "end": "2026-11-13T03:48:37.390Z",
+     "title": "8.1 Columbo Goes To The Guillotine"
+    },
+    {
+     "start": "2026-11-13T03:48:37.390Z",
+     "end": "2026-11-13T04:33:35.690Z",
+     "title": "10/15/ 1994 America's Most Wanted Full Episode FOX"
+    },
+    {
+     "start": "2026-11-13T04:33:35.690Z",
+     "end": "2026-11-13T04:56:53.720Z",
+     "title": "Forensic Files 01x09 Deadly Neighborhoods"
+    },
+    {
+     "start": "2026-11-13T04:56:53.720Z",
+     "end": "2026-11-13T05:06:59.030Z",
+     "title": "America's Most Wanted- April 1st, 2006 (Rashawn Brazell)"
+    },
+    {
+     "start": "2026-11-13T05:06:59.030Z",
+     "end": "2026-11-13T05:33:16.290Z",
+     "title": "Dragnet - The Big Deal (1956)"
+    },
+    {
+     "start": "2026-11-13T05:33:16.290Z",
+     "end": "2026-11-13T06:04:16.170Z",
+     "title": "Dragnet- The Big Ham (1954)"
+    },
+    {
+     "start": "2026-11-13T06:04:16.170Z",
+     "end": "2026-11-13T06:29:47.500Z",
+     "title": "Peter Gunn - The Fuse"
+    },
+    {
+     "start": "2026-11-13T06:29:47.500Z",
+     "end": "2026-11-13T06:56:21.490Z",
+     "title": "Sherlock Holmes - Case of the Blind Mans Bluff"
+    },
+    {
+     "start": "2026-11-13T06:56:21.490Z",
+     "end": "2026-11-13T07:40:10.850Z",
+     "title": "s20e39 - 2007-08-04"
+    }
+   ]
+  },
+  {
+   "number": 37,
+   "name": "Uncanny",
+   "genre": "News & Docs",
+   "logo": "../../server/config/logos/uncanny.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:10:29.130Z",
+     "end": "2026-11-13T00:40:22.230Z",
+     "title": "In Search of Ancient Astronauts"
+    },
+    {
+     "start": "2026-11-13T00:40:22.230Z",
+     "end": "2026-11-13T01:33:23.520Z",
+     "title": "Mysteries Of The Unknown Psychic Powers (1988)"
+    },
+    {
+     "start": "2026-11-13T01:33:23.520Z",
+     "end": "2026-11-13T01:55:03.740Z",
+     "title": "The '' Mothman'' Encounters, 1966 1967"
+    },
+    {
+     "start": "2026-11-13T01:55:03.740Z",
+     "end": "2026-11-13T02:18:02.660Z",
+     "title": "Sightings S0210"
+    },
+    {
+     "start": "2026-11-13T02:18:02.660Z",
+     "end": "2026-11-13T03:03:43.060Z",
+     "title": "Sightings S0424"
+    },
+    {
+     "start": "2026-11-13T03:03:43.060Z",
+     "end": "2026-11-13T03:26:25.420Z",
+     "title": "Sightings S0109"
+    },
+    {
+     "start": "2026-11-13T03:26:25.420Z",
+     "end": "2026-11-13T03:50:24.660Z",
+     "title": "Ghost Hunters S03E02 - The Phantom Schoolmaster"
+    },
+    {
+     "start": "2026-11-13T03:50:24.660Z",
+     "end": "2026-11-13T04:23:48.130Z",
+     "title": "Sightings S04E09 FOX WOC Incomplete 1996 03"
+    },
+    {
+     "start": "2026-11-13T04:23:48.130Z",
+     "end": "2026-11-13T04:49:54.210Z",
+     "title": "Arthur C Clarke Mysterious World S01E09 Out of the Blue"
+    },
+    {
+     "start": "2026-11-13T04:49:54.210Z",
+     "end": "2026-11-13T05:37:26.900Z",
+     "title": "Unsolved Mysteries S01E03 - Halloween Special - 1988"
+    },
+    {
+     "start": "2026-11-13T05:37:26.900Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Sightings S0508"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:58:32.360Z",
+     "title": "Mysteries of the Unexplained: Powers of the Paranorma"
+    },
+    {
+     "start": "2026-11-13T06:58:32.360Z",
+     "end": "2026-11-13T07:27:56.990Z",
+     "title": "Asked For It 4"
+    }
+   ]
+  },
+  {
+   "number": 40,
+   "name": "Jukebox",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/jukebox.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "More Music Videos"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "More Music Videos"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "More Music Videos"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:04:51.430Z",
+     "title": "Music Videos"
+    }
+   ]
+  },
+  {
+   "number": 41,
+   "name": "Setlist",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/setlist.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:35:59.680Z",
+     "end": "2026-11-13T01:02:23.740Z",
+     "title": "Jazzwoche Burghausen 2001：Greg Osby, Mark Turner, Franco Ambrosetti Sextet"
+    },
+    {
+     "start": "2026-11-13T01:02:23.740Z",
+     "end": "2026-11-13T02:36:27.680Z",
+     "title": "Jazzwoche Burghausen 2001 ᴴᴰ：Dave Brubeck Quartet"
+    },
+    {
+     "start": "2026-11-13T02:36:27.680Z",
+     "end": "2026-11-13T04:11:40.910Z",
+     "title": "Van Halen Monsters Of Rock 1984 - Donington - Full 90 Minute Concert Film - Remastered Audio"
+    },
+    {
+     "start": "2026-11-13T04:11:40.910Z",
+     "end": "2026-11-13T05:34:15.980Z",
+     "title": "Jazzwoche Burghausen 2013 ᴴᴰ：Chicago Beau & Band"
+    },
+    {
+     "start": "2026-11-13T05:34:15.980Z",
+     "end": "2026-11-13T06:22:05.100Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:22:05.100Z",
+     "end": "2026-11-13T07:29:43.930Z",
+     "title": "Jazzwoche Burghausen 2016：The Stanley Clarke Band"
+    }
+   ]
+  },
+  {
+   "number": 42,
+   "name": "Boogie",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/boogie.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:24:05.700Z",
+     "end": "2026-11-13T00:56:08.960Z",
+     "title": "(VHS) Fractasia: A Freeform Fractal Fantasy"
+    },
+    {
+     "start": "2026-11-13T00:56:08.960Z",
+     "end": "2026-11-13T02:09:20.240Z",
+     "title": "Top of the Pops"
+    },
+    {
+     "start": "2026-11-13T02:09:20.240Z",
+     "end": "2026-11-13T02:35:26.190Z",
+     "title": "S2E12 (GzRYuChqDtg)"
+    },
+    {
+     "start": "2026-11-13T02:35:26.190Z",
+     "end": "2026-11-13T04:17:32.490Z",
+     "title": "Soul Train"
+    },
+    {
+     "start": "2026-11-13T04:17:32.490Z",
+     "end": "2026-11-13T04:45:01.200Z",
+     "title": "Top of the Pops - S08E24 - 17th June 1971"
+    },
+    {
+     "start": "2026-11-13T04:45:01.200Z",
+     "end": "2026-11-13T05:37:20.730Z",
+     "title": "Somerville Dance Party"
+    },
+    {
+     "start": "2026-11-13T05:37:20.730Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Dancing in the Street - Episode 2 - Be My Baby - 22 June 1996"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:27:59.420Z",
+     "title": "Country Dancing with Anita Williams Volume 5: Line Dancing"
+    },
+    {
+     "start": "2026-11-13T06:27:59.420Z",
+     "end": "2026-11-13T06:33:47.270Z",
+     "title": "Oilboy's aftersun-After 8"
+    },
+    {
+     "start": "2026-11-13T06:33:47.270Z",
+     "end": "2026-11-13T07:19:53.840Z",
+     "title": "ELMOS WORLD"
+    }
+   ]
+  },
+  {
+   "number": 43,
+   "name": "Ringside",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/ringside.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:32:35.060Z",
+     "end": "2026-11-13T00:57:34.290Z",
+     "title": "TNA iMPACT! - 05.21.2009"
+    },
+    {
+     "start": "2026-11-13T00:57:34.290Z",
+     "end": "2026-11-13T01:48:52.820Z",
+     "title": "05-20-89"
+    },
+    {
+     "start": "2026-11-13T01:48:52.820Z",
+     "end": "2026-11-13T02:22:59.800Z",
+     "title": "6-14-86"
+    },
+    {
+     "start": "2026-11-13T02:22:59.800Z",
+     "end": "2026-11-13T03:15:32.130Z",
+     "title": "07-22-89"
+    },
+    {
+     "start": "2026-11-13T03:15:32.130Z",
+     "end": "2026-11-13T03:56:21.380Z",
+     "title": "02-18-89"
+    },
+    {
+     "start": "2026-11-13T03:56:21.380Z",
+     "end": "2026-11-13T05:22:06.260Z",
+     "title": "TNA iMPACT 2009.02.12"
+    },
+    {
+     "start": "2026-11-13T05:22:06.260Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "TNA iMPACT 2008.05.08"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T08:41:37.320Z",
+     "title": "WWF Royal Rumble (2000)"
+    }
+   ]
+  },
+  {
+   "number": 44,
+   "name": "Sideline",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/sideline.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:02:24.960Z",
+     "end": "2026-11-13T00:47:15.640Z",
+     "title": "Super Duper Baseball Bloopers (1989)"
+    },
+    {
+     "start": "2026-11-13T00:47:15.640Z",
+     "end": "2026-11-13T00:53:19.670Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T00:53:19.670Z",
+     "end": "2026-11-13T02:36:47.940Z",
+     "title": "UEFA Champions League 2007/2008 — Arsenal Liverpool"
+    },
+    {
+     "start": "2026-11-13T02:36:47.940Z",
+     "end": "2026-11-13T03:15:46.220Z",
+     "title": "The 1980 World Series (MLB Home Video, 1991)"
+    },
+    {
+     "start": "2026-11-13T03:15:46.220Z",
+     "end": "2026-11-13T04:16:14.350Z",
+     "title": "VTS 01 1"
+    },
+    {
+     "start": "2026-11-13T04:16:14.350Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "UEFA Champions League 2007/2008 — Arsenal AC Milan"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:00:28.130Z",
+     "title": "VTS 01 1"
+    }
+   ]
+  },
+  {
+   "number": 45,
+   "name": "Sweat",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/sweat.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:19:09.280Z",
+     "end": "2026-11-13T01:19:42.470Z",
+     "title": "Cassette: \"Take a Hike with Richard Simmons\""
+    },
+    {
+     "start": "2026-11-13T01:19:42.470Z",
+     "end": "2026-11-13T01:55:46.790Z",
+     "title": "1997 VHS • Buns of Steel Total Body Fat Burner 60 FPS"
+    },
+    {
+     "start": "2026-11-13T01:55:46.790Z",
+     "end": "2026-11-13T02:17:40.370Z",
+     "title": "The Richard Simmons Show 1981 With Lilias Folan"
+    },
+    {
+     "start": "2026-11-13T02:17:40.370Z",
+     "end": "2026-11-13T03:12:04.260Z",
+     "title": "Denise Austin - Power Kickboxing"
+    },
+    {
+     "start": "2026-11-13T03:12:04.260Z",
+     "end": "2026-11-13T03:35:52.960Z",
+     "title": "The Jack LaLanne Show, 1961 - 16mm"
+    },
+    {
+     "start": "2026-11-13T03:35:52.960Z",
+     "end": "2026-11-13T04:37:36.340Z",
+     "title": "1992 VHS • Gilad Step Aerobics on the Beach at Waikiki 60 FPS"
+    },
+    {
+     "start": "2026-11-13T04:37:36.340Z",
+     "end": "2026-11-13T05:14:12.640Z",
+     "title": "Jane Fonda Workout - START UP with Jane Fonda"
+    },
+    {
+     "start": "2026-11-13T05:14:12.640Z",
+     "end": "2026-11-13T05:51:45.680Z",
+     "title": "1992 VHS • Buns of Steel 6 60 FPS"
+    },
+    {
+     "start": "2026-11-13T05:51:45.680Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:26:23.600Z",
+     "title": "Billy Blanks Basic Tae Bo"
+    },
+    {
+     "start": "2026-11-13T06:26:23.600Z",
+     "end": "2026-11-13T07:08:56.120Z",
+     "title": "Buns Of Steel 3: Buns & More With Tamilee Webb"
+    }
+   ]
+  },
+  {
+   "number": 46,
+   "name": "Pickup",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/pickup.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:08:03.940Z",
+     "end": "2026-11-13T02:10:20.390Z",
+     "title": "Tioga County, PA Fair tractor pull 2000; Troy, PA tractor pull 2000; Morris Old Home Days 2000 : Keith Lindie Archive Tape 333"
+    },
+    {
+     "start": "2026-11-13T02:10:20.390Z",
+     "end": "2026-11-13T02:57:52.010Z",
+     "title": "06 - 2004 Monster Jam - Georgia Dome - Atlanta, GA - Freestyle"
+    },
+    {
+     "start": "2026-11-13T02:57:52.010Z",
+     "end": "2026-11-13T03:41:47.940Z",
+     "title": "Indianapolis 1999 Week 1"
+    },
+    {
+     "start": "2026-11-13T03:41:47.940Z",
+     "end": "2026-11-13T04:04:34.140Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:04:34.140Z",
+     "end": "2026-11-13T04:49:34.340Z",
+     "title": "01 - 2008 Monster Jam - Metrodome - Minneapolis, MN - Racing"
+    },
+    {
+     "start": "2026-11-13T04:49:34.340Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:55:50.780Z",
+     "title": "NASCAR's Great Drivers - Past, Present, And Future - NASCAR Video (1997)"
+    },
+    {
+     "start": "2026-11-13T06:55:50.780Z",
+     "end": "2026-11-13T07:56:31.930Z",
+     "title": "1997 Messing Around With Friends And Car Show - Merced, California"
+    }
+   ]
+  },
+  {
+   "number": 47,
+   "name": "Holler",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/holler.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:13:18.800Z",
+     "end": "2026-11-13T00:35:27.040Z",
+     "title": "VTS 01 1"
+    },
+    {
+     "start": "2026-11-13T00:35:27.040Z",
+     "end": "2026-11-13T00:41:27.010Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T00:41:27.010Z",
+     "end": "2026-11-13T01:25:33.050Z",
+     "title": "Survivorman Bigfoot E02 British Columbia"
+    },
+    {
+     "start": "2026-11-13T01:25:33.050Z",
+     "end": "2026-11-13T01:57:51.520Z",
+     "title": "VTS 02 1"
+    },
+    {
+     "start": "2026-11-13T01:57:51.520Z",
+     "end": "2026-11-13T02:26:21.280Z",
+     "title": "Wild America Season 3 Episode 7 Magnificent as a Moose Untamed"
+    },
+    {
+     "start": "2026-11-13T02:26:21.280Z",
+     "end": "2026-11-13T02:37:52.820Z",
+     "title": "Primitive Technology- Barrel Tiled Shed"
+    },
+    {
+     "start": "2026-11-13T02:37:52.820Z",
+     "end": "2026-11-13T03:06:25.550Z",
+     "title": "Wild America Season 5 Episode 5 Fishers in the Family - Part 2 Untamed"
+    },
+    {
+     "start": "2026-11-13T03:06:25.550Z",
+     "end": "2026-11-13T03:24:36.480Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:24:36.480Z",
+     "end": "2026-11-13T03:53:08.630Z",
+     "title": "Wild America Season 5 Episode 6 Growing up Wild Untamed"
+    },
+    {
+     "start": "2026-11-13T03:53:08.630Z",
+     "end": "2026-11-13T04:51:46.920Z",
+     "title": "Ray Mears' Wild Food Episode 1"
+    },
+    {
+     "start": "2026-11-13T04:51:46.920Z",
+     "end": "2026-11-13T05:20:13.400Z",
+     "title": "Marty Stouffer's Wild America-Episode 10-Wild Babies"
+    },
+    {
+     "start": "2026-11-13T05:20:13.400Z",
+     "end": "2026-11-13T05:26:51.450Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:26:51.450Z",
+     "end": "2026-11-13T05:49:19.290Z",
+     "title": "Luengwa. Valley.The.Last.Home.of.the.Elephant"
+    },
+    {
+     "start": "2026-11-13T05:49:19.290Z",
+     "end": "2026-11-13T06:05:53.790Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:05:53.790Z",
+     "end": "2026-11-13T07:05:00.570Z",
+     "title": "Ray Mears' Bushcraft S02E01 Birchbark Canoe 10bit"
+    }
+   ]
+  },
+  {
+   "number": 48,
+   "name": "Arcade",
+   "genre": "Music & Sports",
+   "logo": "../../server/config/logos/arcade.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:09:43.670Z",
+     "end": "2026-11-13T00:42:29.890Z",
+     "title": "Nintendo Power Previews #11"
+    },
+    {
+     "start": "2026-11-13T00:42:29.890Z",
+     "end": "2026-11-13T01:05:00.120Z",
+     "title": "Captain N The Game Master - S01E02 - How's Bayou - Restored"
+    },
+    {
+     "start": "2026-11-13T01:05:00.120Z",
+     "end": "2026-11-13T01:28:55.910Z",
+     "title": "Pac-Man - E29-E30 (The Super-Pac-Bowl + Journey Into the Pac-Past)"
+    },
+    {
+     "start": "2026-11-13T01:28:55.910Z",
+     "end": "2026-11-13T01:56:33.860Z",
+     "title": "Super Mario Bros. 30th Anniversary (1985-2015) All Commercials"
+    },
+    {
+     "start": "2026-11-13T01:56:33.860Z",
+     "end": "2026-11-13T02:22:12.020Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:22:12.020Z",
+     "end": "2026-11-13T02:44:53.380Z",
+     "title": "10. S1E9 Sonics Nightmare"
+    },
+    {
+     "start": "2026-11-13T02:44:53.380Z",
+     "end": "2026-11-13T03:09:05.650Z",
+     "title": "Starcade Premiere Episode"
+    },
+    {
+     "start": "2026-11-13T03:09:05.650Z",
+     "end": "2026-11-13T03:16:41.480Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:16:41.480Z",
+     "end": "2026-11-13T03:41:09.210Z",
+     "title": "Gamesmaster s01e01 John Fashanu"
+    },
+    {
+     "start": "2026-11-13T03:41:09.210Z",
+     "end": "2026-11-13T04:11:11.610Z",
+     "title": "Video Power Episode 01"
+    },
+    {
+     "start": "2026-11-13T04:11:11.610Z",
+     "end": "2026-11-13T04:21:35.560Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:21:35.560Z",
+     "end": "2026-11-13T04:46:03.110Z",
+     "title": "Pole Position 106 -The Thirty-Nine Stripes (Full Episode)"
+    },
+    {
+     "start": "2026-11-13T04:46:03.110Z",
+     "end": "2026-11-13T05:25:32.990Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T05:25:32.990Z",
+     "end": "2026-11-13T05:47:59.540Z",
+     "title": "Nick Arcade - S01E01"
+    },
+    {
+     "start": "2026-11-13T05:47:59.540Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Captain N The Game Master - S01E03 - The Most Dangerous Game Master - Restored"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:24:53.320Z",
+     "title": "Adventures of S.T.H (AoStH) - Ep. 52 - Baby-Sitter Jitters"
+    },
+    {
+     "start": "2026-11-13T06:24:53.320Z",
+     "end": "2026-11-13T06:46:47.010Z",
+     "title": "Adventures of S.T.H (AoStH) - Ep. 14 - The Robotnik Express"
+    },
+    {
+     "start": "2026-11-13T06:46:47.010Z",
+     "end": "2026-11-13T07:08:25.680Z",
+     "title": "Captain N The Game Master - S02E08 - The Feud of Faxanadu"
+    }
+   ]
+  },
+  {
+   "number": 50,
+   "name": "Overseas",
+   "genre": "International",
+   "logo": "../../server/config/logos/overseas.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:37:24.310Z",
+     "end": "2026-11-13T00:38:17.310Z",
+     "title": "Yes Minister - S03E08 - Party games"
+    },
+    {
+     "start": "2026-11-13T00:38:17.310Z",
+     "end": "2026-11-13T02:05:21.830Z",
+     "title": "The Doors ☆ Classic Albums ☆ The Doors ☆ 2008"
+    },
+    {
+     "start": "2026-11-13T02:05:21.830Z",
+     "end": "2026-11-13T02:29:48.330Z",
+     "title": "The Bill S11E102 Still Waters"
+    },
+    {
+     "start": "2026-11-13T02:29:48.330Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Keeping Up Appearances S02 E11"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T03:51:26.030Z",
+     "title": "Poldark S1E1"
+    },
+    {
+     "start": "2026-11-13T03:51:26.030Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T04:50:34.340Z",
+     "title": "I, Claudius S1E1"
+    },
+    {
+     "start": "2026-11-13T04:50:34.340Z",
+     "end": "2026-11-13T04:56:05.900Z",
+     "title": "S05E15 - Something in the Air"
+    },
+    {
+     "start": "2026-11-13T04:56:05.900Z",
+     "end": "2026-11-13T05:45:35.520Z",
+     "title": "The Bill"
+    },
+    {
+     "start": "2026-11-13T05:45:35.520Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:24:28.000Z",
+     "title": "The Greatest Show in the Galaxy：Episode 4"
+    },
+    {
+     "start": "2026-11-13T06:24:28.000Z",
+     "end": "2026-11-13T07:10:50.520Z",
+     "title": "The Bill S25E55 Backlash V"
+    }
+   ]
+  },
+  {
+   "number": 51,
+   "name": "Maple",
+   "genre": "International",
+   "logo": "../../server/config/logos/maple.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:56:36.220Z",
+     "end": "2026-11-13T00:41:01.920Z",
+     "title": "Corner Gas"
+    },
+    {
+     "start": "2026-11-13T00:41:01.920Z",
+     "end": "2026-11-13T01:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:00:00.000Z",
+     "end": "2026-11-13T01:47:14.900Z",
+     "title": "ReBoot"
+    },
+    {
+     "start": "2026-11-13T01:47:14.900Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T03:00:00.000Z",
+     "title": "Degrassi"
+    },
+    {
+     "start": "2026-11-13T03:00:00.000Z",
+     "end": "2026-11-13T05:04:26.100Z",
+     "title": "Due South S1E0"
+    },
+    {
+     "start": "2026-11-13T05:04:26.100Z",
+     "end": "2026-11-13T05:28:05.230Z",
+     "title": "S1 E11 - Talent Night"
+    },
+    {
+     "start": "2026-11-13T05:28:05.230Z",
+     "end": "2026-11-13T05:51:46.310Z",
+     "title": "ReBoot Season 2 Episode 4 Bad Bob 4K Upscale"
+    },
+    {
+     "start": "2026-11-13T05:51:46.310Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:21:43.150Z",
+     "title": "Corner Gas Animated (2018) - S02E05 - Paper Sashay"
+    },
+    {
+     "start": "2026-11-13T06:21:43.150Z",
+     "end": "2026-11-13T06:43:56.350Z",
+     "title": "Corner Gas - S04E18 - Happy Campers"
+    },
+    {
+     "start": "2026-11-13T06:43:56.350Z",
+     "end": "2026-11-13T07:29:34.850Z",
+     "title": "DUE SOUTH DISC3AB1"
+    }
+   ]
+  },
+  {
+   "number": 52,
+   "name": "Worldview",
+   "genre": "International",
+   "logo": "../../server/config/logos/worldview.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:13:57.130Z",
+     "end": "2026-11-13T00:38:38.010Z",
+     "title": "46 - The Most Horrible X-Mas Ever"
+    },
+    {
+     "start": "2026-11-13T00:38:38.010Z",
+     "end": "2026-11-13T02:43:15.050Z",
+     "title": "Me, Eu 1987"
+    },
+    {
+     "start": "2026-11-13T02:43:15.050Z",
+     "end": "2026-11-13T03:07:42.170Z",
+     "title": "Sgt. Frog S01E60 Honey, I Shrunk The Frogs!"
+    },
+    {
+     "start": "2026-11-13T03:07:42.170Z",
+     "end": "2026-11-13T03:38:00.200Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T03:38:00.200Z",
+     "end": "2026-11-13T04:21:30.800Z",
+     "title": "51 Gandharvas Catch Duryodhan"
+    },
+    {
+     "start": "2026-11-13T04:21:30.800Z",
+     "end": "2026-11-13T05:06:18.900Z",
+     "title": "Hellsing Ultimate - Helssing IX"
+    },
+    {
+     "start": "2026-11-13T05:06:18.900Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Kim Ki Duk - Samaritan Girl"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:23:42.060Z",
+     "title": "Sgt. Frog S01E26 Let The Games Impend!"
+    },
+    {
+     "start": "2026-11-13T06:23:42.060Z",
+     "end": "2026-11-13T06:48:02.060Z",
+     "title": "Pretty Guardian Sailor Moon (T-N) - EP42"
+    },
+    {
+     "start": "2026-11-13T06:48:02.060Z",
+     "end": "2026-11-13T07:05:57.070Z",
+     "title": "Golgo13 03"
+    }
+   ]
+  },
+  {
+   "number": 62,
+   "name": "Gavel",
+   "genre": "TV",
+   "logo": "../../server/config/logos/gavel.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:32:36.310Z",
+     "end": "2026-11-13T00:33:09.920Z",
+     "title": "Judge Judy"
+    },
+    {
+     "start": "2026-11-13T00:33:09.920Z",
+     "end": "2026-11-13T01:12:13.030Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T01:12:13.030Z",
+     "end": "2026-11-13T02:52:30.280Z",
+     "title": "Judge Judy"
+    },
+    {
+     "start": "2026-11-13T02:52:30.280Z",
+     "end": "2026-11-13T03:25:17.750Z",
+     "title": "Judge Judy (TVQ-10, 02/02/99)"
+    },
+    {
+     "start": "2026-11-13T03:25:17.750Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "judge Judy ep"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:20:08.410Z",
+     "title": "Judge Judy - S15E139"
+    },
+    {
+     "start": "2026-11-13T06:20:08.410Z",
+     "end": "2026-11-13T06:29:52.150Z",
+     "title": "Superior Court (partial), 7/14/1989"
+    },
+    {
+     "start": "2026-11-13T06:29:52.150Z",
+     "end": "2026-11-13T06:50:02.700Z",
+     "title": "Judge Judy - S15E119"
+    },
+    {
+     "start": "2026-11-13T06:50:02.700Z",
+     "end": "2026-11-13T07:09:02.670Z",
+     "title": "Judge Judy 2001 S06E015 PDTV"
+    }
+   ]
+  },
+  {
+   "number": 63,
+   "name": "Notice",
+   "genre": "TV",
+   "logo": "../../server/config/logos/notice.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:00:00.000Z",
+     "end": "2026-11-13T02:00:00.000Z",
+     "title": "More PSAs"
+    },
+    {
+     "start": "2026-11-13T02:00:00.000Z",
+     "end": "2026-11-13T04:00:00.000Z",
+     "title": "More PSAs"
+    },
+    {
+     "start": "2026-11-13T04:00:00.000Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "More PSAs"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:17:30.330Z",
+     "title": "PSAs"
+    }
+   ]
+  },
+  {
+   "number": 60,
+   "name": "Suds",
+   "genre": "TV",
+   "logo": "../../server/config/logos/suds.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:29:32.740Z",
+     "end": "2026-11-13T00:55:00.650Z",
+     "title": "Peyton Place - Episode 018 (November 17, 1964)"
+    },
+    {
+     "start": "2026-11-13T00:55:00.650Z",
+     "end": "2026-11-13T01:17:55.360Z",
+     "title": "Neighbours Episode 3052"
+    },
+    {
+     "start": "2026-11-13T01:17:55.360Z",
+     "end": "2026-11-13T02:06:16.650Z",
+     "title": "The Colbys S01E12"
+    },
+    {
+     "start": "2026-11-13T02:06:16.650Z",
+     "end": "2026-11-13T02:35:57.590Z",
+     "title": "10"
+    },
+    {
+     "start": "2026-11-13T02:35:57.590Z",
+     "end": "2026-11-13T03:08:32.170Z",
+     "title": "classic Eastenders (29 December 1987)"
+    },
+    {
+     "start": "2026-11-13T03:08:32.170Z",
+     "end": "2026-11-13T03:37:12.700Z",
+     "title": "June 4th 1999"
+    },
+    {
+     "start": "2026-11-13T03:37:12.700Z",
+     "end": "2026-11-13T04:02:37.900Z",
+     "title": "Peyton Place - Episode 002 (September 17, 1964)"
+    },
+    {
+     "start": "2026-11-13T04:02:37.900Z",
+     "end": "2026-11-13T04:25:35.150Z",
+     "title": "Neighbours Episode 2995"
+    },
+    {
+     "start": "2026-11-13T04:25:35.150Z",
+     "end": "2026-11-13T04:54:51.190Z",
+     "title": "1585. 2009-02-06 b00hd65z original"
+    },
+    {
+     "start": "2026-11-13T04:54:51.190Z",
+     "end": "2026-11-13T05:42:54.230Z",
+     "title": "Falcon Crest S07 E02 Obsession, Possession"
+    },
+    {
+     "start": "2026-11-13T05:42:54.230Z",
+     "end": "2026-11-13T06:14:35.020Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:14:35.020Z",
+     "end": "2026-11-13T06:39:39.410Z",
+     "title": "Peyton Place - Episode 232 (June 16, 1966)"
+    },
+    {
+     "start": "2026-11-13T06:39:39.410Z",
+     "end": "2026-11-13T07:22:28.330Z",
+     "title": "A MC 92-01-02 Ep 5695 (munecojim w heartgal54-bradamloverAMC) (Thu Full) AIRDATE (TV-IV Correct) Jan 02 #5695"
+    }
+   ]
+  },
+  {
+   "number": 61,
+   "name": "Chatter",
+   "genre": "TV",
+   "logo": "../../server/config/logos/chatter.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:10:31.070Z",
+     "end": "2026-11-13T00:33:25.790Z",
+     "title": "1979-07-09 George Burns"
+    },
+    {
+     "start": "2026-11-13T00:33:25.790Z",
+     "end": "2026-11-13T01:50:57.930Z",
+     "title": "Sally - Send My Wild Teen To Prison! - Wild Teens Behind Bars!"
+    },
+    {
+     "start": "2026-11-13T01:50:57.930Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "20240204 181704"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:37:08.210Z",
+     "title": "Sally - You Ruined My Reputation"
+    },
+    {
+     "start": "2026-11-13T06:37:08.210Z",
+     "end": "2026-11-13T07:00:06.450Z",
+     "title": "1977-10-24 Louise Lasser"
+    }
+   ]
+  },
+  {
+   "number": 64,
+   "name": "Pulse",
+   "genre": "TV",
+   "logo": "../../server/config/logos/pulse.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:10:40.580Z",
+     "end": "2026-11-13T00:45:04.190Z",
+     "title": "Quincy, M.E"
+    },
+    {
+     "start": "2026-11-13T00:45:04.190Z",
+     "end": "2026-11-13T01:30:09.550Z",
+     "title": "Dr Quinn S 01 E 01"
+    },
+    {
+     "start": "2026-11-13T01:30:09.550Z",
+     "end": "2026-11-13T01:40:09.600Z",
+     "title": "Empty Nest"
+    },
+    {
+     "start": "2026-11-13T01:40:09.600Z",
+     "end": "2026-11-13T02:28:51.650Z",
+     "title": "S05E02 Results"
+    },
+    {
+     "start": "2026-11-13T02:28:51.650Z",
+     "end": "2026-11-13T03:15:33.080Z",
+     "title": "Quincy ME | A Good Smack in the Mouth | S 2 E 8 | St: Jack Klugman"
+    },
+    {
+     "start": "2026-11-13T03:15:33.080Z",
+     "end": "2026-11-13T04:42:05.100Z",
+     "title": "All Creatures Great And Small (1975)"
+    },
+    {
+     "start": "2026-11-13T04:42:05.100Z",
+     "end": "2026-11-13T05:05:32.730Z",
+     "title": "Doogie Howser, M.D. - S02E01 - Doogenstein"
+    },
+    {
+     "start": "2026-11-13T05:05:32.730Z",
+     "end": "2026-11-13T05:54:15.770Z",
+     "title": "Casualty S13 E1 Internal Inferno Part One"
+    },
+    {
+     "start": "2026-11-13T05:54:15.770Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "01 When the Rooster Dies - fiveofseven"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:50:53.920Z",
+     "title": "EMERGENCY S1 09"
+    },
+    {
+     "start": "2026-11-13T06:50:53.920Z",
+     "end": "2026-11-13T07:15:21.920Z",
+     "title": "1 - Too Many Cooks"
+    }
+   ]
+  },
+  {
+   "number": 65,
+   "name": "Tinsel",
+   "genre": "TV",
+   "logo": "../../server/config/logos/tinsel.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:22:20.490Z",
+     "end": "2026-11-13T02:16:33.670Z",
+     "title": "Scrooge"
+    },
+    {
+     "start": "2026-11-13T02:16:33.670Z",
+     "end": "2026-11-13T03:24:14.920Z",
+     "title": "Mannheim Steamroller Christmas Album"
+    },
+    {
+     "start": "2026-11-13T03:24:14.920Z",
+     "end": "2026-11-13T03:47:22.070Z",
+     "title": "Ozzie & Harriet: Late Christmas Gift"
+    },
+    {
+     "start": "2026-11-13T03:47:22.070Z",
+     "end": "2026-11-13T04:15:35.900Z",
+     "title": "Oprah Winfrey (partial), Valentine's Day 1989"
+    },
+    {
+     "start": "2026-11-13T04:15:35.900Z",
+     "end": "2026-11-13T04:42:08.580Z",
+     "title": "60 04 17 The Jack Benny Program S 10e 14 Easter Show"
+    },
+    {
+     "start": "2026-11-13T04:42:08.580Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Metro Cable Yule Log 2017"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:09:09.720Z",
+     "title": "Christmas Classics Sing-Along Part 1"
+    },
+    {
+     "start": "2026-11-13T06:09:09.720Z",
+     "end": "2026-11-13T06:59:25.020Z",
+     "title": "Witcheroo (1993) VHS - Disney Afternoon Halloween Episode Tape"
+    }
+   ]
+  },
+  {
+   "number": 66,
+   "name": "Dreamtime",
+   "genre": "TV",
+   "logo": "../../server/config/logos/dreamtime.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:01:12.300Z",
+     "end": "2026-11-13T04:31:55.960Z",
+     "title": "Glasgow Fort William Mallaig Cab Ride (2012)"
+    },
+    {
+     "start": "2026-11-13T04:31:55.960Z",
+     "end": "2026-11-13T05:01:34.140Z",
+     "title": "Nature Sounds 28"
+    },
+    {
+     "start": "2026-11-13T05:01:34.140Z",
+     "end": "2026-11-13T05:21:45.900Z",
+     "title": "Nemo Aquarium- a Full HD Finding Nemo Screensaver"
+    },
+    {
+     "start": "2026-11-13T05:21:45.900Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:59:35.380Z",
+     "title": "Fireplace Video"
+    }
+   ]
+  },
+  {
+   "number": 67,
+   "name": "Nightcap",
+   "genre": "TV",
+   "logo": "../../server/config/logos/nightcap.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:12:10.820Z",
+     "end": "2026-11-13T01:12:36.240Z",
+     "title": "Johnny Carson (December 17, 1969) Florance Henderson, Phyllis Diller Tiny Tim's Wedding WOC"
+    },
+    {
+     "start": "2026-11-13T01:12:36.240Z",
+     "end": "2026-11-13T02:00:09.660Z",
+     "title": "DVD 2B Johnny Goes Home"
+    },
+    {
+     "start": "2026-11-13T02:00:09.660Z",
+     "end": "2026-11-13T02:43:17.720Z",
+     "title": "Conan O Brien 2009 12 21 Christina Applegate"
+    },
+    {
+     "start": "2026-11-13T02:43:17.720Z",
+     "end": "2026-11-13T03:26:27.750Z",
+     "title": "Conan O Brien 2009 09 14 Charlize Theron"
+    },
+    {
+     "start": "2026-11-13T03:26:27.750Z",
+     "end": "2026-11-13T04:07:44.470Z",
+     "title": "1993-12-31 Late Show With David Letterman"
+    },
+    {
+     "start": "2026-11-13T04:07:44.470Z",
+     "end": "2026-11-13T04:17:49.120Z",
+     "title": "Chris Hayes on Late Night With Seth Meyers"
+    },
+    {
+     "start": "2026-11-13T04:17:49.120Z",
+     "end": "2026-11-13T05:17:53.590Z",
+     "title": "Late Night with David Letterman (April 10, 1985) Julian Lennon Bill Wendell Beulah Bayer woc"
+    },
+    {
+     "start": "2026-11-13T05:17:53.590Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Conan O Brien 2009 07 28 Heidi Klum"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T07:07:18.340Z",
+     "title": "The Tonight Show Starring Jimmy Fallon: 10th Anniversary Special : WTWC : August 14, 2024 9:00pm-10:07pm EDT"
+    }
+   ]
+  },
+  {
+   "number": 68,
+   "name": "Hijinks",
+   "genre": "TV",
+   "logo": "../../server/config/logos/hijinks.png",
+   "programmes": [
+    {
+     "start": "2026-11-12T23:46:28.890Z",
+     "end": "2026-11-13T00:50:11.150Z",
+     "title": "Muppets Magic from The Ed Sullivan Show (2003)"
+    },
+    {
+     "start": "2026-11-13T00:50:11.150Z",
+     "end": "2026-11-13T02:01:17.820Z",
+     "title": "05 George Carlin, Frankie Goes to hollywood"
+    },
+    {
+     "start": "2026-11-13T02:01:17.820Z",
+     "end": "2026-11-13T02:51:42.980Z",
+     "title": "Colgate Comedy Hour with singer Jane Morgan 1951"
+    },
+    {
+     "start": "2026-11-13T02:51:42.980Z",
+     "end": "2026-11-13T03:53:07.660Z",
+     "title": "SCTV Coming Soon!! (The Movie) Compilation-B8paN5EpLkQ"
+    },
+    {
+     "start": "2026-11-13T03:53:07.660Z",
+     "end": "2026-11-13T04:18:57.740Z",
+     "title": "Mr. Show S03E01 - Heaven's Chimney"
+    },
+    {
+     "start": "2026-11-13T04:18:57.740Z",
+     "end": "2026-11-13T04:41:40.240Z",
+     "title": "Carol & Company - Carol Burnett"
+    },
+    {
+     "start": "2026-11-13T04:41:40.240Z",
+     "end": "2026-11-13T05:20:04.040Z",
+     "title": "MADtv - S05 E22"
+    },
+    {
+     "start": "2026-11-13T05:20:04.040Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Smothers Brothers Comedy Hour 68 02 04 2 21 Arthur Godfrey, Bee Gees, Moms Mabley"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:23:11.460Z",
+     "title": "In Living Color S01E09"
+    },
+    {
+     "start": "2026-11-13T06:23:11.460Z",
+     "end": "2026-11-13T06:48:42.820Z",
+     "title": "It's Showtime At The Apollo- October 10, 1987 (partial)"
+    },
+    {
+     "start": "2026-11-13T06:48:42.820Z",
+     "end": "2026-11-13T07:16:54.810Z",
+     "title": "Mr. Show S02E05 - Operation Hell On Earth"
+    }
+   ]
+  },
+  {
+   "number": 69,
+   "name": "Postcard",
+   "genre": "TV",
+   "logo": "../../server/config/logos/postcard.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:16:46.020Z",
+     "end": "2026-11-13T01:16:06.180Z",
+     "title": "Great Continental Railway Journeys Series 6 1. Kiev to Odessa b09vjw8m signed"
+    },
+    {
+     "start": "2026-11-13T01:16:06.180Z",
+     "end": "2026-11-13T01:29:40.160Z",
+     "title": "Century of Progress Exposition - Around the Fair With Burton Holmes"
+    },
+    {
+     "start": "2026-11-13T01:29:40.160Z",
+     "end": "2026-11-13T02:13:27.610Z",
+     "title": "an-idiot-abroad-season-1-episode-1"
+    },
+    {
+     "start": "2026-11-13T02:13:27.610Z",
+     "end": "2026-11-13T02:55:29.020Z",
+     "title": "Anthony Bourdain U. S. Desert"
+    },
+    {
+     "start": "2026-11-13T02:55:29.020Z",
+     "end": "2026-11-13T03:42:04.050Z",
+     "title": "Burt Wolf Travels & Traditions"
+    },
+    {
+     "start": "2026-11-13T03:42:04.050Z",
+     "end": "2026-11-13T04:25:51.500Z",
+     "title": "an-idiot-abroad-season-1-episode-2"
+    },
+    {
+     "start": "2026-11-13T04:25:51.500Z",
+     "end": "2026-11-13T04:39:12.420Z",
+     "title": "SONORA MEXICO 1940s TRAVELOGUE NOGALES, HERMOSILLO, LOS ALAMOS, GUAYMAS 49624"
+    },
+    {
+     "start": "2026-11-13T04:39:12.420Z",
+     "end": "2026-11-13T05:07:28.920Z",
+     "title": "TOH 0202 - 1982 - Woburn"
+    },
+    {
+     "start": "2026-11-13T05:07:28.920Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "1989. Around the World in 80 Days with Michael Palin (Episode 2)"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:25:01.010Z",
+     "title": "Bulgaria"
+    },
+    {
+     "start": "2026-11-13T06:25:01.010Z",
+     "end": "2026-11-13T07:20:13.170Z",
+     "title": "Video Visits - Brazil"
+    }
+   ]
+  },
+  {
+   "number": 70,
+   "name": "Bedlam",
+   "genre": "TV",
+   "logo": "../../server/config/logos/bedlam.png",
+   "programmes": [
+    {
+     "start": "2026-11-13T00:08:26.600Z",
+     "end": "2026-11-13T00:37:10.010Z",
+     "title": "Outlaw Star Episode 3 'Into Burning Space' Toonami ( Full Episode)-MXf-P55iWNY"
+    },
+    {
+     "start": "2026-11-13T00:37:10.010Z",
+     "end": "2026-11-13T00:54:24.530Z",
+     "title": "Beavis Butt Head 1992 97"
+    },
+    {
+     "start": "2026-11-13T00:54:24.530Z",
+     "end": "2026-11-13T01:06:08.840Z",
+     "title": "3-01 - Numb"
+    },
+    {
+     "start": "2026-11-13T01:06:08.840Z",
+     "end": "2026-11-13T01:29:29.830Z",
+     "title": "Samurai Champloo - S01E11 - Gamblers And Gallantry"
+    },
+    {
+     "start": "2026-11-13T01:29:29.830Z",
+     "end": "2026-11-13T01:50:05.870Z",
+     "title": "S01E06 - Episode 06"
+    },
+    {
+     "start": "2026-11-13T01:50:05.870Z",
+     "end": "2026-11-13T02:12:37.210Z",
+     "title": "The Venture Bros S01E06"
+    },
+    {
+     "start": "2026-11-13T02:12:37.210Z",
+     "end": "2026-11-13T02:24:21.120Z",
+     "title": "2-05 - Offensiveness"
+    },
+    {
+     "start": "2026-11-13T02:24:21.120Z",
+     "end": "2026-11-13T02:47:03.620Z",
+     "title": "Duckman S03E08 Clear and Presidente Danger"
+    },
+    {
+     "start": "2026-11-13T02:47:03.620Z",
+     "end": "2026-11-13T03:08:26.220Z",
+     "title": "S04E01 - Episode 59"
+    },
+    {
+     "start": "2026-11-13T03:08:26.220Z",
+     "end": "2026-11-13T03:27:32.170Z",
+     "title": "S2 E3 The Boondocks Thank You For Not Snitching"
+    },
+    {
+     "start": "2026-11-13T03:27:32.170Z",
+     "end": "2026-11-13T04:13:22.720Z",
+     "title": "Home Movies"
+    },
+    {
+     "start": "2026-11-13T04:13:22.720Z",
+     "end": "2026-11-13T04:35:38.670Z",
+     "title": "ep12 The F-Word"
+    },
+    {
+     "start": "2026-11-13T04:35:38.670Z",
+     "end": "2026-11-13T04:59:30.730Z",
+     "title": "Mobile Suit Gundam SEED Phase 33 - The Descending Sword (1920x1080"
+    },
+    {
+     "start": "2026-11-13T04:59:30.730Z",
+     "end": "2026-11-13T05:09:53.590Z",
+     "title": "S00E00 Frog Baseball"
+    },
+    {
+     "start": "2026-11-13T05:09:53.590Z",
+     "end": "2026-11-13T05:32:36.630Z",
+     "title": "11 - A Day at the Races and a Night at the Opera"
+    },
+    {
+     "start": "2026-11-13T05:32:36.630Z",
+     "end": "2026-11-13T06:00:00.000Z",
+     "title": "Shorts"
+    },
+    {
+     "start": "2026-11-13T06:00:00.000Z",
+     "end": "2026-11-13T06:22:17.410Z",
+     "title": "King of the Hill Season 2 Episode 2 – Texas City Twister"
+    },
+    {
+     "start": "2026-11-13T06:22:17.410Z",
+     "end": "2026-11-13T06:33:48.080Z",
+     "title": "12 Oz. Mouse - S1E05 - Rememorized"
+    },
+    {
+     "start": "2026-11-13T06:33:48.080Z",
+     "end": "2026-11-13T06:57:40.170Z",
+     "title": "Mobile Suit Gundam SEED Phase 18 - Fangs of the Enemy (1920x1080"
+    },
+    {
+     "start": "2026-11-13T06:57:40.170Z",
+     "end": "2026-11-13T07:08:35.690Z",
+     "title": "Sealab 2021 - S04E06 - Neptunati"
+    }
+   ]
+  }
+ ]
+}

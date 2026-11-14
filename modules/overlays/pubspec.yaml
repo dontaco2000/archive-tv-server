@@ -1,0 +1,10 @@
+name: archive_tv_overlays
+description: Burned-in overlay filter graphs (ffmpeg) for Archive TV Server. Pure Dart, no I/O.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.0.0
+
+dev_dependencies:
+  test: ^1.31.0

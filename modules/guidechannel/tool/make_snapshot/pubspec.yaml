@@ -1,0 +1,10 @@
+name: make_snapshot
+description: Dev helper - builds a guidechannel snapshot from real Archive TV data (channels.json + saved pools) using the app's core scheduler. Kept outside the guidechannel package so the package has no dependency on app code.
+publish_to: none
+environment:
+  sdk: ^3.5.0
+dependencies:
+  archive_tv_core:
+    git:
+      url: https://github.com/dontaco2000/archive-tv.git
+      path: core

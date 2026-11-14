@@ -1,0 +1,21 @@
+name: archivetv_server
+description: Plex Live TV tuner (HDHomeRun API + XMLTV) for the Archive TV channels.
+version: 0.1.0
+publish_to: none
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  archive_tv_core:
+    git:
+      url: https://github.com/dontaco2000/archive-tv.git
+      path: core
+  http: ^1.2.2
+  archive_tv_overlays:
+    path: ../modules/overlays
+  guidechannel:
+    path: ../modules/guidechannel
+
+dev_dependencies:
+  test: ^1.25.0
