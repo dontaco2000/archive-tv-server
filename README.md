@@ -1,3 +1,11 @@
+<p align="center"><img src="docs/banner.png" alt="Archive TV Server: Plex Live TV tuner for Archive TV" width="720"></p>
+
+<p align="center">
+<a href="https://github.com/dontaco2000/archive-tv/releases/latest"><img alt="Archive TV app release" src="https://img.shields.io/github/v/release/dontaco2000/archive-tv?color=f87d28&label=app%20release"></a>
+<a href="LICENSE"><img alt="License: GPL-3.0" src="https://img.shields.io/badge/license-GPL--3.0-3fa7a0"></a>
+<img alt="Runs on Linux" src="https://img.shields.io/badge/runs%20on-Linux%20x64-5a3a22">
+</p>
+
 # Archive TV Server
 
 A **Plex Live TV source** for the [Archive TV](https://github.com/dontaco2000/archive-tv) channels. It pretends to be an HDHomeRun network tuner and serves an XMLTV guide, so every Plex client (TV apps, phones, Plex Web) can watch the Archive TV channels under **Live TV**, with a full programme guide, and nothing extra to install on the viewing devices.
