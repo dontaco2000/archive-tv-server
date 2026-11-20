@@ -949,7 +949,36 @@
     "bobobo_bo_bo_bobo/Boboboubo Boubobo - Rcap Episode .mp4",
     "dws-8.5.40_202302",
     "TheAdventuresOfLongJohnSilverMissPuritysBirthday",
-    "TheAdventuresOfLongJohnSilverSwordOfVengeance.3gp"
+    "TheAdventuresOfLongJohnSilverSwordOfVengeance.3gp",
+    "mysterious-cities-of-gold-1982-eng/S00E01 - Interview with the Dubbing Cast.mp4",
+    "mysterious-cities-of-gold-1982-eng/S00E02 - The Story Of The Production.mp4",
+    "mysterious-cities-of-gold-1982-eng/S00E03 - Dubbing Scene Recreation.mp4",
+    "captain-video-serial-trailer-colorized/CV trailer.mp4",
+    "return-of-chandu/preview01.mp4",
+    "return-of-chandu/preview02.mp4",
+    "return-of-chandu/preview03.mp4",
+    "return-of-chandu/preview04.mp4",
+    "return-of-chandu/preview05.mp4",
+    "return-of-chandu/preview06.mp4",
+    "return-of-chandu/preview07.mp4",
+    "return-of-chandu/preview08.mp4",
+    "return-of-chandu/preview09.mp4",
+    "return-of-chandu/preview10.mp4",
+    "return-of-chandu/preview11.mp4",
+    "return-of-chandu/preview12.mp4",
+    "master-key-serial/preview04.mp4",
+    "master-key-serial/preview05.mp4",
+    "master-key-serial/preview06.mp4",
+    "master-key-serial/preview07.mp4",
+    "master-key-serial/preview08.mp4",
+    "master-key-serial/preview09.mp4",
+    "master-key-serial/preview10.mp4",
+    "master-key-serial/preview11.mp4",
+    "master-key-serial/preview12.mp4",
+    "fighting-devil-dogs/preview14.mp4",
+    "fighting-devil-dogs/preview15.mp4",
+    "pirate-treasure-serial/preview01a.mp4",
+    "pirate-treasure-serial/preview01b.mp4"
   ],
   "channels": [
     {
@@ -1396,18 +1425,6 @@
         },
         {
           "identifiers": [
-            "Thundercats_Cartoon",
-            "thundercats_20250306",
-            "silverhawks-hd"
-          ],
-          "ignoreYear": true,
-          "maxEntriesPerItem": 10,
-          "tag": "funnies_saturday",
-          "label": "ThunderCats / SilverHawks",
-          "era": "80s"
-        },
-        {
-          "identifiers": [
             "transformers-season-1",
             "thetransformers1986",
             "challenge-of-the-gobots"
@@ -1432,8 +1449,6 @@
         },
         {
           "identifiers": [
-            "visionaries-full-series",
-            "jayce-and-the-wheeled-warriors-e-59",
             "starcomtheu.s.spaceforceUpscale",
             "DinoRidersEpisode1TheAdventureBegins",
             "bravestarr-english"
@@ -1831,8 +1846,7 @@
             39,
             40,
             41,
-            42,
-            43
+            42
           ]
         },
         {
@@ -1843,6 +1857,7 @@
           "start": "10:00",
           "end": "12:00",
           "sources": [
+            43,
             44,
             45,
             46,
@@ -1861,8 +1876,7 @@
             59,
             60,
             61,
-            62,
-            63
+            62
           ]
         }
       ]
@@ -1891,7 +1905,6 @@
         {
           "identifiers": [
             "Batman1943Chapter01TheElectricalBrain",
-            "batman-and-robin-movie-serial-1949_202205",
             "batman.-the.-movie.-1966.i",
             "episode-1_202302"
           ],
@@ -1902,8 +1915,6 @@
           "identifiers": [
             "MaxFleischerSuperman",
             "TheAdventuresOfSuperman",
-            "superman-1948_202205",
-            "atom-man-vs-superman-serial",
             "superman-the-animated-series-season-1"
           ],
           "maxEntriesPerItem": 17,
@@ -1983,12 +1994,6 @@
           "ignoreYear": true
         },
         {
-          "query": "(identifier:(captain_america_ep* OR green_hornet_ep* OR AdventuresOfCaptainMarvelChapters112 OR ThePhantom1943Serial-15Chapters)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR game_replays OR us_congress) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-* OR CLE-* OR NJY-* OR VHS-0* OR mubd1234ama-*) AND -title:(trailer OR promo OR promos OR teaser OR commercial OR commercials OR credits OR intro OR opening OR bumper OR parody OR spoof OR \"vhs tape\" OR \"vhs fb\" OR \"random tv\" OR \"taped over\" OR review OR reaction OR \"every movie ever\" OR longplay OR mashup)",
-          "ignoreYear": true,
-          "maxEntries": 45,
-          "maxEntriesPerItem": 15
-        },
-        {
           "identifiers": [
             "GreenHornetTV"
           ],
@@ -2064,17 +2069,175 @@
             9,
             10,
             11,
+            14,
             15,
             16,
             17,
-            18,
-            19
+            18
           ]
         }
       ]
     },
     {
       "number": 4,
+      "name": "Syndi-Toons",
+      "logo": "Logos/4x3/synditoons.png",
+      "genre": "Kids & Animation",
+      "primeTime": {
+        "start": "15:00",
+        "slots": 3,
+        "slotMinutes": 60
+      },
+      "serials": [
+        {
+          "start": "15:00",
+          "epoch": "2026-11-19",
+          "perDay": 2,
+          "shows": [
+            {
+              "title": "Galaxy Rangers",
+              "identifiers": [
+                "adventures-of-the-galaxy-rangers-complete-series-1986"
+              ],
+              "episode": "\\(Ep\\. (\\d+)\\)"
+            }
+          ]
+        },
+        {
+          "start": "16:00",
+          "epoch": "2026-11-19",
+          "perDay": 2,
+          "shows": [
+            {
+              "title": "Defenders of the Earth",
+              "identifiers": [
+                "defenders-of-the-earth-complete-series-1986"
+              ],
+              "episode": "Episode # (\\d+) ",
+              "exclude": "Episode # 00"
+            }
+          ]
+        },
+        {
+          "start": "17:00",
+          "epoch": "2026-11-19",
+          "perDay": 2,
+          "shows": [
+            {
+              "title": "Bionic Six",
+              "identifiers": [
+                "bionic-six"
+              ],
+              "episode": "S(\\d\\d)E(\\d\\d)",
+              "include": "S\\d\\dE\\d\\d"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "identifiers": [
+            "bionic-six",
+            "dinosaucers_202608"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "adventures-of-the-galaxy-rangers-complete-series-1986",
+            "defenders-of-the-earth-complete-series-1986"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "mighty-orbots",
+            "the-pirates-of-dark-water-1991-hd",
+            "the-bots-master"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "sectaurs-s-01-e-05-battle-of-the-hyve",
+            "sky_commanders",
+            "skysurfer-strike-force-s01",
+            "skysurfer-strike-force-s02",
+            "blackstar-complete-series-1981",
+            "Thundarr_the_Barbarian"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "ulysses-31-1981",
+            "mysterious-cities-of-gold-1982-eng",
+            "saber-rider-and-the-star-sheriffs-complete-series",
+            "buckyohareandthetoadwarsAIUpscale"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "extreme-dinosaurs-1997",
+            "extreme-ghostbusters-complete-series-1997",
+            "toxic-crusaders-1991_202403",
+            "lazer-tag-academy-complete-series-1986",
+            "MummiesAliveEpisode10Paws",
+            "conan-the-adventurer-complete-series-1992"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "rambo_the_force_of_freedom",
+            "police-academy-Lando18",
+            "51.-the-darkness-within",
+            "action-man-1995_202512"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "18FaceOfFury",
+            "mega-man-the-complete-tv-series-collection",
+            "dragon-flyz-s-01-e-09-bugz",
+            "wild-c.-a.-t.-s.-ep.-08-betrayed-480p-rp-dvdrip_202503"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "Thundercats_Cartoon",
+            "thundercats_20250306",
+            "silverhawks-hd",
+            "visionaries-full-series",
+            "jayce-and-the-wheeled-warriors-e-59"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "merge5"
+        }
+      ]
+    },
+    {
+      "number": 5,
       "name": "Sakura",
       "logo": "Logos/4x3/sakura.png",
       "genre": "Kids & Animation",
@@ -2263,7 +2426,7 @@
       ]
     },
     {
-      "number": 5,
+      "number": 6,
       "name": "Playroom",
       "logo": "Logos/4x3/playroom.png",
       "genre": "Kids & Animation",
@@ -2370,7 +2533,7 @@
       ]
     },
     {
-      "number": 6,
+      "number": 7,
       "name": "Storytime",
       "logo": "Logos/4x3/storytime.png",
       "genre": "Kids & Animation",
@@ -2537,7 +2700,7 @@
       ]
     },
     {
-      "number": 7,
+      "number": 8,
       "name": "Homeroom",
       "logo": "Logos/4x3/homeroom.png",
       "genre": "Kids & Animation",
@@ -2815,7 +2978,7 @@
       ]
     },
     {
-      "number": 8,
+      "number": 9,
       "name": "Affiliate",
       "logo": "Logos/4x3/affiliate.png",
       "genre": "Kids & Animation",
@@ -3696,29 +3859,6 @@
       "sources": [
         {
           "identifiers": [
-            "star-trek-1x-01-the-cage_20231231",
-            "star-trek-tas-s-01-e-05"
-          ],
-          "maxEntriesPerItem": 30,
-          "ignoreYear": true
-        },
-        {
-          "identifiers": [
-            "ST9_mp4"
-          ],
-          "maxEntriesPerItem": 40,
-          "ignoreYear": true
-        },
-        {
-          "identifiers": [
-            "star-trek-voyager-s-1-e-1-caretaker",
-            "star-trek-enterprise-complete"
-          ],
-          "maxEntriesPerItem": 24,
-          "ignoreYear": true
-        },
-        {
-          "identifiers": [
             "stargate-movie",
             "season-2-ep-6-thors-chariot",
             "season-3-ep-7-deadman-switch",
@@ -3931,27 +4071,6 @@
         },
         {
           "identifiers": [
-            "twilight-zone-season-one-DVD",
-            "the-twilight-zone-season-2_202411",
-            "the-twilight-zone-s-2-e-1-colorized-720p-hd",
-            "the-twilight-zone-s-3e-1-colorized-720p-hd",
-            "the-twilight-zone-s-4e-3-colorized-720p-hd",
-            "twilight-zone-1985-1x-01-shatterday"
-          ],
-          "maxEntriesPerItem": 12,
-          "ignoreYear": true,
-          "maxEntries": 60
-        },
-        {
-          "identifiers": [
-            "the-outer-limits-1963-season-1",
-            "OuterLimitsPilot"
-          ],
-          "maxEntriesPerItem": 16,
-          "ignoreYear": true
-        },
-        {
-          "identifiers": [
             "buck-rogers-01-the-awakening",
             "buck-rogers-1939-serial-colorized"
           ],
@@ -3990,21 +4109,10 @@
           "ignoreYear": true
         },
         {
-          "query": "(title:(\"flash gordon\" OR \"rocky jones\" OR \"captain video\" OR \"space patrol\" OR \"tom corbett\" OR \"commando cody\" OR \"radar men from the moon\" OR \"zombies of the stratosphere\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR game_replays OR us_congress) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-* OR CLE-* OR NJY-* OR VHS-0* OR mubd1234ama-*) AND -title:(trailer OR promo OR promos OR teaser OR commercial OR commercials OR credits OR intro OR opening OR bumper OR parody OR spoof OR \"vhs tape\" OR \"vhs fb\" OR \"random tv\" OR \"taped over\" OR review OR reaction OR \"every movie ever\" OR longplay OR mashup) AND -title:(longplay OR speedrun OR gameplay OR walkthrough OR c64 OR a2600 OR nes OR activision OR toy OR toys OR fan OR \"fan film\" OR reaction OR \"screen recording\") AND downloads:[2000 TO 99999999] AND -title:(1980 OR \"blu ray\" OR fzmovies OR vcd OR 2007 OR \"the movie\" OR comic OR audiobook OR radio OR \"otr\" OR mst3k OR \"mystery science\" OR rocketmen OR \"burns and allen\") AND -identifier:(GracieAllenSpaceGirls)",
+          "query": "(title:(\"rocky jones\" OR \"captain video\" OR \"space patrol\" OR \"tom corbett\" OR \"commando cody\" OR \"radar men from the moon\" OR \"zombies of the stratosphere\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR game_replays OR us_congress) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-* OR CLE-* OR NJY-* OR VHS-0* OR mubd1234ama-*) AND -title:(trailer OR promo OR promos OR teaser OR commercial OR commercials OR credits OR intro OR opening OR bumper OR parody OR spoof OR \"vhs tape\" OR \"vhs fb\" OR \"random tv\" OR \"taped over\" OR review OR reaction OR \"every movie ever\" OR longplay OR mashup) AND -title:(longplay OR speedrun OR gameplay OR walkthrough OR c64 OR a2600 OR nes OR activision OR toy OR toys OR fan OR \"fan film\" OR reaction OR \"screen recording\") AND downloads:[2000 TO 99999999] AND -title:(1980 OR \"blu ray\" OR fzmovies OR vcd OR 2007 OR \"the movie\" OR comic OR audiobook OR radio OR \"otr\" OR mst3k OR \"mystery science\" OR rocketmen OR \"burns and allen\") AND -identifier:(GracieAllenSpaceGirls)",
           "ignoreYear": true,
           "maxEntries": 30,
           "maxEntriesPerItem": 5
-        },
-        {
-          "identifiers": [
-            "tales-of-tomorrow-1951-53",
-            "science-fiction-theatre-season-1",
-            "science-fiction-theatre-season-2",
-            "one-step-beyond",
-            "AmazingStories"
-          ],
-          "maxEntriesPerItem": 12,
-          "ignoreYear": true
         },
         {
           "identifiers": [
@@ -4073,11 +4181,173 @@
           "maxEntriesPerItem": 1,
           "rated": "R",
           "tag": "adult2_m"
+        },
+        {
+          "identifiers": [
+            "space-cases-1996-complete-series-vhs"
+          ],
+          "maxEntriesPerItem": 26,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "space-precinct-1994"
+          ],
+          "maxEntriesPerItem": 24,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "lexx-season-one",
+            "lexx-season2"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "foldin_a",
+          "rated": "R"
         }
       ]
     },
     {
       "number": 14,
+      "name": "Starbase",
+      "logo": "Logos/4x3/starbase.png",
+      "genre": "Movies",
+      "primeTime": {
+        "start": "19:00",
+        "slots": 5,
+        "slotMinutes": 60
+      },
+      "serials": [
+        {
+          "start": "19:00",
+          "epoch": "2026-11-20",
+          "perDay": 1,
+          "shows": [
+            {
+              "title": "Star Trek",
+              "identifiers": [
+                "star-trek-1x-01-the-cage_20231231"
+              ],
+              "episode": "^Star Trek - (\\d)x(\\d\\d) "
+            },
+            {
+              "title": "Star Trek: The Animated Series",
+              "identifiers": [
+                "star-trek-tas-s-01-e-05"
+              ],
+              "episode": "^Star Trek TAS S(\\d\\d)E(\\d\\d)"
+            }
+          ]
+        },
+        {
+          "start": "20:00",
+          "epoch": "2026-11-20",
+          "perDay": 1,
+          "shows": [
+            {
+              "title": "Star Trek: The Next Generation",
+              "identifiers": [
+                "ST9_mp4"
+              ],
+              "episode": "\\.TNG-s(\\d\\d)e(\\d\\d)",
+              "include": "\\.TNG-s"
+            }
+          ]
+        },
+        {
+          "start": "21:00",
+          "epoch": "2026-11-20",
+          "perDay": 1,
+          "shows": [
+            {
+              "title": "Star Trek: Deep Space Nine",
+              "identifiers": [
+                "ST9_mp4"
+              ],
+              "episode": "\\.DS9-s(\\d\\d)e(\\d\\d)",
+              "include": "\\.DS9-s"
+            }
+          ]
+        },
+        {
+          "start": "22:00",
+          "epoch": "2026-11-20",
+          "perDay": 1,
+          "shows": [
+            {
+              "title": "Star Trek: Voyager",
+              "identifiers": [
+                "ST9_mp4"
+              ],
+              "episode": "\\.VOY-s(\\d\\d)e(\\d\\d)",
+              "include": "\\.VOY-s"
+            }
+          ]
+        },
+        {
+          "start": "23:00",
+          "epoch": "2026-11-20",
+          "perDay": 1,
+          "shows": [
+            {
+              "title": "Star Trek: Enterprise",
+              "identifiers": [
+                "star-trek-enterprise-complete"
+              ],
+              "episode": "S(\\d\\d)E(\\d\\d)"
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "identifiers": [
+            "star-trek-1x-01-the-cage_20231231",
+            "star-trek-tas-s-01-e-05"
+          ],
+          "maxEntriesPerItem": 100,
+          "ignoreYear": true,
+          "tag": "newch_j"
+        },
+        {
+          "identifiers": [
+            "ST9_mp4"
+          ],
+          "maxEntriesPerItem": 600,
+          "ignoreYear": true,
+          "tag": "newch_j"
+        },
+        {
+          "identifiers": [
+            "star-trek-enterprise-complete"
+          ],
+          "maxEntriesPerItem": 100,
+          "ignoreYear": true,
+          "tag": "newch_j"
+        },
+        {
+          "identifiers": [
+            "star-trek-new-voyages-phase-ii-2004"
+          ],
+          "maxEntriesPerItem": 12,
+          "ignoreYear": true,
+          "tag": "newch_j"
+        },
+        {
+          "identifiers": [
+            "star-trek-25th-anniversary-special"
+          ],
+          "maxEntriesPerItem": 1,
+          "ignoreYear": true,
+          "tag": "newch_j"
+        }
+      ]
+    },
+    {
+      "number": 15,
       "name": "Haunt",
       "mature": true,
       "logo": "Logos/4x3/haunt.png",
@@ -4237,7 +4507,7 @@
       ]
     },
     {
-      "number": 15,
+      "number": 16,
       "name": "Teaser",
       "mature": true,
       "shortContent": "Trailers",
@@ -4271,7 +4541,7 @@
       ]
     },
     {
-      "number": 16,
+      "number": 17,
       "name": "SHUSH",
       "logo": "Logos/4x3/shush.png",
       "genre": "Movies",
@@ -4937,7 +5207,7 @@
       ]
     },
     {
-      "number": 17,
+      "number": 18,
       "name": "Matinee",
       "logo": "Logos/4x3/matinee.png",
       "genre": "Movies",
@@ -5178,7 +5448,1279 @@
       ]
     },
     {
-      "number": 18,
+      "number": 19,
+      "name": "Cliffhanger",
+      "logo": "Logos/4x3/cliffhanger.png",
+      "genre": "Movies",
+      "minSeconds": 60,
+      "primeTime": {
+        "start": "00:00",
+        "slots": 12,
+        "slotMinutes": 120
+      },
+      "serials": [
+        {
+          "start": "00:00",
+          "epoch": "2026-11-20",
+          "perDay": 9,
+          "shows": [
+            {
+              "title": "The Black Widow",
+              "identifiers": [
+                "the-black-widow-1947-colorized-serial"
+              ]
+            },
+            {
+              "title": "G-Men Never Forget",
+              "identifiers": [
+                "g-men-never-forget"
+              ]
+            },
+            {
+              "title": "Federal Operator 99",
+              "identifiers": [
+                "federal-operator-99"
+              ]
+            },
+            {
+              "title": "Don Daredevil Rides Again",
+              "identifiers": [
+                "don-daredevil-rides-again"
+              ]
+            },
+            {
+              "title": "Jesse James Rides Again",
+              "identifiers": [
+                "jesse-james-rides-again"
+              ]
+            },
+            {
+              "title": "Ghost of Zorro",
+              "identifiers": [
+                "ghost-of-zorro"
+              ]
+            },
+            {
+              "title": "The Adventures of Frank and Jesse James",
+              "identifiers": [
+                "adventures-of-frank-and-jesse-james"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "02:00",
+          "epoch": "2026-11-20",
+          "perDay": 9,
+          "shows": [
+            {
+              "title": "Canadian Mounties vs. Atomic Invaders",
+              "identifiers": [
+                "canadian-mounties-vs-atomic-invaders"
+              ]
+            },
+            {
+              "title": "King of the Rocket Men",
+              "identifiers": [
+                "king-of-the-rocket-men"
+              ]
+            },
+            {
+              "title": "Radar Men from the Moon",
+              "identifiers": [
+                "radar-men-from-the-moon"
+              ]
+            },
+            {
+              "title": "Flying Disc Man from Mars",
+              "identifiers": [
+                "flying-disc-man"
+              ]
+            },
+            {
+              "title": "The Invisible Monster",
+              "identifiers": [
+                "invisible-monster"
+              ]
+            },
+            {
+              "title": "The Purple Monster Strikes",
+              "identifiers": [
+                "the-purple-monster-strikes-1945-colorized-cliffhanger-serial"
+              ]
+            },
+            {
+              "title": "Manhunt of Mystery Island",
+              "identifiers": [
+                "manhunt-of-mystery-island-1945-colorized-cliffhanger-serial"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "04:00",
+          "epoch": "2026-11-20",
+          "perDay": 7,
+          "shows": [
+            {
+              "title": "The Master Key",
+              "identifiers": [
+                "master-key-serial"
+              ],
+              "exclude": "(^|/)(preview|trailer)|trailer"
+            },
+            {
+              "title": "The Spider's Web",
+              "identifiers": [
+                "spiders-web"
+              ]
+            },
+            {
+              "title": "The Mysterious Mr. M",
+              "identifiers": [
+                "mysterious-mr-m"
+              ]
+            },
+            {
+              "title": "The Return of Chandu",
+              "identifiers": [
+                "return-of-chandu"
+              ],
+              "exclude": "(^|/)(preview|trailer)|trailer"
+            },
+            {
+              "title": "Mandrake the Magician",
+              "identifiers": [
+                "mandrake-the-magician-serial"
+              ]
+            },
+            {
+              "title": "Dick Tracy Returns",
+              "identifiers": [
+                "dick-tracy-returns-serial"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "06:00",
+          "epoch": "2026-11-20",
+          "perDay": 7,
+          "shows": [
+            {
+              "title": "Dick Tracy's G-Men",
+              "identifiers": [
+                "dick-tracys-gmen-serial-1939"
+              ]
+            },
+            {
+              "title": "The Great Adventures of Captain Kidd",
+              "identifiers": [
+                "great-adventures-of-captain-kidd"
+              ]
+            },
+            {
+              "title": "Haunted Harbor",
+              "identifiers": [
+                "haunted-harbor"
+              ]
+            },
+            {
+              "title": "The Fighting Devil Dogs",
+              "identifiers": [
+                "fighting-devil-dogs"
+              ],
+              "exclude": "(^|/)(preview|trailer)|trailer"
+            },
+            {
+              "title": "Flying G-Men",
+              "identifiers": [
+                "flying-g-men"
+              ]
+            },
+            {
+              "title": "Robinson Crusoe of Clipper Island",
+              "identifiers": [
+                "robinson_crusoe_of_clipper_island_ep1",
+                "robinson_crusoe_of_clipper_island_ep2",
+                "robinson_crusoe_of_clipper_island_ep3",
+                "robinson_crusoe_of_clipper_island_ep4",
+                "robinson_crusoe_of_clipper_island_ep5",
+                "robinson_crusoe_of_clipper_island_ep6",
+                "robinson_crusoe_of_clipper_island_ep7",
+                "robinson_crusoe_of_clipper_island_ep8",
+                "robinson_crusoe_of_clipper_island_ep9",
+                "robinson_crusoe_of_clipper_island_ep10",
+                "robinson_crusoe_of_clipper_island_ep11",
+                "robinson_crusoe_of_clipper_island_ep12",
+                "robinson_crusoe_of_clipper_island_ep13",
+                "robinson_crusoe_of_clipper_island_ep14"
+              ],
+              "order": [
+                "robinson_crusoe_of_clipper_island_ep1/ep1_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep2/ep2_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep3/ep3_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep4/ep4_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep5/ep5_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep6/ep6_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep7/ep7_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep8/ep8_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep9/ep9_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep10/ep10_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep11/ep11_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep12/ep12_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep13/ep13_512kb.mp4",
+                "robinson_crusoe_of_clipper_island_ep14/ep14_512kb.mp4"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "08:00",
+          "epoch": "2026-11-20",
+          "perDay": 7,
+          "shows": [
+            {
+              "title": "Pirate Treasure",
+              "identifiers": [
+                "pirate-treasure-serial"
+              ],
+              "exclude": "(^|/)(preview|trailer)|trailer"
+            },
+            {
+              "title": "Zorro's Black Whip",
+              "identifiers": [
+                "zorros_black_whip_chapter1",
+                "zorros_black_whip_chapter2",
+                "zorros_black_whip_chapter3",
+                "zorros_black_whip_chapter4",
+                "zorros_black_whip_chapter5",
+                "zorros_black_whip_chapter6",
+                "zorros_black_whip_chapter7",
+                "zorros_black_whip_chapter8",
+                "zorros_black_whip_chapter9",
+                "zorros_black_whip_chapter10",
+                "zorros_black_whip_chapter11",
+                "zorros_black_whip_chapter12"
+              ],
+              "order": [
+                "zorros_black_whip_chapter1/ep1_512kb.mp4",
+                "zorros_black_whip_chapter2/ep2.mp4",
+                "zorros_black_whip_chapter3/ep3_512kb.mp4",
+                "zorros_black_whip_chapter4/ep4_512kb.mp4",
+                "zorros_black_whip_chapter5/ep5_512kb.mp4",
+                "zorros_black_whip_chapter6/ep6_512kb.mp4",
+                "zorros_black_whip_chapter7/ep7_512kb.mp4",
+                "zorros_black_whip_chapter8/ep8_512kb.mp4",
+                "zorros_black_whip_chapter9/ep9_512kb.mp4",
+                "zorros_black_whip_chapter10/ep10_512kb.mp4",
+                "zorros_black_whip_chapter11/ep11_512kb.mp4",
+                "zorros_black_whip_chapter12/ep12_512kb.mp4"
+              ]
+            },
+            {
+              "title": "Cody of the Pony Express",
+              "identifiers": [
+                "cody-of-the-pony-express"
+              ]
+            },
+            {
+              "title": "The Lone Ranger",
+              "identifiers": [
+                "MovieSerial-TheLoneRanger1938Chapter01-Hi-yoSilver",
+                "MovieSerial-TheLoneRanger1938Chapter02-ThunderingEarth",
+                "TheLoneRanger1938Chapter03-ThePitfall",
+                "TheLoneRanger1938Chapter04-AgentOfTreachery",
+                "TheLoneRanger1938Chapter05-TheSteamingCouldron",
+                "TheLoneRanger1938Chapter06-RedMansCourage",
+                "TheLoneRanger1938Chapter07-WheelsOfDisaster",
+                "TheLoneRanger1938Chapter08-FatalTreasure",
+                "TheLoneRanger1938Chapter09-TheMissingSpur",
+                "TheLoneRanger1938Chapter10-FlamingFury",
+                "TheLoneRanger1938Chapter11-TheSilverBullet_674",
+                "TheLoneRanger1938Chapter12-Escape",
+                "TheLoneRanger1938Chapter13-TheFatalPlunge",
+                "TheLoneRanger1938Chapter14-MessengersOfDoom",
+                "TheLoneRanger1938Chapter15-TheLastOfTheRangers"
+              ],
+              "order": [
+                "MovieSerial-TheLoneRanger1938Chapter01-Hi-yoSilver/TheLoneRanger_1938_Ch01-Hi-YoSilver_512kb.mp4",
+                "MovieSerial-TheLoneRanger1938Chapter02-ThunderingEarth/TheLoneRanger_1938_Ch02-ThunderingEarth_512kb.mp4",
+                "TheLoneRanger1938Chapter03-ThePitfall/TheLoneRanger_1938_Ch03-ThePitfall_512kb.mp4",
+                "TheLoneRanger1938Chapter04-AgentOfTreachery/TheLoneRanger_1938_Ch04-AgentOfTreachery_512kb.mp4",
+                "TheLoneRanger1938Chapter05-TheSteamingCouldron/TheLoneRanger_1938_Ch05-TheSteamingCouldron_512kb.mp4",
+                "TheLoneRanger1938Chapter06-RedMansCourage/TheLoneRanger_1938_Ch06-RedMansCourage_512kb.mp4",
+                "TheLoneRanger1938Chapter07-WheelsOfDisaster/TheLoneRanger_1938_Ch07-WheelsOfDisaster_512kb.mp4",
+                "TheLoneRanger1938Chapter08-FatalTreasure/TheLoneRanger_1938_Ch08-FatalTreasure_512kb.mp4",
+                "TheLoneRanger1938Chapter09-TheMissingSpur/TheLoneRanger_1938_Ch09-TheMissingSpur_512kb.mp4",
+                "TheLoneRanger1938Chapter10-FlamingFury/TheLoneRanger_1938_Ch10-FlamingFury_512kb.mp4",
+                "TheLoneRanger1938Chapter11-TheSilverBullet_674/TheLoneRanger_1938_Ch11-TheSilverBullet_512kb.mp4",
+                "TheLoneRanger1938Chapter12-Escape/TheLoneRanger_1938_Ch12-Escape_512kb.mp4",
+                "TheLoneRanger1938Chapter13-TheFatalPlunge/TheLoneRanger_1938_Ch13-TheFatalPlunge_512kb.mp4",
+                "TheLoneRanger1938Chapter14-MessengersOfDoom/TheLoneRanger_1938_Ch14-MessengersOfDoom_512kb.mp4",
+                "TheLoneRanger1938Chapter15-TheLastOfTheRangers/TheLoneRanger_1938_Ch15TheLastOfTheRangers_512kb.mp4"
+              ]
+            },
+            {
+              "title": "King of the Royal Mounted",
+              "identifiers": [
+                "king-of-the-royal-mounted"
+              ]
+            },
+            {
+              "title": "The Adventures of Red Ryder",
+              "identifiers": [
+                "red-ryder-serial"
+              ]
+            },
+            {
+              "title": "The Great Adventures of Wild Bill Hickok",
+              "identifiers": [
+                "great-adventures-of-wild-bill-hickok"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "10:00",
+          "epoch": "2026-11-20",
+          "perDay": 7,
+          "shows": [
+            {
+              "title": "Zorro Rides Again",
+              "identifiers": [
+                "zorro_rides_again_ep1",
+                "zorro_rides_again_ep2",
+                "zorro_rides_again_ep3",
+                "zorro_rides_again_ep4",
+                "zorro_rides_again_ep5",
+                "zorro_rides_again_ep6",
+                "zorro_rides_again_ep7",
+                "zorro_rides_again_ep8",
+                "zorro_rides_again_ep9",
+                "zorro_rides_again_ep10",
+                "zorro_rides_again_ep11",
+                "zorro_rides_again_ep12"
+              ],
+              "order": [
+                "zorro_rides_again_ep1/ep1_512kb.mp4",
+                "zorro_rides_again_ep2/ep2_512kb.mp4",
+                "zorro_rides_again_ep3/ep3_512kb.mp4",
+                "zorro_rides_again_ep4/ep4_512kb.mp4",
+                "zorro_rides_again_ep5/ep5_512kb.mp4",
+                "zorro_rides_again_ep6/ep6_512kb.mp4",
+                "zorro_rides_again_ep7/ep7_512kb.mp4",
+                "zorro_rides_again_ep8/ep8_512kb.mp4",
+                "zorro_rides_again_ep9/ep9_512kb.mp4",
+                "zorro_rides_again_ep10/ep10_512kb.mp4",
+                "zorro_rides_again_ep11/ep11_512kb.mp4",
+                "zorro_rides_again_ep12/ep12_512kb.mp4"
+              ]
+            },
+            {
+              "title": "Zorro's Fighting Legion",
+              "identifiers": [
+                "zorros_fighting_legion_chapter_1",
+                "zorros_fighting_legion_chapter_2",
+                "zorros_fighting_legion_chapter_3",
+                "zorros_fighting_legion_chapter_4",
+                "zorros_fighting_legion_chapter_5",
+                "zorros_fighting_legion_chapter_6",
+                "zorros_fighting_legion_chapter_7",
+                "zorros_fighting_legion_chapter_8",
+                "zorros_fighting_legion_chapter_9",
+                "zorros_fighting_legion_chapter_10",
+                "zorros_fighting_legion_chapter_11",
+                "zorros_fighting_legion_chapter_12"
+              ],
+              "order": [
+                "zorros_fighting_legion_chapter_1/zfl1_512kb.mp4",
+                "zorros_fighting_legion_chapter_2/zfl2_512kb.mp4",
+                "zorros_fighting_legion_chapter_3/zfl3_512kb.mp4",
+                "zorros_fighting_legion_chapter_4/zfl4_512kb.mp4",
+                "zorros_fighting_legion_chapter_5/zfl5_512kb.mp4",
+                "zorros_fighting_legion_chapter_6/zfl6_512kb.mp4",
+                "zorros_fighting_legion_chapter_7/zfl7_512kb.mp4",
+                "zorros_fighting_legion_chapter_8/zfl8_512kb.mp4",
+                "zorros_fighting_legion_chapter_9/zfl9_512kb.mp4",
+                "zorros_fighting_legion_chapter_10/zfl10_512kb.mp4",
+                "zorros_fighting_legion_chapter_11/zfl11_512kb.mp4",
+                "zorros_fighting_legion_chapter_12/zfl12_512kb.mp4"
+              ]
+            },
+            {
+              "title": "Blackhawk",
+              "identifiers": [
+                "blackhawk-serial"
+              ]
+            },
+            {
+              "title": "The Masked Marvel",
+              "identifiers": [
+                "masked-marvel"
+              ]
+            },
+            {
+              "title": "Captain America",
+              "identifiers": [
+                "captain_america_ep1",
+                "captain_america_ep2",
+                "captain_america_ep3",
+                "captain_america_ep4",
+                "captain_america_ep5",
+                "captain_america_ep6",
+                "captain_america_ep7",
+                "captain_america_ep8",
+                "captain_america_ep9",
+                "captain_america_ep10",
+                "captain_america_ep11",
+                "captain_america_ep12",
+                "captain_america_ep13",
+                "captain_america_ep14",
+                "captain_america_ep15"
+              ],
+              "order": [
+                "captain_america_ep1/ep1_512kb.mp4",
+                "captain_america_ep2/ep2_512kb.mp4",
+                "captain_america_ep3/ep3_512kb.mp4",
+                "captain_america_ep4/ep4_512kb.mp4",
+                "captain_america_ep5/ep5_512kb.mp4",
+                "captain_america_ep6/ep6_512kb.mp4",
+                "captain_america_ep7/ep7_512kb.mp4",
+                "captain_america_ep8/ep8_512kb.mp4",
+                "captain_america_ep9/ep9_512kb.mp4",
+                "captain_america_ep10/ep10_512kb.mp4",
+                "captain_america_ep11/ep11_512kb.mp4",
+                "captain_america_ep12/ep12_512kb.mp4",
+                "captain_america_ep13/ep13_512kb.mp4",
+                "captain_america_ep14/ep14_512kb.mp4",
+                "captain_america_ep15/ep15_512kb.mp4"
+              ]
+            },
+            {
+              "title": "The Phantom",
+              "identifiers": [
+                "the-phantom-serial"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "12:00",
+          "epoch": "2026-11-20",
+          "perDay": 7,
+          "shows": [
+            {
+              "title": "Spy Smasher",
+              "identifiers": [
+                "spy-smasher-1942"
+              ]
+            },
+            {
+              "title": "Atom Man vs. Superman",
+              "identifiers": [
+                "atom-man-vs-superman-serial"
+              ]
+            },
+            {
+              "title": "Daredevils of the Red Circle",
+              "identifiers": [
+                "daredevils-of-the-red-circle"
+              ]
+            },
+            {
+              "title": "Superman",
+              "identifiers": [
+                "superman-1948_202205"
+              ]
+            },
+            {
+              "title": "Captain Midnight",
+              "identifiers": [
+                "captain-midnight-serial"
+              ]
+            },
+            {
+              "title": "Flash Gordon Conquers the Universe",
+              "identifiers": [
+                "Flash-Gordon-Conquers-The-Universe"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "14:00",
+          "epoch": "2026-11-20",
+          "perDay": 6,
+          "shows": [
+            {
+              "title": "Mysterious Doctor Satan",
+              "identifiers": [
+                "mysterious-doctor-satan-1940-colorized-cliffhanger-serial"
+              ]
+            },
+            {
+              "title": "Captain Video",
+              "identifiers": [
+                "captain-video-serial-trailer-colorized"
+              ],
+              "exclude": "(^|/)(preview|trailer)|trailer"
+            },
+            {
+              "title": "The Shadow",
+              "identifiers": [
+                "the-shadow-serial"
+              ]
+            },
+            {
+              "title": "The Vanishing Shadow",
+              "identifiers": [
+                "TheVanishingShadow-12ChapterSerial"
+              ]
+            },
+            {
+              "title": "The Clutching Hand",
+              "identifiers": [
+                "clutching_hand_ep1",
+                "clutching_hand_ep2",
+                "clutching_hand_ep3",
+                "clutching_hand_ep4",
+                "clutching_hand_ep5",
+                "clutching_hand_ep6",
+                "clutching_hand_ep7",
+                "clutching_hand_ep8",
+                "clutching_hand_ep9",
+                "clutching_hand_ep10",
+                "clutching_hand_ep11",
+                "clutching_hand_ep12",
+                "clutching_hand_ep13",
+                "clutching_hand_ep14",
+                "clutching_hand_ep15"
+              ],
+              "order": [
+                "clutching_hand_ep1/ep1_512kb.mp4",
+                "clutching_hand_ep2/ep2_512kb.mp4",
+                "clutching_hand_ep3/ep3_512kb.mp4",
+                "clutching_hand_ep4/ep4_512kb.mp4",
+                "clutching_hand_ep5/ep5_512kb.mp4",
+                "clutching_hand_ep6/ep6_512kb.mp4",
+                "clutching_hand_ep7/ep7_512kb.mp4",
+                "clutching_hand_ep8/ep8_512kb.mp4",
+                "clutching_hand_ep9/ep9_512kb.mp4",
+                "clutching_hand_ep10/ep10_512kb.mp4",
+                "clutching_hand_ep11/ep11_512kb.mp4",
+                "clutching_hand_ep12/ep12_512kb.mp4",
+                "clutching_hand_ep13/ep13_512kb.mp4",
+                "clutching_hand_ep14/ep14_512kb.mp4",
+                "clutching_hand_ep15/ep15_512kb.mp4"
+              ]
+            },
+            {
+              "title": "The Black Coin",
+              "identifiers": [
+                "black-coin"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "16:00",
+          "epoch": "2026-11-20",
+          "perDay": 6,
+          "shows": [
+            {
+              "title": "Holt of the Secret Service",
+              "identifiers": [
+                "holt-of-the-secret-service-serial"
+              ]
+            },
+            {
+              "title": "Gang Busters",
+              "identifiers": [
+                "gang-busters-serial"
+              ]
+            },
+            {
+              "title": "Secret Agent X-9",
+              "identifiers": [
+                "secret-agent-x9-1937"
+              ]
+            },
+            {
+              "title": "Red Barry",
+              "identifiers": [
+                "red-barry"
+              ]
+            },
+            {
+              "title": "Dick Tracy",
+              "identifiers": [
+                "dicktracy_chapter1",
+                "dicktracy_chapter2",
+                "dicktracy_chapter3",
+                "dicktracy_chapter4",
+                "dicktracy_chapter6",
+                "dicktracy_chapter7",
+                "dicktracy_chapter9",
+                "dicktracy_chapter10",
+                "dicktracy_chapter11",
+                "dicktracy_chapter12",
+                "dicktracy_chapter13",
+                "dicktracy_chapter14",
+                "dicktracy_chapter15",
+                "dick-tracy-episodes-1-to-8"
+              ],
+              "order": [
+                "dicktracy_chapter1/1_512kb.mp4",
+                "dicktracy_chapter2/Dick_Tracy_chapter2_512kb.mp4",
+                "dicktracy_chapter3/Dick_Tracy_chapter3_512kb.mp4",
+                "dicktracy_chapter4/4_512kb.mp4",
+                "dick-tracy-episodes-1-to-8/Dick Tracy Episodes 1 to 85.mp4",
+                "dicktracy_chapter6/6_512kb.mp4",
+                "dicktracy_chapter7/7_512kb.mp4",
+                "dick-tracy-episodes-1-to-8/Dick Tracy Episodes 1 to 88.mp4",
+                "dicktracy_chapter9/9_512kb.mp4",
+                "dicktracy_chapter10/10_512kb.mp4",
+                "dicktracy_chapter11/11_512kb.mp4",
+                "dicktracy_chapter12/12_512kb.mp4",
+                "dicktracy_chapter13/13_512kb.mp4",
+                "dicktracy_chapter14/14_512kb.mp4",
+                "dicktracy_chapter15/15_512kb.mp4"
+              ]
+            },
+            {
+              "title": "Junior G-Men",
+              "identifiers": [
+                "jr_g_men_ep1",
+                "jr_g_men_ep2",
+                "jr_g_men_ep3",
+                "jr_g_men_ep4",
+                "jr_g_men_ep5",
+                "jr_g_men_ep6",
+                "jr_g_men_ep7",
+                "jr_g_men_ep8",
+                "jr_g_men_ep9",
+                "jr_g_men_ep10",
+                "jr_g_men_ep11",
+                "jr_g_men_ep12"
+              ],
+              "order": [
+                "jr_g_men_ep1/ep1_512kb.mp4",
+                "jr_g_men_ep2/ep2_512kb.mp4",
+                "jr_g_men_ep3/ep3_512kb.mp4",
+                "jr_g_men_ep4/ep4_512kb.mp4",
+                "jr_g_men_ep5/ep5_512kb.mp4",
+                "jr_g_men_ep6/ep6_512kb.mp4",
+                "jr_g_men_ep7/ep7_512kb.mp4",
+                "jr_g_men_ep8/ep8_512kb.mp4",
+                "jr_g_men_ep9/ep9_512kb.mp4",
+                "jr_g_men_ep10/ep10_512kb.mp4",
+                "jr_g_men_ep11/ep11_512kb.mp4",
+                "jr_g_men_ep12/ep12_512kb.mp4"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "18:00",
+          "epoch": "2026-11-20",
+          "perDay": 6,
+          "shows": [
+            {
+              "title": "The Sea Hound",
+              "identifiers": [
+                "sea-hound"
+              ]
+            },
+            {
+              "title": "The Fighting Marines",
+              "identifiers": [
+                "fighting_marines_1",
+                "fighting_marines_2",
+                "fighting_marines_3",
+                "fighting_marines_4",
+                "fighting_marines_5",
+                "fighting_marines_6",
+                "fighting_marines_7",
+                "fighting_marines_8",
+                "fighting_marines_9",
+                "fighting_marines_10",
+                "fighting_marines_11",
+                "fighting_marines_12"
+              ],
+              "order": [
+                "fighting_marines_1/ep1_512kb.mp4",
+                "fighting_marines_2/ep2_512kb.mp4",
+                "fighting_marines_3/ep3_512kb.mp4",
+                "fighting_marines_4/ep4_512kb.mp4",
+                "fighting_marines_5/ep5_512kb.mp4",
+                "fighting_marines_6/ep6.mp4",
+                "fighting_marines_7/ep7_512kb.mp4",
+                "fighting_marines_8/ep8_512kb.mp4",
+                "fighting_marines_9/ep9_512kb.mp4",
+                "fighting_marines_10/ep10_512kb.mp4",
+                "fighting_marines_11/ep11_512kb.mp4",
+                "fighting_marines_12/ep12_512kb.mp4"
+              ]
+            },
+            {
+              "title": "The Great Alaskan Mystery",
+              "identifiers": [
+                "great_alaskan_mystery_chapter_1",
+                "Great_alaskan_mystery_chapter_2",
+                "Great_alaskan_mystery_chapter_3",
+                "great_alaskan_mystery_chapter_4",
+                "great_alaskan_mystery_chapter_5",
+                "great_alaskan_mystery_chapter_6",
+                "great_alaskan_mystery_chapter_7",
+                "great_alaskan_mystery_chapter_8",
+                "great_alaskan_mystery_chapter_9",
+                "great_alaskan_mystery_chapter_10",
+                "great_alaskan_mystery_chapter_11",
+                "great_alaskan_mystery_chapter_12",
+                "great_alaskan_mystery_chap_13"
+              ],
+              "order": [
+                "great_alaskan_mystery_chapter_1/gam1_512kb.mp4",
+                "Great_alaskan_mystery_chapter_2/gam2_512kb.mp4",
+                "Great_alaskan_mystery_chapter_3/gam3_512kb.mp4",
+                "great_alaskan_mystery_chapter_4/gam4_512kb.mp4",
+                "great_alaskan_mystery_chapter_5/gam5_512kb.mp4",
+                "great_alaskan_mystery_chapter_6/gam6_512kb.mp4",
+                "great_alaskan_mystery_chapter_7/gam7_512kb.mp4",
+                "great_alaskan_mystery_chapter_8/gam8_512kb.mp4",
+                "great_alaskan_mystery_chapter_9/gam9_512kb.mp4",
+                "great_alaskan_mystery_chapter_10/gam10_512kb.mp4",
+                "great_alaskan_mystery_chapter_11/gam11_512kb.mp4",
+                "great_alaskan_mystery_chapter_12/gam12_512kb.mp4",
+                "great_alaskan_mystery_chap_13/gam13.mp4"
+              ]
+            },
+            {
+              "title": "Tailspin Tommy in the Great Air Mystery",
+              "identifiers": [
+                "tailspin-tommy-in-the-great-air-mystery"
+              ]
+            },
+            {
+              "title": "Burn 'Em Up Barnes",
+              "identifiers": [
+                "burn_em_up_barnes_1",
+                "burn_em_up_barnes_2",
+                "burn_em_up_barnes_3",
+                "burn_em_up_barnes_4",
+                "burn_em_up_barnes_5",
+                "burn_em_up_barnes_6",
+                "burn_em_up_barnes_7",
+                "burn_em_up_barnes_8",
+                "burn_em_up_barnes_9",
+                "burn_em_up_barnes_10",
+                "burn_em_up_barnes_11",
+                "burn_em_up_barnes_12"
+              ],
+              "order": [
+                "burn_em_up_barnes_1/part1_512kb.mp4",
+                "burn_em_up_barnes_2/part2_512kb.mp4",
+                "burn_em_up_barnes_3/part3_512kb.mp4",
+                "burn_em_up_barnes_4/part4_512kb.mp4",
+                "burn_em_up_barnes_5/part5_512kb.mp4",
+                "burn_em_up_barnes_6/part6_512kb.mp4",
+                "burn_em_up_barnes_7/part7_512kb.mp4",
+                "burn_em_up_barnes_8/part8_512kb.mp4",
+                "burn_em_up_barnes_9/part9_512kb.mp4",
+                "burn_em_up_barnes_10/part10_512kb.mp4",
+                "burn_em_up_barnes_11/part11_512kb.mp4",
+                "burn_em_up_barnes_12/part12_512kb.mp4"
+              ]
+            },
+            {
+              "title": "The Valley of Vanishing Men",
+              "identifiers": [
+                "valley-of-vanishing-men"
+              ]
+            },
+            {
+              "title": "The Phantom Rider",
+              "identifiers": [
+                "phantom-rider-1936"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "20:00",
+          "epoch": "2026-11-20",
+          "perDay": 6,
+          "shows": [
+            {
+              "title": "Flaming Frontiers",
+              "identifiers": [
+                "flaming-frontiers"
+              ]
+            },
+            {
+              "title": "The Miracle Rider",
+              "identifiers": [
+                "miracle-rider"
+              ]
+            },
+            {
+              "title": "Riders of Death Valley",
+              "identifiers": [
+                "rdv-5"
+              ]
+            },
+            {
+              "title": "Batman and Robin",
+              "identifiers": [
+                "batman-and-robin-movie-serial-1949_202205"
+              ]
+            },
+            {
+              "title": "The Adventures of Captain Marvel",
+              "identifiers": [
+                "AdventuresOfCaptainMarvelChapters112"
+              ]
+            },
+            {
+              "title": "The Green Hornet Strikes Again!",
+              "identifiers": [
+                "the-green-hornet-strikes-again-serial"
+              ]
+            }
+          ]
+        },
+        {
+          "start": "22:00",
+          "epoch": "2026-11-20",
+          "perDay": 4,
+          "shows": [
+            {
+              "title": "The Green Hornet",
+              "identifiers": [
+                "green_hornet_ep1",
+                "green_hornet_ep2",
+                "green_hornet_ep3",
+                "green_hornet_ep4",
+                "green_hornet_ep5",
+                "green_hornet_ep6",
+                "green_hornet_ep7",
+                "green_hornet_ep8",
+                "green_hornet_ep9",
+                "green_hornet_ep10",
+                "green_hornet_ep11",
+                "green_hornet_ep12",
+                "green_hornet_ep13"
+              ],
+              "order": [
+                "green_hornet_ep1/ep1_512kb.mp4",
+                "green_hornet_ep2/ep2_512kb.mp4",
+                "green_hornet_ep3/ep3_512kb.mp4",
+                "green_hornet_ep4/ep4_512kb.mp4",
+                "green_hornet_ep5/ep5_512kb.mp4",
+                "green_hornet_ep6/ep6.mp4",
+                "green_hornet_ep7/ep7_512kb.mp4",
+                "green_hornet_ep8/ep8_512kb.mp4",
+                "green_hornet_ep9/ep9_512kb.mp4",
+                "green_hornet_ep10/ep10_512kb.mp4",
+                "green_hornet_ep11/ep11_512kb.mp4",
+                "green_hornet_ep12/ep12_512kb.mp4",
+                "green_hornet_ep13/ep13_512kb.mp4"
+              ]
+            },
+            {
+              "title": "Undersea Kingdom",
+              "identifiers": [
+                "undersea-kingdom-1936"
+              ]
+            },
+            {
+              "title": "Flash Gordon",
+              "identifiers": [
+                "flash-gordon-1936-serial"
+              ]
+            },
+            {
+              "title": "Flash Gordon's Trip to Mars",
+              "identifiers": [
+                "flash-gordons-trip-to-mars"
+              ]
+            },
+            {
+              "title": "The Phantom Creeps",
+              "identifiers": [
+                "phantom-creeps"
+              ]
+            },
+            {
+              "title": "The Phantom Empire",
+              "identifiers": [
+                "PhantomEmpire1"
+              ]
+            }
+          ]
+        }
+      ],
+      "sources": [
+        {
+          "identifiers": [
+            "flash-gordon-1936-serial",
+            "flash-gordons-trip-to-mars",
+            "Flash-Gordon-Conquers-The-Universe",
+            "radar-men-from-the-moon",
+            "king-of-the-rocket-men",
+            "flying-disc-man",
+            "the-purple-monster-strikes-1945-colorized-cliffhanger-serial",
+            "invisible-monster",
+            "canadian-mounties-vs-atomic-invaders",
+            "undersea-kingdom-1936",
+            "PhantomEmpire1",
+            "phantom-creeps",
+            "mysterious-doctor-satan-1940-colorized-cliffhanger-serial",
+            "manhunt-of-mystery-island-1945-colorized-cliffhanger-serial",
+            "captain-video-serial-trailer-colorized",
+            "spiders-web",
+            "TheVanishingShadow-12ChapterSerial",
+            "the-shadow-serial",
+            "the-phantom-serial",
+            "mandrake-the-magician-serial",
+            "return-of-chandu",
+            "clutching_hand_ep1",
+            "clutching_hand_ep2",
+            "clutching_hand_ep3",
+            "clutching_hand_ep4",
+            "clutching_hand_ep5",
+            "clutching_hand_ep6",
+            "clutching_hand_ep7",
+            "clutching_hand_ep8",
+            "clutching_hand_ep9",
+            "clutching_hand_ep10",
+            "clutching_hand_ep11",
+            "clutching_hand_ep12",
+            "clutching_hand_ep13",
+            "clutching_hand_ep14",
+            "clutching_hand_ep15",
+            "master-key-serial",
+            "mysterious-mr-m",
+            "black-coin",
+            "the-black-widow-1947-colorized-serial",
+            "captain_america_ep1",
+            "captain_america_ep2",
+            "captain_america_ep3",
+            "captain_america_ep4",
+            "captain_america_ep5"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "captain_america_ep6",
+            "captain_america_ep7",
+            "captain_america_ep8",
+            "captain_america_ep9",
+            "captain_america_ep10",
+            "captain_america_ep11",
+            "captain_america_ep12",
+            "captain_america_ep13",
+            "captain_america_ep14",
+            "captain_america_ep15",
+            "AdventuresOfCaptainMarvelChapters112",
+            "superman-1948_202205",
+            "atom-man-vs-superman-serial",
+            "batman-and-robin-movie-serial-1949_202205",
+            "green_hornet_ep1",
+            "green_hornet_ep2",
+            "green_hornet_ep3",
+            "green_hornet_ep4",
+            "green_hornet_ep5",
+            "green_hornet_ep6",
+            "green_hornet_ep7",
+            "green_hornet_ep8",
+            "green_hornet_ep9",
+            "green_hornet_ep10",
+            "green_hornet_ep11",
+            "green_hornet_ep12",
+            "green_hornet_ep13",
+            "the-green-hornet-strikes-again-serial",
+            "spy-smasher-1942",
+            "captain-midnight-serial",
+            "blackhawk-serial",
+            "daredevils-of-the-red-circle",
+            "masked-marvel",
+            "dicktracy_chapter1",
+            "dicktracy_chapter2",
+            "dicktracy_chapter3",
+            "dicktracy_chapter4",
+            "dicktracy_chapter6",
+            "dicktracy_chapter7",
+            "dicktracy_chapter9",
+            "dicktracy_chapter10",
+            "dicktracy_chapter11",
+            "dicktracy_chapter12",
+            "dicktracy_chapter13",
+            "dicktracy_chapter14"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "dicktracy_chapter15",
+            "dick-tracy-returns-serial",
+            "dick-tracys-gmen-serial-1939",
+            "secret-agent-x9-1937",
+            "jr_g_men_ep1",
+            "jr_g_men_ep2",
+            "jr_g_men_ep3",
+            "jr_g_men_ep4",
+            "jr_g_men_ep5",
+            "jr_g_men_ep6",
+            "jr_g_men_ep7",
+            "jr_g_men_ep8",
+            "jr_g_men_ep9",
+            "jr_g_men_ep10",
+            "jr_g_men_ep11",
+            "jr_g_men_ep12",
+            "gang-busters-serial",
+            "federal-operator-99",
+            "g-men-never-forget",
+            "red-barry",
+            "holt-of-the-secret-service-serial",
+            "MovieSerial-TheLoneRanger1938Chapter01-Hi-yoSilver",
+            "MovieSerial-TheLoneRanger1938Chapter02-ThunderingEarth",
+            "TheLoneRanger1938Chapter03-ThePitfall",
+            "TheLoneRanger1938Chapter04-AgentOfTreachery",
+            "TheLoneRanger1938Chapter05-TheSteamingCouldron",
+            "TheLoneRanger1938Chapter06-RedMansCourage",
+            "TheLoneRanger1938Chapter07-WheelsOfDisaster",
+            "TheLoneRanger1938Chapter08-FatalTreasure",
+            "TheLoneRanger1938Chapter09-TheMissingSpur",
+            "TheLoneRanger1938Chapter10-FlamingFury",
+            "TheLoneRanger1938Chapter11-TheSilverBullet_674",
+            "TheLoneRanger1938Chapter12-Escape",
+            "TheLoneRanger1938Chapter13-TheFatalPlunge",
+            "TheLoneRanger1938Chapter14-MessengersOfDoom",
+            "TheLoneRanger1938Chapter15-TheLastOfTheRangers",
+            "zorro_rides_again_ep1",
+            "zorro_rides_again_ep2",
+            "zorro_rides_again_ep3",
+            "zorro_rides_again_ep4",
+            "zorro_rides_again_ep5",
+            "zorro_rides_again_ep6",
+            "zorro_rides_again_ep7",
+            "zorro_rides_again_ep8",
+            "zorro_rides_again_ep9"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "zorro_rides_again_ep10",
+            "zorro_rides_again_ep11",
+            "zorro_rides_again_ep12",
+            "zorros_fighting_legion_chapter_1",
+            "zorros_fighting_legion_chapter_2",
+            "zorros_fighting_legion_chapter_3",
+            "zorros_fighting_legion_chapter_4",
+            "zorros_fighting_legion_chapter_5",
+            "zorros_fighting_legion_chapter_6",
+            "zorros_fighting_legion_chapter_7",
+            "zorros_fighting_legion_chapter_8",
+            "zorros_fighting_legion_chapter_9",
+            "zorros_fighting_legion_chapter_10",
+            "zorros_fighting_legion_chapter_11",
+            "zorros_fighting_legion_chapter_12",
+            "zorros_black_whip_chapter1",
+            "zorros_black_whip_chapter2",
+            "zorros_black_whip_chapter3",
+            "zorros_black_whip_chapter4",
+            "zorros_black_whip_chapter5",
+            "zorros_black_whip_chapter6",
+            "zorros_black_whip_chapter7",
+            "zorros_black_whip_chapter8",
+            "zorros_black_whip_chapter9",
+            "zorros_black_whip_chapter10",
+            "zorros_black_whip_chapter11",
+            "zorros_black_whip_chapter12",
+            "ghost-of-zorro",
+            "red-ryder-serial",
+            "great-adventures-of-wild-bill-hickok",
+            "cody-of-the-pony-express",
+            "adventures-of-frank-and-jesse-james",
+            "jesse-james-rides-again",
+            "miracle-rider",
+            "king-of-the-royal-mounted",
+            "flaming-frontiers",
+            "valley-of-vanishing-men",
+            "phantom-rider-1936",
+            "rdv-5",
+            "don-daredevil-rides-again",
+            "flying-g-men",
+            "fighting-devil-dogs",
+            "fighting_marines_1",
+            "fighting_marines_2",
+            "fighting_marines_3"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "fighting_marines_4",
+            "fighting_marines_5",
+            "fighting_marines_6",
+            "fighting_marines_7",
+            "fighting_marines_8",
+            "fighting_marines_9",
+            "fighting_marines_10",
+            "fighting_marines_11",
+            "fighting_marines_12",
+            "haunted-harbor",
+            "great-adventures-of-captain-kidd",
+            "pirate-treasure-serial",
+            "sea-hound",
+            "robinson_crusoe_of_clipper_island_ep1",
+            "robinson_crusoe_of_clipper_island_ep2",
+            "robinson_crusoe_of_clipper_island_ep3",
+            "robinson_crusoe_of_clipper_island_ep4",
+            "robinson_crusoe_of_clipper_island_ep5",
+            "robinson_crusoe_of_clipper_island_ep6",
+            "robinson_crusoe_of_clipper_island_ep7",
+            "robinson_crusoe_of_clipper_island_ep8",
+            "robinson_crusoe_of_clipper_island_ep9",
+            "robinson_crusoe_of_clipper_island_ep10",
+            "robinson_crusoe_of_clipper_island_ep11",
+            "robinson_crusoe_of_clipper_island_ep12",
+            "robinson_crusoe_of_clipper_island_ep13",
+            "robinson_crusoe_of_clipper_island_ep14",
+            "tailspin-tommy-in-the-great-air-mystery",
+            "burn_em_up_barnes_1",
+            "burn_em_up_barnes_2",
+            "burn_em_up_barnes_3",
+            "burn_em_up_barnes_4",
+            "burn_em_up_barnes_5",
+            "burn_em_up_barnes_6",
+            "burn_em_up_barnes_7",
+            "burn_em_up_barnes_8",
+            "burn_em_up_barnes_9",
+            "burn_em_up_barnes_10",
+            "burn_em_up_barnes_11",
+            "burn_em_up_barnes_12",
+            "great_alaskan_mystery_chapter_1",
+            "Great_alaskan_mystery_chapter_2",
+            "Great_alaskan_mystery_chapter_3",
+            "great_alaskan_mystery_chapter_4",
+            "great_alaskan_mystery_chapter_5"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "great_alaskan_mystery_chapter_6",
+            "great_alaskan_mystery_chapter_7",
+            "great_alaskan_mystery_chapter_8",
+            "great_alaskan_mystery_chapter_9",
+            "great_alaskan_mystery_chapter_10",
+            "great_alaskan_mystery_chapter_11",
+            "great_alaskan_mystery_chapter_12",
+            "great_alaskan_mystery_chap_13"
+          ],
+          "maxEntriesPerItem": 20,
+          "ignoreYear": true,
+          "tag": "newch_g_serials"
+        },
+        {
+          "identifiers": [
+            "day_the_earth_stood_still",
+            "conquest_of_space",
+            "flying_saucer",
+            "The_Thing_from_Another_World_trailer",
+            "ForbiddenPlanetTrailer",
+            "TheBeastFrom20000FathomsTrailer",
+            "Tarantula_trailer",
+            "The_Mole_People_trailer",
+            "CreatureFromTheBlackLagoonTrailer",
+            "InvasionOfTheBodySnatchersTrailer",
+            "destination-moon",
+            "when-worlds-collide_202111",
+            "it-came-from-outer-space",
+            "invaders-from-mars",
+            "TheatricalTrailerForflightToMars",
+            "Hold_that_Ghost_trailer",
+            "Dr_Cyclops_trailer",
+            "lone_ranger",
+            "hopalong_cassidy",
+            "Winchester73Trailer",
+            "Ride_em_Cowboy_trailer",
+            "bells_of_capistrano",
+            "bells_of_coronado",
+            "calamity_jane_trailer",
+            "california_trailer",
+            "king_solomons_mines",
+            "jungle_book",
+            "hurricane",
+            "MurderMySweetTrailer",
+            "The_Big_Sleep_trailer",
+            "Ministry_of_Fear_Original_Trailer",
+            "double_indemnity",
+            "laura",
+            "After_The_Thin_Man_trailer",
+            "Return_of_Captain_America_trailer",
+            "iron-claw",
+            "purple-monster-strikes",
+            "UnderseaKingdomTrl",
+            "radio-patrol",
+            "adventures-of-frank-merriwell"
+          ],
+          "maxEntriesPerItem": 1,
+          "ignoreYear": true,
+          "tag": "newch_g_trailers"
+        },
+        {
+          "identifiers": [
+            "gang-busters_202106",
+            "ZombiesOfTheStratosphereTrailer",
+            "KingOfTheRocketMenTrailer",
+            "mysterious-doctor-satan",
+            "bela_lugosi_meets_brooklyn_gorilla",
+            "fancy_pants",
+            "blondie_on_a_budget",
+            "fire_over_england",
+            "hunchback_of_notre_dame",
+            "lil_abner_trailer",
+            "here_come_the_nelsons",
+            "devil_and_daniel_webster",
+            "bringing_up_baby",
+            "buck_privates",
+            "forest_rangers",
+            "chump_at_oxford_trailer",
+            "francis",
+            "kentucky_blue_streak",
+            "its_in_the_bag",
+            "love_finds_andy_hardy",
+            "5000_fingers_of_dr_t",
+            "dancing_masters",
+            "captain_january",
+            "in_old_chicago",
+            "african_queen",
+            "beneath_the_12_mile_reef"
+          ],
+          "maxEntriesPerItem": 1,
+          "ignoreYear": true,
+          "tag": "newch_g_trailers"
+        }
+      ]
+    },
+    {
+      "number": 20,
       "name": "Boo",
       "logo": "Logos/4x3/boo.png",
       "genre": "Movies",
@@ -5234,7 +6776,7 @@
       ]
     },
     {
-      "number": 20,
+      "number": 22,
       "name": "Chuckles",
       "logo": "Logos/4x3/chuckles.png",
       "genre": "Comedy & Variety",
@@ -5570,7 +7112,7 @@
       ]
     },
     {
-      "number": 21,
+      "number": 23,
       "name": "ROFL",
       "logo": "Logos/4x3/rofl.png",
       "genre": "Comedy & Variety",
@@ -5886,6 +7428,52 @@
           "maxEntriesPerItem": 12,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "teen-angel-1997-1998",
+            "going-places-abc-1990",
+            "hi-honey-im-home"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "my-vhs-saga-part-4-woc",
+            "1997-11-07-the-tgif-time-warp",
+            "TGIF_ABC_WOC_1997-05-09"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "alf-complete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 40,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "out-of-this-world-s01-s02-missing-episodes",
+            "out-of-this-world-s03-s04-incomplete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 22,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "The-New-Gidget-1986-Series",
+            "get-a-life-sitcom"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 24,
+          "tag": "foldin_b"
         }
       ],
       "timeBlocks": [
@@ -5895,8 +7483,7 @@
             "mon",
             "tue",
             "wed",
-            "thu",
-            "fri"
+            "thu"
           ],
           "start": "19:00",
           "end": "21:00",
@@ -5912,11 +7499,25 @@
             27,
             28
           ]
+        },
+        {
+          "label": "TGIF",
+          "days": [
+            "fri"
+          ],
+          "start": "19:00",
+          "end": "22:00",
+          "sources": [
+            1,
+            15,
+            34,
+            35
+          ]
         }
       ]
     },
     {
-      "number": 22,
+      "number": 24,
       "name": "Hijinks",
       "logo": "Logos/4x3/hijinks.png",
       "genre": "Comedy & Variety",
@@ -6133,7 +7734,7 @@
       ]
     },
     {
-      "number": 23,
+      "number": 25,
       "name": "Nightcap",
       "logo": "Logos/4x3/nightcap.png",
       "genre": "Comedy & Variety",
@@ -6181,7 +7782,7 @@
           "maxEntriesPerItem": 4
         },
         {
-          "query": "(title:(\"late late show\" OR \"tom snyder\" OR \"tomorrow show\" OR \"tomorrow with tom\" OR kilborn OR \"craig ferguson\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR mirrortube OR bliptv OR fringe OR podcasts OR social-media-video OR deemphasize OR gorelicktv OR industry-archives OR movie_trailers_unsorted OR funnyordie) AND -identifier:(youtube-* OR BitChute-* OR tobacco_* OR OakleyTapes_* OR dvd-6* OR craig-ferguson-2005-2006-monologues-paranoidfellow-channel OR 20240915_20240915_0137 OR 01-jay-leno OR saturday.night.live.bilarabi*) AND -title:(\"vhs tape\" OR \"random tv\" OR uncensored OR strips OR playboy OR \"foxy boxing\" OR promo OR promos OR trailer OR commercial OR commercials OR logo OR mtv OR \"wack pack\" OR hefner OR whore OR pussy OR shitty OR \"traci lords\" OR german OR español OR \"sub español\" OR arabi OR bilarabi OR rogan OR sennett OR maverick) AND -title:(corden OR lionel OR \"train layouts\" OR \"planet bluegrass\" OR survivor OR \"price is right\" OR \"maybe this time\" OR \"larry king\" OR weft OR alley OR tedx OR girl OR rté OR \"cliff richard\" OR locke OR vtv OR woio OR wcbs OR \"late late late\" OR dwi OR tvro OR \"prime time sunday\" OR \"tv guide awards\" OR \"peter fonda\")",
+          "query": "(title:(\"late late show\" OR \"tom snyder\" OR \"tomorrow show\" OR \"tomorrow with tom\" OR \"craig ferguson\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR mirrortube OR bliptv OR fringe OR podcasts OR social-media-video OR deemphasize OR gorelicktv OR industry-archives OR movie_trailers_unsorted OR funnyordie) AND -identifier:(youtube-* OR BitChute-* OR tobacco_* OR OakleyTapes_* OR dvd-6* OR craig-ferguson-2005-2006-monologues-paranoidfellow-channel OR 20240915_20240915_0137 OR 01-jay-leno OR saturday.night.live.bilarabi* OR late-late-show-2008_202403 OR late-late-show-2010 OR late-late-show-2010-2) AND -title:(\"vhs tape\" OR \"random tv\" OR uncensored OR strips OR playboy OR \"foxy boxing\" OR promo OR promos OR trailer OR commercial OR commercials OR logo OR mtv OR \"wack pack\" OR hefner OR whore OR pussy OR shitty OR \"traci lords\" OR german OR español OR \"sub español\" OR arabi OR bilarabi OR rogan OR sennett OR maverick) AND -title:(corden OR lionel OR \"train layouts\" OR \"planet bluegrass\" OR survivor OR \"price is right\" OR \"maybe this time\" OR \"larry king\" OR weft OR alley OR tedx OR girl OR rté OR \"cliff richard\" OR locke OR vtv OR woio OR wcbs OR \"late late late\" OR dwi OR tvro OR \"prime time sunday\" OR \"tv guide awards\" OR \"peter fonda\" OR kilborn)",
           "ignoreYear": true,
           "maxEntries": 80,
           "maxEntriesPerItem": 5
@@ -6253,7 +7854,88 @@
       ]
     },
     {
-      "number": 24,
+      "number": 26,
+      "name": "Afterhours",
+      "logo": "Logos/4x3/afterhours.png",
+      "genre": "Comedy & Variety",
+      "sources": [
+        {
+          "identifiers": [
+            "late-late-show-craig-kilborn-ass-eps"
+          ],
+          "maxEntriesPerItem": 700,
+          "ignoreYear": true,
+          "tag": "newch_i"
+        },
+        {
+          "identifiers": [
+            "the-kilborn-file-complete"
+          ],
+          "maxEntriesPerItem": 30,
+          "ignoreYear": true,
+          "tag": "newch_i"
+        },
+        {
+          "identifiers": [
+            "last-call-with-carson-daly",
+            "capture-a-5652",
+            "later-with-greg-kinnear-july-18-1995",
+            "later-with-greg-kinnear-2-15-1995",
+            "Timothy_Leary_Archives_023.dv"
+          ],
+          "maxEntriesPerItem": 44,
+          "ignoreYear": true,
+          "tag": "newch_i"
+        },
+        {
+          "query": "(title:(\"real time with bill maher\")) AND -collection:(tvnews OR tvarchive OR mirrortube OR bliptv OR podcasts OR social-media-video OR deemphasize) AND -identifier:(youtube-* OR BitChute-* OR CNNW*) AND -title:(cnnw OR \"new rule\" OR dawkins OR milo OR \"bill burr\" OR shinoda OR clip OR interview OR \"overtime\")",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "rated": "R",
+          "tag": "newch_i"
+        },
+        {
+          "identifiers": [
+            "insomniac-with-dave-attell_202506"
+          ],
+          "maxEntriesPerItem": 44,
+          "ignoreYear": true,
+          "tag": "newch_i",
+          "rated": "R"
+        },
+        {
+          "identifiers": [
+            "toughcrowd"
+          ],
+          "maxEntriesPerItem": 156,
+          "ignoreYear": true,
+          "tag": "newch_i",
+          "rated": "R"
+        },
+        {
+          "identifiers": [
+            "the-tom-green-show-mtv-vhsrip",
+            "the-best-of-mtvs-the-tom-green-show"
+          ],
+          "maxEntriesPerItem": 30,
+          "ignoreYear": true,
+          "tag": "newch_i",
+          "rated": "R"
+        },
+        {
+          "identifiers": [
+            "late-late-show-2008_202403",
+            "late-late-show-2010",
+            "late-late-show-2010-2"
+          ],
+          "maxEntriesPerItem": 30,
+          "ignoreYear": true,
+          "tag": "merge5"
+        }
+      ]
+    },
+    {
+      "number": 27,
       "name": "Headliner",
       "mature": true,
       "logo": "Logos/4x3/headliner.png",
@@ -6321,7 +8003,7 @@
       ]
     },
     {
-      "number": 25,
+      "number": 28,
       "name": "Bedlam",
       "mature": true,
       "logo": "Logos/4x3/bedlam.png",
@@ -6589,7 +8271,7 @@
       ]
     },
     {
-      "number": 26,
+      "number": 29,
       "name": "Camcorder",
       "logo": "Logos/4x3/camcorder.png",
       "genre": "Comedy & Variety",
@@ -6678,7 +8360,111 @@
       ]
     },
     {
-      "number": 27,
+      "number": 30,
+      "name": "Date-Night",
+      "logo": "Logos/4x3/date-night.png",
+      "genre": "Comedy & Variety",
+      "sources": [
+        {
+          "identifiers": [
+            "loveconnection-bmp",
+            "loveconnection1998-bmp",
+            "love-connection-1.1",
+            "love-connection-1988.",
+            "love-connection-1989"
+          ],
+          "maxEntriesPerItem": 40,
+          "ignoreYear": true
+        },
+        {
+          "query": "(title:(\"dating game\") AND collection:(gameshows_miscellaneous OR gameshows OR classic_tv_1960s OR classic_tv_1970s OR classic_tv_1980s OR classic_tv_1990s OR vhstvshows OR vhsmisc)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(andy OR kaufman OR \"game of\" OR \"love connection\")",
+          "ignoreYear": true,
+          "maxEntries": 40,
+          "maxEntriesPerItem": 4
+        },
+        {
+          "query": "(title:(\"newlywed game\") AND collection:(gameshows_miscellaneous OR gameshows OR classic_tv_1960s OR classic_tv_1970s OR classic_tv_1980s OR classic_tv_1990s OR vhstvshows OR vhsmisc)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers)",
+          "ignoreYear": true,
+          "maxEntries": 160,
+          "maxEntriesPerItem": 3
+        },
+        {
+          "query": "(title:(tattletales OR \"perfect match\" OR \"for love or money\" OR \"love at first sight\" OR \"studs\" OR \"personals\") AND collection:(gameshows_miscellaneous OR gameshows OR classic_tv_1980s OR classic_tv_1990s)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers)",
+          "ignoreYear": true,
+          "maxEntries": 30,
+          "maxEntriesPerItem": 3
+        },
+        {
+          "identifiers": [
+            "ElimiDate_Various_Episodes"
+          ],
+          "maxEntriesPerItem": 110,
+          "ignoreYear": true,
+          "rated": "R",
+          "tag": "newch_h"
+        },
+        {
+          "identifiers": [
+            "elimidate-fabulous-over-fifty-2004",
+            "capture-a-5474",
+            "blind-date-2001-episode",
+            "mtv-singled-out-marathon-dec.-1996",
+            "mtv-singled-out-marathon-dec.-1996_202209",
+            "singled-out-26-9-98",
+            "20240920_20240920_2332",
+            "mtv-a-shot-at-love",
+            "flavor-of-love-season-1-episode-1-reality-tv-full-episodes-480p",
+            "flavor-of-love-season-1-episode-3-reality-tv-full-episodes-480p",
+            "real-chance-of-love-s-1-ep-1",
+            "real-chance-of-love-s-1-ep-2",
+            "mtv-dis-missed-miami.-rafael-priscilla-yakira-danielle-joey-justin-season-3",
+            "mtv-dis-missed-miami.-kymie-jack-joe-yasmine-jasmine-owen-season-3",
+            "mtv-dis-missed.-richard-cat-jaime-s-2-brandon-jessica-kristy-s-1",
+            "mtv-dis-missed.-erin-mikey-doug-danica-steven-chris-season-1",
+            "mtv-dis-missed.-venessa-tommy-david-kevin-kristine-ana-season-2_202603",
+            "mtv-dis-missed.-melinda-chad-steve-johnny-sherrae-faloon.-season-3",
+            "mtv-dis-missed.-mark-arielle-esperanza-joselynne-paul-tommy.-season-3",
+            "mtv-dis-missed.-brandon-amy-arlen-natasha-marty-rob.-season-1_202603",
+            "mtv-dis-missed-miami.-elizabeth-jarrod-john-blake-janice-jennifer-season-3",
+            "mtv-dis-missed-miami.-john-adam-kim-jullian-annie-maria-season-3",
+            "mtv-dis-missed.-kitty-sean-brendan-chris-varelie-danielle-season-3",
+            "mtv-dis-missed-miami.-matt-lisa-cyra-ingrid-daniel-christian-season-3_202609",
+            "mtv-dis-missed.-josh-jenna-angela-adrienne-che-solomon.-season-2",
+            "mtv-dis-missed-miami.-celine-grant-josh-daniel-leah-janelle-season-3",
+            "rock-of-love-charm-school-s-01-e-01",
+            "mtv-ne-xt.-stephanie-evan.-season-2"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "rated": "R",
+          "tag": "newch_h"
+        },
+        {
+          "identifiers": [
+            "blind-date-chris-brenda-2000",
+            "5th-wheel-randy-redhead-2002",
+            "shipmates-natasha-jeff-2000"
+          ],
+          "maxEntriesPerItem": 40,
+          "ignoreYear": true,
+          "maxBitrateKbps": 4500,
+          "rated": "R",
+          "tag": "merge5"
+        },
+        {
+          "identifiers": [
+            "temptation-island"
+          ],
+          "maxEntriesPerItem": 10,
+          "ignoreYear": true,
+          "maxBitrateKbps": 4500,
+          "rated": "R",
+          "tag": "merge5"
+        }
+      ]
+    },
+    {
+      "number": 31,
       "name": "Winners",
       "logo": "Logos/4x3/winners.png",
       "genre": "Comedy & Variety",
@@ -6848,20 +8634,6 @@
           "maxEntries": 25
         },
         {
-          "identifiers": [
-            "loveconnection-bmp"
-          ],
-          "ignoreYear": true,
-          "maxEntriesPerItem": 20,
-          "claim": true
-        },
-        {
-          "query": "(title:(\"newlywed game\" OR \"the new newlywed game\" OR \"dating game\" OR \"the dating game\" OR \"love connection\" OR \"tattletales\")) AND (collection:(gameshows OR gameshows_miscellaneous OR gameshow_tpir OR gameshow_jeopardy OR supermarket-sweep-shows OR password-gameshow)) AND -title:(uncensored OR adult OR \"x-rated\" OR bleeped) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR mirrortube OR movie_trailers OR podcasts OR podcasts-video OR cdromsoftware OR vintagesoftware OR videogameprev OR gamevideos OR audio_sermons OR audio_religion OR link-tv-archive) AND -title:(trailer OR promo OR \"dvd game\" OR \"interactive dvd\" OR longplay OR wii OR reaction OR capcut OR template OR \"secret word\" OR bloopers OR \"clock\")",
-          "ignoreYear": true,
-          "maxEntriesPerItem": 2,
-          "maxEntries": 45
-        },
-        {
           "query": "(title:(\"the gong show\" OR \"gong show\")) AND (collection:(gameshows OR gameshows_miscellaneous OR gameshow_tpir OR gameshow_jeopardy OR supermarket-sweep-shows OR password-gameshow)) AND -title:(movie OR \"chuck barris\") AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR mirrortube OR movie_trailers OR podcasts OR podcasts-video OR cdromsoftware OR vintagesoftware OR videogameprev OR gamevideos OR audio_sermons OR audio_religion OR link-tv-archive) AND -title:(trailer OR promo OR \"dvd game\" OR \"interactive dvd\" OR longplay OR wii OR reaction OR capcut OR template OR \"secret word\" OR bloopers OR \"clock\")",
           "ignoreYear": true,
           "maxEntriesPerItem": 1,
@@ -6951,20 +8723,10 @@
           "maxEntries": 60
         },
         {
-          "query": "(subject:(\"game show\" OR \"game shows\") AND -title:(\"this or that\" OR \"crystal maze\" OR knightmare OR \"weakest link\" OR \"deal or no deal\" OR \"the chase\" OR takeshi OR \"university challenge\" OR mtv OR gamesmaster OR taskmaster OR skatoony) AND -identifier:(TT* OR T-T* OR \"017395\" OR \"012145\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR mirrortube OR movie_trailers OR podcasts OR podcasts-video OR cdromsoftware OR vintagesoftware OR videogameprev OR gamevideos OR audio_sermons OR audio_religion OR link-tv-archive) AND -title:(trailer OR promo OR \"dvd game\" OR \"interactive dvd\" OR longplay OR wii OR reaction OR capcut OR template OR \"secret word\" OR bloopers OR \"clock\") AND -collection:(dvdtray OR vhstvshows OR classic_tv_1950s OR classic_tv_1960s) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR religious OR evangelist)",
+          "query": "(subject:(\"game show\" OR \"game shows\") AND -title:(\"this or that\" OR \"crystal maze\" OR knightmare OR \"weakest link\" OR \"deal or no deal\" OR \"the chase\" OR takeshi OR \"university challenge\" OR mtv OR gamesmaster OR taskmaster OR skatoony OR dating OR newlywed OR \"love connection\" OR elimidate OR \"blind date\" OR \"singled out\" OR tattletales) AND -identifier:(TT* OR T-T* OR \"017395\" OR \"012145\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR mirrortube OR movie_trailers OR podcasts OR podcasts-video OR cdromsoftware OR vintagesoftware OR videogameprev OR gamevideos OR audio_sermons OR audio_religion OR link-tv-archive) AND -title:(trailer OR promo OR \"dvd game\" OR \"interactive dvd\" OR longplay OR wii OR reaction OR capcut OR template OR \"secret word\" OR bloopers OR \"clock\") AND -collection:(dvdtray OR vhstvshows OR classic_tv_1950s OR classic_tv_1960s) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR religious OR evangelist)",
           "ignoreYear": true,
           "maxEntriesPerItem": 12,
           "maxEntries": 60
-        },
-        {
-          "identifiers": [
-            "ElimiDate_Various_Episodes",
-            "capture-a-5474"
-          ],
-          "ignoreYear": true,
-          "maxEntriesPerItem": 100,
-          "rated": "R",
-          "tag": "adult3"
         },
         {
           "identifiers": [
@@ -6973,36 +8735,6 @@
           ],
           "ignoreYear": true,
           "maxEntriesPerItem": 1,
-          "rated": "R",
-          "tag": "adult3"
-        },
-        {
-          "identifiers": [
-            "mtv-a-shot-at-love",
-            "flavor-of-love-season-1-episode-1-reality-tv-full-episodes-480p",
-            "flavor-of-love-season-1-episode-1-reality-tv-full-episodes",
-            "flavor-of-love-season-1-episode-3-reality-tv-full-episodes-480p",
-            "rock-of-love-charm-school-s-01-e-01",
-            "real-chance-of-love-s-1-ep-1",
-            "real-chance-of-love-s-1-ep-2",
-            "blind-date-2001-episode",
-            "mtv-dis-missed-miami.-rafael-priscilla-yakira-danielle-joey-justin-season-3",
-            "mtv-dis-missed-miami.-kymie-jack-joe-yasmine-jasmine-owen-season-3",
-            "mtv-dis-missed.-richard-cat-jaime-s-2-brandon-jessica-kristy-s-1",
-            "mtv-dis-missed.-erin-mikey-doug-danica-steven-chris-season-1",
-            "mtv-dis-missed.-venessa-tommy-david-kevin-kristine-ana-season-2_202603",
-            "mtv-dis-missed.-melinda-chad-steve-johnny-sherrae-faloon.-season-3",
-            "mtv-dis-missed.-mark-arielle-esperanza-joselynne-paul-tommy.-season-3",
-            "mtv-dis-missed.-brandon-amy-arlen-natasha-marty-rob.-season-1_202603",
-            "mtv-dis-missed-miami.-elizabeth-jarrod-john-blake-janice-jennifer-season-3",
-            "mtv-dis-missed-miami.-john-adam-kim-jullian-annie-maria-season-3",
-            "mtv-dis-missed.-kitty-sean-brendan-chris-varelie-danielle-season-3",
-            "mtv-dis-missed-miami.-matt-lisa-cyra-ingrid-daniel-christian-season-3_202609",
-            "mtv-dis-missed.-josh-jenna-angela-adrienne-che-solomon.-season-2",
-            "mtv-dis-missed-miami.-celine-grant-josh-daniel-leah-janelle-season-3"
-          ],
-          "ignoreYear": true,
-          "maxEntriesPerItem": 30,
           "rated": "R",
           "tag": "adult3"
         },
@@ -7022,13 +8754,9 @@
         },
         {
           "identifiers": [
-            "mtv-singled-out-marathon-dec.-1996",
-            "mtv-singled-out-marathon-dec.-1996_202209",
-            "singled-out-26-9-98",
             "mtvs-trashed-4-12-1994",
             "2023-02-10-22-17-17",
             "bromance.-s-01-e-03.-dsr.-xvi-d-sai-nts",
-            "mtv-ne-xt.-stephanie-evan.-season-2",
             "remote-control-spring-break"
           ],
           "ignoreYear": true,
@@ -7039,7 +8767,7 @@
       ]
     },
     {
-      "number": 28,
+      "number": 32,
       "name": "Prize",
       "logo": "Logos/4x3/prize.png",
       "genre": "Comedy & Variety",
@@ -7160,7 +8888,7 @@
       ]
     },
     {
-      "number": 29,
+      "number": 33,
       "name": "Groucho",
       "logo": "Logos/4x3/groucho.png",
       "genre": "Comedy & Variety",
@@ -7239,7 +8967,7 @@
       ]
     },
     {
-      "number": 30,
+      "number": 34,
       "name": "Prank",
       "logo": "Logos/4x3/prank.png",
       "genre": "Comedy & Variety",
@@ -7320,7 +9048,7 @@
       ]
     },
     {
-      "number": 31,
+      "number": 36,
       "name": "Rerun",
       "logo": "Logos/4x3/rerun.png",
       "genre": "Drama & Classic TV",
@@ -7803,7 +9531,130 @@
       ]
     },
     {
-      "number": 32,
+      "number": 37,
+      "name": "Anthology",
+      "logo": "Logos/4x3/anthology.png",
+      "genre": "Drama & Classic TV",
+      "sources": [
+        {
+          "identifiers": [
+            "the-twilight-zone-1959-s-01-e-00-original-pilot",
+            "the-twilight-zone-1959-s-02-e-11-the-night-of-the-meek",
+            "the-twilight-zone-1959-s-03-e-15-a-quality-of-mercy",
+            "the-twilight-zone-1959-s-04-e-16-on-thursday-we-leave-for-home",
+            "the-twilight-zone-1959-s-05-e-22-an-occurrence-at-owl-creek-bridge",
+            "twilight-zone-1985-1x-01-shatterday",
+            "the-twilight-zone-1985-s-02-e-01-the-once-and-future-king",
+            "the-twilight-zone-1985-s-03-e-01-the-curious-case-of-edgar-witherspoon",
+            "the.-twilight.-zone.-2002.-s-01.480p.-dvd-rip.-x-264.-will-1869"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "the-outer-limits-s-1e-1-1963-colorized",
+            "the-outer-limits-s-2e-3-1964-colorized-576p-sd",
+            "OuterLimitsPilot"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "one-step-beyond",
+            "tales-of-tomorrow-1951-53",
+            "science-fiction-theatre-season-1",
+            "science-fiction-theatre-season-2",
+            "WayOut1961",
+            "04-a-quiet-funeral-make-up"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "alfred-hitchcock-presents-s-1e-1-colorized-720p-hd",
+            "alfred-hitchcock-presents-s-2e-13-colorized-sd",
+            "alfred-hitchcock-presents-s-3e-1-colorized-sd",
+            "alfred-hitchcock-presents-s-4e-1-colorized-sd",
+            "alfred-hitchcock-presents-1959-s-5e-1-colorized-sd",
+            "alfred-hitchcock-presents-s-6e-1-colorized-sd",
+            "alfred-hitchcock-presents-s-7e-1-colorized-sd"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 18,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "the-new-alfred-hitchcock-presents-complete",
+            "the-alfred-hitchcock-hour-s-01-complete-first-season",
+            "the-alfred-hitchcock-hour-s-02-the-complete-second-season",
+            "the-alfred-hitchcock-hour-s-03-the-complete-third-season"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "thriller-karloff",
+            "night-gallery-101-the-cemetery-eyes-the-escape-route",
+            "kolchak-the-night-stalker-complete-series-1972",
+            "ghost-story-circle-of-fear-complete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "tales-from-the-darkside-s01-en",
+            "tales-from-the-darkside-s02-en",
+            "RayBradburyTheater",
+            "amazing-stories-1985-1987-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "tales-of-the-unexpected-1979-88"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 24,
+          "tag": "newch_f"
+        },
+        {
+          "identifiers": [
+            "freddys-nightmares-complete-tv-series",
+            "fridaythe13thseason1",
+            "FridayThe13th.TheSeries3x0102TheProphecies"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f",
+          "rated": "R"
+        },
+        {
+          "identifiers": [
+            "the-outer-limits-1995_202304",
+            "hammer-house-of-horror-the-complete-series-1980"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "newch_f",
+          "rated": "R"
+        }
+      ]
+    },
+    {
+      "number": 38,
       "name": "Pulse",
       "logo": "Logos/4x3/pulse.png",
       "genre": "Drama & Classic TV",
@@ -7907,7 +9758,7 @@
       ]
     },
     {
-      "number": 33,
+      "number": 39,
       "name": "Suds",
       "logo": "Logos/4x3/suds.png",
       "genre": "Drama & Classic TV",
@@ -7985,7 +9836,7 @@
       ]
     },
     {
-      "number": 34,
+      "number": 40,
       "name": "Bubbles",
       "logo": "Logos/4x3/bubbles.png",
       "genre": "Drama & Classic TV",
@@ -8159,7 +10010,7 @@
       ]
     },
     {
-      "number": 35,
+      "number": 41,
       "name": "Pond",
       "logo": "Logos/4x3/pond.png",
       "genre": "Drama & Classic TV",
@@ -8200,7 +10051,7 @@
       ]
     },
     {
-      "number": 36,
+      "number": 42,
       "name": "Chatter",
       "logo": "Logos/4x3/chatter.png",
       "genre": "Drama & Classic TV",
@@ -8580,7 +10431,6 @@
             "jerry-springer-secrets-and-surprises",
             "jerry-springer-uk-october-1999-partial",
             "video-output-C1A9A143-74C6-44BE-A4B5-08BA04FFF16F-1",
-            "the-jerry-springer-show-various-episodes",
             "the-jerry-springer-show-various-episodes-pt-2"
           ],
           "ignoreYear": true,
@@ -8606,7 +10456,6 @@
             "the-richard-bey-show-two-timing-dads-1995",
             "the-richard-bey-show-3-strikes-and-youre-out-incomplete",
             "richard-bey-truster",
-            "mortdowneyjrcollection",
             "morton-downey-jr-show-heavy-metal-1989"
           ],
           "ignoreYear": true,
@@ -8746,15 +10595,57 @@
           "maxEntriesPerItem": 2,
           "maxEntries": 12,
           "rated": "R"
+        },
+        {
+          "identifiers": [
+            "talksoup"
+          ],
+          "maxEntriesPerItem": 24,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "the-jerry-springer-show-various-episodes"
+          ],
+          "maxEntriesPerItem": 17,
+          "ignoreYear": true,
+          "rated": "R",
+          "tag": "merge5"
+        },
+        {
+          "identifiers": [
+            "mortdowneyjrcollection"
+          ],
+          "maxEntriesPerItem": 18,
+          "ignoreYear": true,
+          "rated": "R",
+          "tag": "merge5"
         }
       ]
     },
     {
-      "number": 37,
+      "number": 43,
       "name": "Gavel",
       "logo": "Logos/4x3/gavel.png",
       "genre": "Drama & Classic TV",
       "sources": [
+        {
+          "identifiers": [
+            "JJBEC_202501"
+          ],
+          "maxEntriesPerItem": 6,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "judge-judy-kids-fight-over-a-bat"
+          ],
+          "maxEntriesPerItem": 1,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
         {
           "identifiers": [
             "judge-judy-25th-anniversary"
@@ -8800,11 +10691,20 @@
         {
           "query": "(title:(\"judge rinder\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR jpn OR chi OR hin OR kor OR tur) AND -collection:(audio_sermons OR audio_religion OR sermonindex) AND -subject:(sermon OR tbn OR worship OR \"praise the lord\") AND -collection:(tvnews OR tvarchive OR mirrortube OR social-media-video OR fringe OR deemphasize OR community_media OR movie_trailers OR funnyordie OR roosterteetharchive OR podcasts OR bliptv OR vlogs OR gamevideos) AND -identifier:(youtube-* OR yt_*) AND -title:(promo OR trailer OR bloopers OR intro OR credits OR logos OR teaser OR preview OR parody OR spoof OR \"funny or die\" OR \"vhs #\" OR \"tape #\" OR \"dvd+r\" OR \"market box\") AND -title:(clip OR clips OR opening OR commercials OR \"closing\" OR snl OR \"warner bros\" OR trump OR obama OR biden OR bernie OR impeachment OR mindblowing OR couric OR roseanne OR \"snark week\" OR \"monkey knife\" OR \"in mars\" OR \"drunk girl\" OR baby OR snow OR larson OR \"cade newton\" OR \"file #\" OR pokemon OR wendy OR \"days of our lives\" OR \"one life\" OR soccer OR gala OR \"5 pm news\" OR \"ten news\" OR neighbours OR tmz OR \"media funhouse\" OR \"it takes two\" OR \"real life\" OR \"throws shade\" OR \"vows to stop\" OR raped OR rape OR murder OR \"jayi\" OR \"beauty queens\" OR \"drug test\" OR promotion OR commercial OR \"al-angry\" OR firebat OR pops) AND -identifier:(00047349-*)",
           "ignoreYear": true
+        },
+        {
+          "identifiers": [
+            "peoples-court-kwwl-1993",
+            "JoeBrown"
+          ],
+          "maxEntriesPerItem": 6,
+          "ignoreYear": true,
+          "tag": "foldin_a"
         }
       ]
     },
     {
-      "number": 38,
+      "number": 44,
       "name": "Tinsel",
       "logo": "Logos/4x3/tinsel.png",
       "genre": "Drama & Classic TV",
@@ -9022,7 +10922,7 @@
       ]
     },
     {
-      "number": 39,
+      "number": 45,
       "name": "Dreamtime",
       "logo": "Logos/4x3/dreamtime.png",
       "genre": "Drama & Classic TV",
@@ -9136,7 +11036,7 @@
       "minSeconds": 60
     },
     {
-      "number": 40,
+      "number": 46,
       "name": "Porch",
       "logo": "Logos/4x3/porch.png",
       "genre": "Drama & Classic TV",
@@ -9320,7 +11220,7 @@
       ]
     },
     {
-      "number": 41,
+      "number": 48,
       "name": "Newsdesk",
       "logo": "Logos/4x3/newsdesk.png",
       "genre": "News & Docs",
@@ -9476,7 +11376,7 @@
       ]
     },
     {
-      "number": 42,
+      "number": 49,
       "name": "Cumulus",
       "logo": "Logos/4x3/cumulus.png",
       "genre": "News & Docs",
@@ -9493,7 +11393,7 @@
       ]
     },
     {
-      "number": 43,
+      "number": 50,
       "name": "Lens",
       "logo": "Logos/4x3/lens.png",
       "genre": "News & Docs",
@@ -9700,7 +11600,553 @@
       ]
     },
     {
-      "number": 44,
+      "number": 51,
+      "name": "Filmstrip",
+      "logo": "Logos/4x3/filmstrip.png",
+      "genre": "News & Docs",
+      "sources": [
+        {
+          "identifiers": [
+            "HealthYo1953",
+            "CindyGoe1955",
+            "BullyThe1952",
+            "WhatAbou1955",
+            "SnobThe1958",
+            "SpeechSt1949",
+            "Outsider1951",
+            "CookingT1949",
+            "TroubleM1959",
+            "GossipTh1955",
+            "Procrast1952",
+            "WhyStudy1955",
+            "WhatAbou1958",
+            "SpeechPl1949",
+            "HalloweenSafety",
+            "Understa1959",
+            "OtherPeo1951",
+            "OtherFel1951",
+            "Responsi1953",
+            "GoodLose1953",
+            "CitizenM1954",
+            "0345_Why_Study_Industrial_Arts_22_35_38_00",
+            "0589_Health_Your_Cleanliness_E01763_05_14_56_00",
+            "2317_Griper_The_01_36_41_00",
+            "0618_How_To_Take_A_Test_E00472_02_50_10_00",
+            "handlingmaritalconflicts",
+            "earshaveyouheardthelatest",
+            "school-lunchroom-manners-1979",
+            "community-helpers-school-workers-1980",
+            "taking-care-of-your-school-building-1979",
+            "JoanAvoi1947",
+            "GoodEati1951",
+            "Exercise1949",
+            "HowtoBeW1949",
+            "DatingDo1949",
+            "GoodTabl1951",
+            "ShyGuy1947",
+            "AreYouRe1950",
+            "ActYourA1949",
+            "WhattoDo1950"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "Everyday1948",
+            "WhatMake1950",
+            "HowDoYou1950",
+            "GoingSte1951",
+            "ControlY1950",
+            "Marriage1951",
+            "IWanttoB1941",
+            "FamilyLi1949",
+            "HowtoSay1951",
+            "BetterUs1950",
+            "WhatIsMo1947",
+            "HowQuiet1953",
+            "Benefits1950",
+            "GettingR1951",
+            "MindYour1953",
+            "SelfCons1951",
+            "WaystoSe1950",
+            "FunofBei1950",
+            "RightorW1951",
+            "Understa1950",
+            "AmITrust1950",
+            "HowtoKee1949",
+            "LawandSo1949",
+            "SocialCo1951",
+            "Beginnin1951",
+            "Understa1950_2",
+            "Developi1951",
+            "Overcomi1950",
+            "HowHones1950",
+            "SnapOuto1951",
+            "Attitude1949",
+            "Friendsh1949",
+            "0537_Banks_and_Credit_19_41_46_04",
+            "RestandH1949",
+            "0248_Are_You_Popular_E00020_19_00_34_00",
+            "YourThri1948",
+            "WritingB1950",
+            "Servicea1951",
+            "LetsPlay1949",
+            "SharingW1949"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "GoodSpor1950",
+            "0131_Developing_Responsibility_21_51_30_00",
+            "LetsShar1950",
+            "4087_Cleanliness_And_Health",
+            "0381_Appreciating_Our_Parents_E00013_12_00_55_20",
+            "0261_How_to_Study_E00470_00_39_40_00",
+            "0038_How_Friendly_Are_You_14_48_41_20",
+            "0517_How_to_Say_No_Moral_Maturity_01_48_46_16",
+            "SchoolRules",
+            "0184_Developing_Friendships_E00205_03_22_39_00",
+            "0916_Are_You_a_Good_Citizen_00_01_03_02",
+            "anatomyofateenagecourtship",
+            "fun_that_builds",
+            "0171YourFamily",
+            "0147_Ways_to_Good_Habits_E01619_13_48_47_14",
+            "0736_Fun_of_Making_Friends_The_E00329_01_40_31_00",
+            "0915_Getting_Ready_Emotionally_00_19_15_07",
+            "FoodThatBuildsGoodHealth",
+            "FunOfMakingFriends",
+            "201665_Date_Etiquette",
+            "WorkingSafelyintheShop",
+            "ParentsWhoNeedsThem_201603",
+            "bicyclesafety_20170531",
+            "sayingnotodanger",
+            "FairnessForBeginners",
+            "TakingCareOfThingsYouShare1978",
+            "onemoreyearonthefamilyfarm",
+            "SchoolSpiritAndSportsmanship",
+            "Sleepfor1950",
+            "EatforHe1954",
+            "Careofth1949",
+            "Usingthe1947",
+            "Careofth1951",
+            "Beginnin1953",
+            "OfficeEt1950",
+            "DontBeAf1953",
+            "MentalHe1952",
+            "OfficeCo1952",
+            "0348_Keeping_Clean_and_Neat_E00571_02_35_47_00",
+            "Dayatthe1947"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "0427_Anyone_at_All_Safety_in_the_Community_01_34_50_00",
+            "UniqueCo1959",
+            "AreMannersImportant",
+            "0018_Getting_Along_With_Parents_18_43_08_07",
+            "incaseoffire_201502",
+            "safetyinthehomethirdedition",
+            "PersonalityAndEmotions",
+            "1956-keeping-clean-and-neat.m-4v",
+            "PromItsA1961",
+            "TipTopsi1934",
+            "OtherFel1937",
+            "64974-courtship-and-marriage-pt-2-vwr",
+            "xd-49914-date-etiquette-vwr",
+            "66114-when-should-i-marry-vwr",
+            "xd-13084-tommy-vwr",
+            "xd-49904-junior-prom-vwr-1",
+            "70094-brotherhood-of-man-heritage-vwr-1",
+            "xd-39074-discipline-during-adolescence-vwr",
+            "1949-social-guidance-film-exercise-and-health",
+            "helpful-dating-advice-from-1950-what-to-do-on-a-date",
+            "what-is-money-1947-educational-film",
+            "social-guidance-film-control-your-emotions-1950",
+            "1954-social-guidance-film-habit-patterns",
+            "HowDoYou1946",
+            "Cooking-KitchenSafety",
+            "SafetyBeginsAtHome",
+            "LetsStopAndGoSafely1",
+            "FromtheG1954",
+            "right_to_health_1",
+            "Sniffles1955",
+            "Personal1950",
+            "always_on_call",
+            "GeneralH1928",
+            "ForHealt1941",
+            "DateWith1950",
+            "Foundati1951",
+            "ThisChar1950",
+            "AskMeDon1961",
+            "HabitPat1954",
+            "Maintain1947"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "BodyCare1948",
+            "ChildWen1942",
+            "Choosing1950",
+            "Wastageo1947",
+            "WhosBoss1950",
+            "JuniorPr1946",
+            "AsOthers1953",
+            "DinnerPa1945",
+            "Gossip1953",
+            "ColoritC1966",
+            "JohnnyLe1946",
+            "LetsBeGo1953",
+            "IsThisLove",
+            "DiningTo1951",
+            "Responsi1955",
+            "HelpingJ1956",
+            "Holidayf1959",
+            "GoodbyeM1959_2",
+            "WhosRigh1954",
+            "AboutFac1941",
+            "SpecialD1963",
+            "TableMan1947",
+            "Emotiona1957",
+            "Chanceto1950",
+            "Marriage1950",
+            "Censorsh1963",
+            "Practici1953",
+            "YouandYo1946",
+            "PlayingT1950",
+            "CityWate1941",
+            "ItsAllin1954",
+            "AstheTwi1943",
+            "ItTakesA1950",
+            "MeatsWit1946",
+            "LetUsBre1954",
+            "Obligati1950",
+            "0745HighCountryHoliday04442700",
+            "2187KidsMustEat",
+            "MakingADiffe",
+            "0938Food1928"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "SchoolHo1945",
+            "200460_Toward_Emotional_Maturity",
+            "200420_Little_Brothers_And_Sisters",
+            "200462_Whenever_You_Eat",
+            "Eyes_And_Their_Care",
+            "200629_General_Personal_Hygiene",
+            "Moment_of_Service",
+            "200637_Posture",
+            "Whats_In_It_For_Me",
+            "202932_The_Elementary_School_P1",
+            "200421_Thrift",
+            "200496_Sewing_Pattern_Interpretation",
+            "SpeechFu1950",
+            "0916_Sewing_Simple_Seams_00_11_40_27",
+            "SpeechUsingYourVoiceCc",
+            "howtoconductameeting",
+            "cakes-basic-techniques-1981",
+            "BuildYou1948",
+            "Introduc1951",
+            "WhatIsBu1948",
+            "0044LibraryOrganization20110400",
+            "what_is_a_corporation",
+            "0552_Work_of_the_Stock_Exchange_10_39_27_00",
+            "LearnToArgueEffectively",
+            "0167_Who_Are_the_People_of_America_08_30_12_00",
+            "0121_Our_Living_Constitution_11_33_03_19",
+            "FeelingLeftOut",
+            "HowToJudgeAuthorities",
+            "learningabouthumanbehavior",
+            "how-nations-work-together-1971",
+            "LetsHaveFewerColds",
+            "HowToWriteEffectively",
+            "HowToJudgeFacts",
+            "WaysToBetterConversation",
+            "1475CommunityGovernment",
+            "thesecretaryanormalday",
+            "HowToRemember",
+            "peoplearedifferentandalike",
+            "BuildingBetterParagraphs",
+            "thesecretarytranscribing"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "ListenWellLearnWell",
+            "0454_Belonging_to_the_Group_Respect_as_a_Human_Value_01_33_46_00",
+            "0843_Meet_Your_Federal_Government_16_01_00_00",
+            "cooking-terms-and-what-they-mean-1949-kitchen-home-economics-teaching-film-gg-24515"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_g"
+        },
+        {
+          "identifiers": [
+            "24792NuclearRadiationFallout",
+            "29142CivilDefenseThreeReactionsToShelterLife",
+            "26092YouCanBeatTheABomb",
+            "83304FactsAboutFallout",
+            "29072CivilDefenseFilmPublicShelterSupplies",
+            "28182YourCivilDefense",
+            "71622TheDayCalledX",
+            "29192CivilDefenseInSchools",
+            "72742CivilDefenseANewFamilyInTown",
+            "28042TimeOfDisaster",
+            "72592RadioactiveFalloutTheOverallSituationFalloutInTheDamagedArea",
+            "71732RadiologicalDefense",
+            "28192RehearsalForDisaster",
+            "71732OurCitiesMustFight",
+            "28142FoodSupplyAfterTheBomb",
+            "29102CivilDefenseInformationProgressWithinPublicShelters",
+            "29112CivilDefenseFactsMakeTheDifference",
+            "83284-the-atomic-bomb-its-effects-and-how-to-meet-them-vwr",
+            "89744-civil-defense-a-prime-for-survival",
+            "87654-emergency-operating-centers-the-basic-concepts",
+            "xd-13814-shelter-quiet-street-vwr-1",
+            "42504-the-sky-is-your-target-vwr",
+            "agagf0A9dmizp5lkmJkfjLse9XwZS4",
+            "72132abriefingoncivildefense",
+            "80860-Eagles-Talon_vwr.mov",
+            "28222wakingpoint",
+            "89354-to-live-tomorrow",
+            "sF8p2JPDoHGAbUPniskd6QjLXWfyKz",
+            "5dcxBHUJGUGBMyLp5UK8hGy0U8530W",
+            "202423_Civil_Defense_Public_Information",
+            "54404BallisticMissilesEarlyWarningSystem",
+            "LocalCivilDefense",
+            "23634CivilDefenseDuckAndCoverVwr",
+            "44254TheInvisibleEnemyRexfer",
+            "63564-community-shelter-planning-vwr",
+            "83294TheAtomicBombItsEffectsAndHowToMeetThemPart4BlastVwr",
+            "87954YourChanceToLiveNuclearDisaster",
+            "44024townofthetimesvwr",
+            "31574patternforsurvivalvwr",
+            "72142CivilDefenseTenForSurvival"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_c"
+        },
+        {
+          "identifiers": [
+            "52934CivilDefenseFireFightingForHouseholders",
+            "29082CivilDefensePublicShelterOrganizationAndStaff",
+            "29092CivilDefenseOperationsInPublicShelters",
+            "y2OXhMf3Jpz8eI8UUFujrLRgmRpzSB",
+            "AtomicAl1951",
+            "71662OperationCue1964RevisionHD"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_c"
+        },
+        {
+          "identifiers": [
+            "telemarketing3techniquesforthephonesalesrep",
+            "Secretar1947",
+            "applyingforajob",
+            "HowtoGoP1954",
+            "OutofThi1954",
+            "SoundAndTheS",
+            "MasterHa1936",
+            "MorePowe1930",
+            "HowtoLis1957",
+            "EasyDoes1940",
+            "TestTube1941",
+            "Hired1940",
+            "ReportToHome",
+            "WhatMake1947",
+            "MantoMan1947",
+            "MotherTa1952_2",
+            "wonderful_world_1",
+            "Practica1957",
+            "0776_Refreshment_on_the_Job_03_54_17_00",
+            "Internat1941",
+            "ThingsPe1948",
+            "SafetyPa1937",
+            "TheseAre1944",
+            "Faceinth1940",
+            "Unfinish1948",
+            "ThesePeo1944",
+            "SellingA1938",
+            "quality_control_2",
+            "OpenDoor1945",
+            "TwoPayDa1927_2",
+            "0594_Rhythm_of_Production_Automatic_Mass_Production_with_Progress_Th_11_34_56_00",
+            "1280FactorySafety",
+            "200498_More_Than_Machines",
+            "JimmyOfTheSafetyPatrol",
+            "Automoti1940",
+            "YourName1960",
+            "Woodwork1940",
+            "SailingAlong",
+            "Townandt1950",
+            "city_of_hope"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_n"
+        },
+        {
+          "identifiers": [
+            "Wheelsof1950",
+            "InsideSt1946",
+            "Telephon1946",
+            "BigTrain1950",
+            "DaysofOu1955",
+            "WhenYouG1973",
+            "HowTexti1948",
+            "opportunities_unlimited",
+            "Electric1942",
+            "history_of_communication",
+            "Operator1949_2",
+            "DialDForDesi",
+            "Operator1949",
+            "MakingaN1946_2",
+            "HumanBri1949",
+            "Machinis1942",
+            "WeldingO1942",
+            "YouCanTe1945",
+            "AirTrans1947",
+            "FindingY1940",
+            "Progress1960",
+            "GreaterG1953",
+            "Business1968",
+            "FlyingBu1953",
+            "Operator1949_4",
+            "Transpor1946",
+            "TimeForCoffe",
+            "HowMuch1963",
+            "Hoteland",
+            "1965Para1965",
+            "Sciencei1956_3",
+            "plastic_age_anniversary",
+            "Bookkeep1945",
+            "TripleGo1948",
+            "Restaura1946",
+            "BuildersOfTh",
+            "ChanceYouTak",
+            "FireandP1947",
+            "mechanical_engineering_at_dupont",
+            "IndustryOnPa"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_n"
+        },
+        {
+          "identifiers": [
+            "CheckAnd1962",
+            "papermans_paper",
+            "0978IndustrialWorker",
+            "Successi1928",
+            "BuildersOfTh_2",
+            "winning_against_odds",
+            "FromTree1931",
+            "these_are_my_people_1",
+            "odds_and_ends_1",
+            "LookingAhead",
+            "pages_from_an_open_book_1",
+            "sand_on_the_slippery",
+            "Troubles1925_2",
+            "ItTakesE1951",
+            "LifeInsu1948",
+            "6407LongCorridorThe01004108",
+            "0456BoostingIsABusiness01332620",
+            "6346OpportunityUnlimited01432600",
+            "6336LenoxHallmarkOfExcellence01164100",
+            "0932_Salesman_A_Film_Lesson_in_Vocational_Guidance_The_00_21_17_16",
+            "0944SellingMethods",
+            "200428_The_Industrial_Worker",
+            "200508_The_Salesman"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "newch_g_filmstrip_n"
+        }
+      ],
+      "timeBlocks": [
+        {
+          "label": "Morning Classroom",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start": "08:00",
+          "end": "12:00",
+          "sources": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ],
+          "minMinutes": 5
+        },
+        {
+          "label": "Company Training Session",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri"
+          ],
+          "start": "13:00",
+          "end": "17:00",
+          "sources": [
+            9,
+            10,
+            11
+          ],
+          "minMinutes": 5
+        },
+        {
+          "label": "Civil Defense Overnight",
+          "days": [
+            "mon",
+            "tue",
+            "wed",
+            "thu",
+            "fri",
+            "sat",
+            "sun"
+          ],
+          "start": "02:00",
+          "end": "05:00",
+          "sources": [
+            7,
+            8
+          ],
+          "minMinutes": 5
+        }
+      ]
+    },
+    {
+      "number": 52,
       "name": "Curious",
       "logo": "Logos/4x3/curious.png",
       "genre": "News & Docs",
@@ -9738,7 +12184,7 @@
       ]
     },
     {
-      "number": 45,
+      "number": 53,
       "name": "Byte",
       "logo": "Logos/4x3/byte.png",
       "genre": "News & Docs",
@@ -9749,7 +12195,7 @@
       ]
     },
     {
-      "number": 46,
+      "number": 54,
       "name": "Patrol",
       "logo": "Logos/4x3/patrol.png",
       "genre": "News & Docs",
@@ -9837,7 +12283,7 @@
       ]
     },
     {
-      "number": 47,
+      "number": 55,
       "name": "Evidence",
       "mature": true,
       "logo": "Logos/4x3/evidence.png",
@@ -9886,7 +12332,6 @@
             "deadly-women-s10",
             "deadly-women-s11_202509",
             "episode-07-ice-cold",
-            "most-evil-killers",
             "hitman-serial-killer-richard-kuklinski-the-iceman-interview-documentary",
             "youtube-6kvXzG8ICV0",
             "America_Undercover_Teen_Killers_A_Second_Chance_HBO_1998-10",
@@ -9925,11 +12370,69 @@
           "maxEntriesPerItem": 4,
           "rated": "R",
           "tag": "adult2_c"
+        },
+        {
+          "identifiers": [
+            "hard-copy-full-episodes",
+            "hard-copy-colleen-applegate-1990",
+            "inside-edition-elvis-presley-1992"
+          ],
+          "maxEntriesPerItem": 10,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "hard-copy-11-27-1989",
+            "hard-copy-january-29-1994",
+            "Hard_Copy_Michael_Jackson_1993-11-22",
+            "hard-copy-march-13-1992",
+            "entertainment-tonight-hard-copy-may-8-1995",
+            "HardCopyO.J.SimpsonInTheDreamOfHamishMose",
+            "capture-a-280",
+            "capture-a-303",
+            "capture-a-5300",
+            "capture-a-8029",
+            "insideedition19980501",
+            "InsideEditionNovember81999",
+            "inside-edition-january-10-1991",
+            "may31993insideeditionrecordedoffwavytv10",
+            "InsideEditionMarch131991",
+            "InsideEditionMarch241992",
+            "insideeditioninsideweekend19971111",
+            "insideedition19961114",
+            "inside-edition-september-19th-1994",
+            "capture-a-1308",
+            "capture-a-2860",
+            "capture-a-4016",
+            "ACurrentAffairOctober171988",
+            "a-current-affair-11-25-1991-woc",
+            "a-current-affair-9-27-1990",
+            "a-current-affair-extra-october-24-1993",
+            "A_Current_Affair_FOX_WOC_1988-09-1x",
+            "wdsu-tv-new-orleans-a-current-affair-4-8-1993",
+            "a-current-affair-extra-3-10-1991",
+            "capture-a-6727",
+            "american-journal-february-5th-1997",
+            "capture-a-5310"
+          ],
+          "maxEntriesPerItem": 3,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "most-evil-killers"
+          ],
+          "maxEntriesPerItem": 8,
+          "ignoreYear": true,
+          "rated": "R",
+          "tag": "merge5"
         }
       ]
     },
     {
-      "number": 48,
+      "number": 56,
       "name": "Uncanny",
       "logo": "Logos/4x3/uncanny.png",
       "genre": "News & Docs",
@@ -10114,11 +12617,61 @@
           "maxEntriesPerItem": 3,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "james-randi-psychic-investigator",
+            "crossing-over-still-a-skeptic-2004",
+            "SecretsofthePsychics",
+            "mysteries-of-the-unkown-psychic-powers-1988-hbovideo-vhs-rip"
+          ],
+          "maxEntriesPerItem": 6,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "strange-but-true"
+          ],
+          "maxEntriesPerItem": 14,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "AULVAC-ripleys-believe-it-or-not-2001-season-2-mpeg-4-xvi-d-avi",
+            "aulvac-ripleys-believe-it-or-not-2002-season-3-mpeg-4-xvi-d-avi_202405",
+            "AULVAC-ripleys-believe-it-or-not-2003-season-4-mpeg-4-xvi-d-avi"
+          ],
+          "maxEntriesPerItem": 6,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "arthur-c-clarkes-mysterious-world-complete-series-1980",
+            "arthur-c-clarkes-world-of-strange-powers-complete-series-1985"
+          ],
+          "maxEntriesPerItem": 14,
+          "ignoreYear": true,
+          "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "The_Paranormal_Borderline_UPN_WOC_1996-03-19",
+            "Nostradamus_Sci-Fi_Channel_WOC_2000-10-14_12am",
+            "christopher-lee-ghosts-a-journey-into-the-paranormal-1991-full-paranormal-vhs-documentary-hd",
+            "haunted_lives_true_ghost_stories",
+            "encounters-bigfoot-aliens-ghosts-1994"
+          ],
+          "maxEntriesPerItem": 4,
+          "ignoreYear": true,
+          "tag": "foldin_a"
         }
       ]
     },
     {
-      "number": 49,
+      "number": 57,
       "name": "OldNews",
       "logo": "Logos/4x3/oldnews.png",
       "genre": "News & Docs",
@@ -10245,7 +12798,7 @@
       ]
     },
     {
-      "number": 50,
+      "number": 59,
       "name": "Twang",
       "logo": "Logos/4x3/twang.png",
       "genre": "Music",
@@ -10402,7 +12955,7 @@
       ]
     },
     {
-      "number": 51,
+      "number": 60,
       "name": "Jukebox",
       "logo": "Logos/4x3/jukebox.png",
       "genre": "Music",
@@ -10594,7 +13147,63 @@
       "shortContent": "Music Videos"
     },
     {
-      "number": 52,
+      "number": 61,
+      "name": "VJ",
+      "logo": "Logos/4x3/vj.png",
+      "genre": "Music",
+      "sources": [
+        {
+          "query": "(title:(\"headbangers ball\" OR \"headbanger's ball\" OR \"headbangers halloween\" OR \"heavy metal mania\" OR \"decade of metal\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report)",
+          "ignoreYear": true,
+          "maxEntries": 60,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(\"120 minutes\" OR \"post modern mtv\" OR \"postmodern mtv\") AND title:(mtv OR \"120 minutes\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report)",
+          "ignoreYear": true,
+          "maxEntries": 90,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(\"alternative nation\") AND title:(mtv)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report)",
+          "ignoreYear": true,
+          "maxEntries": 30,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(\"pop-up video\" OR \"pop up video\") AND title:(vh1 OR \"vh 1\" OR vh-1) AND title:(\"vh1's\" OR \"vh 1's\" OR episode OR episodes OR special OR \"s0\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report) AND -identifier:(PopUpVideo2011 OR pornhub*)",
+          "ignoreYear": true,
+          "maxEntries": 60,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(vh1 OR \"vh 1\" OR vh-1) AND collection:(musictelevision OR vhstvshows OR vhsconcerts_music) AND title:(storytellers OR \"behind the music\" OR legends OR classic OR countdown OR \"top 40\" OR \"top 20\" OR alternative OR heavy OR hits OR \"video hits\" OR \"rock\" OR videos)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report) AND -title:(\"pop-up\" OR \"pop up\" OR unplugged)",
+          "ignoreYear": true,
+          "maxEntries": 60,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(\"top 100\" OR \"top 20 video\" OR \"video countdown\" OR \"top twenty\" OR \"top 40 hard rock\" OR \"friday night videos\" OR \"night tracks\") AND title:(mtv OR vh1 OR \"dr. demento\" OR \"friday night videos\" OR \"night tracks\" OR countdown OR videos)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report) AND -title:(unplugged)",
+          "ignoreYear": true,
+          "maxEntries": 70,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "((title:(\"total request live\" OR trl) AND title:mtv AND title:(woc OR incomplete OR archive OR episode OR hours)) OR title:(\"mtv spring break\" OR \"mtv rockumentary\" OR \"mtv beach house\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report)",
+          "ignoreYear": true,
+          "maxEntries": 45,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(mtv) AND title:(vj OR vjs OR hours OR \"hour\" OR woc OR recordings OR \"random programming\" OR overnight OR \"off air\" OR \"first four\") AND collection:(musictelevision OR vhstvshows OR vhsconcerts_music)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report) AND -title:(\"120 minutes\" OR headbangers OR \"pop-up\" OR \"alternative nation\" OR unplugged OR \"top 100\" OR trl OR \"top 20\" OR \"yo mtv\" OR \"yo! mtv\" OR \"spring break\" OR spoof OR \"movie awards\")",
+          "ignoreYear": true,
+          "maxEntries": 140,
+          "maxEntriesPerItem": 1
+        }
+      ]
+    },
+    {
+      "number": 62,
       "name": "Setlist",
       "logo": "Logos/4x3/setlist.png",
       "genre": "Music",
@@ -10757,11 +13366,31 @@
           "maxEntriesPerItem": 2,
           "rated": "R",
           "tag": "adult2_d"
+        },
+        {
+          "identifiers": [
+            "woodstock94_bootleg"
+          ],
+          "ignoreYear": true,
+          "perDay": {
+            "sat": 4
+          },
+          "perDayMinMinutes": 20,
+          "blockLabel": "Woodstock '94",
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "moscow-music-peace-festival-1989"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "foldin_b"
         }
       ]
     },
     {
-      "number": 53,
+      "number": 63,
       "name": "Boogie",
       "logo": "Logos/4x3/boogie.png",
       "genre": "Music",
@@ -10815,7 +13444,7 @@
       ]
     },
     {
-      "number": 54,
+      "number": 65,
       "name": "Champs",
       "logo": "Logos/4x3/champs.png",
       "genre": "Sports",
@@ -11244,7 +13873,7 @@
       ]
     },
     {
-      "number": 55,
+      "number": 66,
       "name": "Bowl",
       "logo": "Logos/4x3/bowl.png",
       "genre": "Sports",
@@ -11409,7 +14038,7 @@
       ]
     },
     {
-      "number": 56,
+      "number": 67,
       "name": "Sideline",
       "logo": "Logos/4x3/sideline.png",
       "genre": "Sports",
@@ -11505,7 +14134,7 @@
       ]
     },
     {
-      "number": 57,
+      "number": 68,
       "name": "Longshot",
       "logo": "Logos/4x3/longshot.png",
       "genre": "Sports",
@@ -11699,7 +14328,7 @@
       ]
     },
     {
-      "number": 58,
+      "number": 69,
       "name": "Pickup",
       "logo": "Logos/4x3/pickup.png",
       "genre": "Sports",
@@ -11743,7 +14372,7 @@
       ]
     },
     {
-      "number": 59,
+      "number": 70,
       "name": "Holler",
       "logo": "Logos/4x3/holler.png",
       "genre": "Sports",
@@ -11806,7 +14435,7 @@
       ]
     },
     {
-      "number": 60,
+      "number": 71,
       "name": "Ringside",
       "logo": "Logos/4x3/ringside.png",
       "genre": "Sports",
@@ -11949,7 +14578,7 @@
       ]
     },
     {
-      "number": 61,
+      "number": 72,
       "name": "Suplex",
       "logo": "Logos/4x3/suplex.png",
       "genre": "Sports",
@@ -11979,7 +14608,9 @@
             17,
             18,
             19,
-            20
+            20,
+            23,
+            24
           ]
         }
       ],
@@ -12143,11 +14774,27 @@
           "maxEntriesPerItem": 14,
           "rated": "R",
           "tag": "adult2_d"
+        },
+        {
+          "identifiers": [
+            "1982.05.22-portland-wrestling-tv-may-22-1982"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 17,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "cwa-88-10-08-wmc"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "foldin_b"
         }
       ]
     },
     {
-      "number": 62,
+      "number": 73,
       "name": "Leather",
       "logo": "Logos/4x3/leather.png",
       "genre": "Sports",
@@ -12362,7 +15009,7 @@
       ]
     },
     {
-      "number": 63,
+      "number": 74,
       "name": "Hooligan",
       "logo": "Logos/4x3/hooligan.png",
       "genre": "Sports",
@@ -12444,7 +15091,7 @@
       ]
     },
     {
-      "number": 64,
+      "number": 77,
       "name": "Overseas",
       "logo": "Logos/4x3/overseas.png",
       "genre": "World & Lifestyle",
@@ -12627,7 +15274,7 @@
       ]
     },
     {
-      "number": 65,
+      "number": 78,
       "name": "Maple",
       "logo": "Logos/4x3/maple.png",
       "genre": "World & Lifestyle",
@@ -12791,6 +15438,24 @@
           "maxEntriesPerItem": 1,
           "blockOnly": true,
           "tag": "maple_sports"
+        },
+        {
+          "identifiers": [
+            "Welcome-Frehsmen-1991-Series",
+            "swans-crossing-1992"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 26,
+          "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "california-dreams-1992-season-one",
+            "california-dreams-1992-season-two"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 18,
+          "tag": "foldin_b"
         }
       ],
       "timeBlocks": [
@@ -12826,7 +15491,7 @@
       ]
     },
     {
-      "number": 66,
+      "number": 79,
       "name": "Worldview",
       "logo": "Logos/4x3/worldview.png",
       "genre": "World & Lifestyle",
@@ -12920,7 +15585,7 @@
       ]
     },
     {
-      "number": 67,
+      "number": 80,
       "name": "Postcard",
       "logo": "Logos/4x3/postcard.png",
       "genre": "World & Lifestyle",
@@ -13012,7 +15677,7 @@
       ]
     },
     {
-      "number": 68,
+      "number": 81,
       "name": "Simmer",
       "logo": "Logos/4x3/simmer.png",
       "genre": "World & Lifestyle",
@@ -13054,7 +15719,7 @@
       ]
     },
     {
-      "number": 69,
+      "number": 82,
       "name": "Sweat",
       "logo": "Logos/4x3/sweat.png",
       "genre": "World & Lifestyle",
@@ -13069,7 +15734,7 @@
       ]
     },
     {
-      "number": 70,
+      "number": 83,
       "name": "Lighthouse",
       "logo": "Logos/4x3/lighthouse.png",
       "genre": "World & Lifestyle",
@@ -13156,7 +15821,7 @@
       ]
     },
     {
-      "number": 71,
+      "number": 84,
       "name": "Cablecast East",
       "logo": "Logos/4x3/cablecasteast.png",
       "genre": "World & Lifestyle",
@@ -13251,11 +15916,26 @@
           "query": "(collection:community_media AND ((subject:(Maine OR \"New Hampshire\" OR Vermont OR Massachusetts OR \"Rhode Island\" OR Connecticut OR \"New York\" OR \"New Jersey\" OR Pennsylvania OR Delaware OR Maryland OR \"District of Columbia\" OR Virginia OR \"West Virginia\" OR \"North Carolina\" OR \"South Carolina\" OR Georgia OR Florida OR Alabama OR Mississippi OR Tennessee OR Kentucky OR Ohio OR Michigan OR Indiana OR Illinois OR Wisconsin) OR collection:(ctncrmn) OR subject:(Blaine AND Minnesota)) AND -subject:(Louisiana)) AND title:(comedy OR comedian OR comedians OR sketch OR \"variety show\" OR \"talent show\" OR magic OR magician OR puppet OR puppets OR horror OR \"late night\" OR \"game show\" OR parody OR improv OR monster OR monsters OR halloween OR \"public access\" OR \"cable access\")) AND -title:(adult OR nude OR naked OR nudist OR sex OR sexy OR erotic OR fetish OR spank* OR burlesque OR strip* OR topless OR goddess OR xxx OR porn OR \"after ten\" OR \"libre film\" OR moze OR \"susan block\") AND -subject:(adult OR nudity OR erotica OR sexuality) AND -title:(church OR sermon OR ministry OR bible OR gospel OR worship OR mass OR prayer OR jesus OR christian) AND -subject:(religion OR church) AND -title:(hellstorm OR holocaust OR nazi OR genocide OR illuminati OR awpt OR c4i OR satan* OR swastika*) AND -title:(meeting OR council OR board OR commission OR committee OR hearing OR budget OR election OR candidat* OR debate OR graduation OR police OR forum OR briefing OR update OR conference OR hockey OR football OR basketball OR baseball OR soccer) AND -title:(trailer OR promo OR psa OR preview OR raw OR footage OR loop OR cinema OR movie OR film OR dialogo OR podcast OR class OR workshop OR \"red carpet\" OR barney OR sesame OR peppa OR disney OR \"magic school bus\" OR \"rocky horror\") AND -language:(spa OR chi OR vie OR kor OR rus OR hmn) AND -identifier:(aufstx-* OR caltvca-*)",
           "ignoreYear": true,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "the-uncle-floyd-show-1-of-6",
+            "the-uncle-floyd-show-2-of-6",
+            "the-uncle-floyd-show-3-of-6",
+            "the-uncle-floyd-show-4-of-6",
+            "the-uncle-floyd-show-5-of-6",
+            "the-uncle-floyd-show-6-of-6",
+            "the-uncle-floyd-show-halloween-special-10-30-1998-ram",
+            "1989-08-19-beyond-vaudeville-ep-20-brother-theodore-oddville-public-access-the-burbs"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "foldin_b"
         }
       ]
     },
     {
-      "number": 72,
+      "number": 85,
       "name": "Cablecast West",
       "logo": "Logos/4x3/cablecastwest.png",
       "genre": "World & Lifestyle",
@@ -13327,11 +16007,21 @@
           "query": "(collection:community_media AND ((subject:(Washington OR Oregon OR California OR Nevada OR Idaho OR Montana OR Wyoming OR Utah OR Colorado OR Arizona OR \"New Mexico\" OR Alaska OR Hawaii OR Texas OR Oklahoma OR Kansas OR Nebraska OR \"South Dakota\" OR \"North Dakota\" OR Iowa OR Missouri OR Arkansas) OR collection:(nwctc OR mcammn OR cctvmnv OR cctvmn OR lmccmn OR nucatmn OR ntvmnv OR hctvmn OR cfctvmn OR latvmn)) AND -subject:(\"District of Columbia\" OR Virginia OR Maryland OR Louisiana)) AND title:(comedy OR comedian OR comedians OR sketch OR \"variety show\" OR \"talent show\" OR magic OR magician OR puppet OR puppets OR horror OR \"late night\" OR \"game show\" OR parody OR improv OR monster OR monsters OR halloween OR \"public access\" OR \"cable access\")) AND -title:(adult OR nude OR naked OR nudist OR sex OR sexy OR erotic OR fetish OR spank* OR burlesque OR strip* OR topless OR goddess OR xxx OR porn OR \"after ten\" OR \"libre film\" OR moze OR \"susan block\") AND -subject:(adult OR nudity OR erotica OR sexuality) AND -title:(church OR sermon OR ministry OR bible OR gospel OR worship OR mass OR prayer OR jesus OR christian) AND -subject:(religion OR church) AND -title:(hellstorm OR holocaust OR nazi OR genocide OR illuminati OR awpt OR c4i OR satan* OR swastika*) AND -title:(meeting OR council OR board OR commission OR committee OR hearing OR budget OR election OR candidat* OR debate OR graduation OR police OR forum OR briefing OR update OR conference OR hockey OR football OR basketball OR baseball OR soccer) AND -title:(trailer OR promo OR psa OR preview OR raw OR footage OR loop OR cinema OR movie OR film OR dialogo OR podcast OR class OR workshop OR \"red carpet\" OR barney OR sesame OR peppa OR disney OR \"magic school bus\" OR \"rocky horror\") AND -language:(spa OR chi OR vie OR kor OR rus OR hmn) AND -identifier:(aufstx-* OR caltvca-*)",
           "ignoreYear": true,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "EXPTVSalinaPublicAccess101",
+            "EXPTVSalinaPublicAccess102",
+            "video-art-music-1984"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "foldin_b"
         }
       ]
     },
     {
-      "number": 73,
+      "number": 86,
       "name": "Arcade",
       "logo": "Logos/4x3/arcade.png",
       "genre": "World & Lifestyle",
@@ -13481,7 +16171,7 @@
       "minSeconds": 60
     },
     {
-      "number": 74,
+      "number": 87,
       "name": "Notice",
       "shortContent": "PSAs",
       "logo": "Logos/4x3/notice.png",
@@ -13538,7 +16228,7 @@
       ]
     },
     {
-      "number": 75,
+      "number": 88,
       "name": "Telly",
       "logo": "Logos/4x3/telly.png",
       "genre": "World & Lifestyle",
