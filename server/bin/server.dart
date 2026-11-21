@@ -9,6 +9,7 @@ import 'package:archivetv_server/hdhr.dart';
 import 'package:archivetv_server/music.dart';
 import 'package:archivetv_server/settings.dart';
 import 'package:archivetv_server/streamer.dart';
+import 'package:archivetv_server/thumbs.dart';
 import 'package:archivetv_server/titles.dart';
 import 'package:archivetv_server/xmltv.dart';
 import 'package:guidechannel/guidechannel.dart' show Place, WeatherFeed;
@@ -108,6 +109,7 @@ Future<void> main(List<String> args) async {
     log: log,
   );
   final byNumber = {for (final c in lineup) c.number: c};
+  final thumbs = Thumbs(dataDir, channel: (n) => byNumber[n], logoFile: logoFile, log: log);
 
   // guide.xml is cached; remade when pools change or every 30 min (Plex reads it a few times a day).
   String? guideXml;
@@ -129,7 +131,7 @@ Future<void> main(List<String> args) async {
           ),
       if (weatherCh != null) (channel: weatherCh, slots: weatherChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
       if (guideCh != null) (channel: guideCh, slots: guideChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
-    ]);
+    ], programmeThumbs: settings.programmeThumbs);
     (guideVersion, guideAt, guideBase) = (engine.version, now, base);
     log('guide.xml built in ${sw.elapsedMilliseconds} ms (${guideXml!.length ~/ 1024} KB)');
     return guideXml!;
@@ -149,7 +151,9 @@ Future<void> main(List<String> args) async {
         res.write(body);
       }
 
-      if (path == '/discover.json' || path == '/discover') {
+      if (await thumbs.serve(req)) {
+        // /cards/<n>.png, /cards/<n>-wide.png, /thumb/<n>/<item>.jpg
+      } else if (path == '/discover.json' || path == '/discover') {
         send(discoverJson(base, tuners), 'application/json');
       } else if (path == '/lineup.json') {
         send(lineupJson(base, lineup), 'application/json');

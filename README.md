@@ -163,6 +163,7 @@ The weather channel (Cumulus, the `weatherstar` channel in `channels.json`) is d
 | `weather_music` | `true` | Smooth-jazz background music on the weather channel. |
 | `weather_location` | `Hattiesburg, MS; 31.3271, -89.2903` | Place name; latitude, longitude (decimal degrees). |
 | `weather_units` | `imperial` | `imperial` (F, mph, inHg, miles) or `metric` (C, km/h, hPa, km). |
+| `programme_thumbs` | `true` | Programme pictures in the guide (Plex "On Now" tiles): the Archive item's thumbnail as a 600x900 poster with the channel badge (`/thumb/<ch>/<item>.jpg`), or the channel card (`/cards/<n>.png`, wide: `/cards/<n>-wide.png`) when the item has no usable picture. Cached in `data/thumbs` (capped at 200 MB). |
 
 Times (late-night window, guide and weather channel clocks, hourly forecast) use the server's local time zone: set the box to the viewers' time zone.
 
@@ -174,6 +175,7 @@ Times (late-night window, guide and weather channel clocks, hourly forecast) use
 - **"All tuners in use" in Plex:** all tuners are busy. Each channel keeps its tuner 30 s after the last viewer leaves. Raise `tuners` only if the CPU can take it.
 - **No video at all / ffmpeg crashes on https:** wrong ffmpeg build (see Requirements). Test: `/opt/archivetv-server/bin/ffmpeg -i https://archive.org/ -f null -` should not segfault.
 - **Missing channel logos in Plex:** guide.xml was fetched via `localhost` (see the gotcha above); reload the guide from Plex.
+- **Black programme tiles in Plex:** Plex caches guide pictures; reload the guide (Settings > Live TV & DVR > Refresh guide) and allow a few hours.
 - **New channels missing in Plex:** re-map channels (see "After the channel list changes").
 - **Plex Web has no channel up/down:** that is a Plex client limit; use the guide.
 - **Rollback:** `cd /opt/archivetv-server && cp archivetv-server.prev archivetv-server && sudo systemctl restart archivetv-server`.

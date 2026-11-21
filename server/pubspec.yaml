@@ -12,6 +12,7 @@ dependencies:
       url: https://github.com/dontaco2000/archive-tv.git
       path: core
   http: ^1.2.2
+  image: ^4.2.0
   archive_tv_overlays:
     path: ../modules/overlays
   guidechannel:
