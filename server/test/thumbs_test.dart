@@ -77,20 +77,81 @@ void main() {
     expect(usableThumb(jpg(good())), isNotNull);
   });
 
-  test('XMLTV: every programme has an icon; programme_thumbs off removes them', () {
+  test('XMLTV: server icons, direct archive.org icons (bad items none), no icons; channel in desc; settings', () async {
     final e1 = Entry(id: 'a/a.mp4', itemId: 'his_girl_friday', file: 'a.mp4', title: 'A', durationSeconds: 3600, url: 'u');
+    final e3 = Entry(id: 'd/d.mp4', itemId: 'dark1', file: 'd.mp4', title: 'D', durationSeconds: 3600, url: 'u');
     const e2 = Entry(id: 'guide', itemId: '', file: '', title: 'Guide', durationSeconds: 3600, url: '');
-    final slots = [Slot(e1, DateTime(2026), DateTime(2026, 1, 1, 1)), Slot(e2, DateTime(2026, 1, 1, 1), DateTime(2026, 1, 1, 2))];
-    final xml = buildXmltv('http://192.168.1.64:8100', [(channel: ch, slots: slots, rated: (_) => false)]);
-    expect(xml, contains('<icon src="http://192.168.1.64:8100/thumb/21/his_girl_friday.jpg"/>'));
-    expect(xml, contains('<icon src="http://192.168.1.64:8100/cards/21.png"/>'));
-    expect(RegExp('<programme').allMatches(xml).length, 2);
-    final off = buildXmltv('http://h', [(channel: ch, slots: slots, rated: (_) => false)], programmeThumbs: false);
+    final slots = [
+      Slot(e1, DateTime(2026), DateTime(2026, 1, 1, 1)),
+      Slot(e2, DateTime(2026, 1, 1, 1), DateTime(2026, 1, 1, 2)),
+      Slot(e3, DateTime(2026, 1, 1, 2), DateTime(2026, 1, 1, 3)),
+    ];
+    final rows = [(channel: ch, slots: slots, rated: (Entry _) => false)];
+    const base = 'http://192.168.1.64:8100';
+    final srv = buildXmltv(base, rows, icon: serverIcon(base));
+    expect(srv, contains('<icon src="$base/thumb/21/his_girl_friday.jpg"/>'));
+    expect(srv, contains('<icon src="$base/cards/21.png"/>'));
+    expect(RegExp('<programme').allMatches(srv).length, 3);
+    expect(srv, contains('<desc lang="en">Channel 21 Marquee. From the Internet Archive'));
+
+    // direct: unknown items get the archive.org URL at once and are checked in the background
+    final calls = <String>[];
+    final t = make({'his_girl_friday': jpg(good()), 'dark1': jpg(noisyDark())}, calls);
+    String direct() => buildXmltv(base, rows, icon: (c, e) => t.directIcon(e.itemId));
+    var x = direct();
+    expect(x, contains('<icon src="https://archive.org/services/img/his_girl_friday"/>'));
+    expect(x, contains('<icon src="https://archive.org/services/img/dark1"/>'), reason: 'optimistic until checked');
+    expect(RegExp('<icon').allMatches(x).length, 3, reason: 'channel logo + 2 programmes; guide entry has none');
+    while (t.pending > 0) {
+      await Future<void>.delayed(const Duration(milliseconds: 10));
+    }
+    x = direct();
+    expect(x, contains('services/img/his_girl_friday'));
+    expect(x, isNot(contains('services/img/dark1')), reason: 'known bad: no icon');
+    expect(x, isNot(contains('/thumb/')));
+    expect(x, isNot(contains('/cards/')));
+    expect(calls..sort(), ['dark1', 'his_girl_friday'], reason: 'each checked once');
+    expect(File('${tmp.path}/thumbs/_ok/his_girl_friday').existsSync(), isTrue);
+    expect(File('${tmp.path}/thumbs/_bad/dark1').existsSync(), isTrue);
+    expect(make({}, calls).usable('dark1'), isFalse, reason: 'verdicts persist on disk');
+
+    final off = buildXmltv('http://h', rows);
     expect(off, isNot(contains('/thumb/')));
+    expect(off, isNot(contains('archive.org/services')));
     expect(off, contains('/logos/21.png'), reason: 'channel icons stay');
+
     expect(Settings.parse('programme_thumbs = false').programmeThumbs, isFalse);
     expect(Settings.parse('').programmeThumbs, isTrue);
     expect(Settings.parse(Settings.defaultText).programmeThumbs, isTrue);
+    expect(Settings.parse('').programmeThumbsDirect, isTrue);
+    expect(Settings.parse(Settings.defaultText).programmeThumbsDirect, isTrue);
+    expect(Settings.parse('programme_thumbs_mode = server').programmeThumbsDirect, isFalse);
+    final bad = Settings.parse('programme_thumbs_mode = sideways');
+    expect((bad.programmeThumbsDirect, bad.warnings.length), (true, 1));
+  });
+
+  test('check: transient errors are not saved and not retried for an hour; at most 2 fetches at once', () async {
+    var active = 0, peak = 0;
+    final calls = <String>[];
+    final t = Thumbs(tmp, channel: (_) => ch, logoFile: (_) => null, fetch: (id) async {
+      calls.add(id);
+      peak = math.max(peak, ++active);
+      await Future<void>.delayed(const Duration(milliseconds: 20));
+      active--;
+      if (id == 'down') throw const SocketException('down');
+      return jpg(good());
+    });
+    for (final id in ['a', 'b', 'c', 'd', 'down', 'a']) {
+      t.check(id);
+    }
+    while (t.pending > 0) {
+      await Future<void>.delayed(const Duration(milliseconds: 10));
+    }
+    expect(peak, 2);
+    expect(t.usable('down'), isNull);
+    t.check('down');
+    expect(t.pending, 0, reason: 'failed recently');
+    expect(calls.length, 5);
   });
 
   test('cache: a poster is fetched once; an unusable item is remembered; fetch errors are not', () async {

@@ -11,6 +11,10 @@ import 'package:image/image.dart' as img;
 /// Archive item ids we accept in /thumb URLs (anything else is refused, never touches the disk).
 final thumbIdPattern = RegExp(r'^[A-Za-z0-9][A-Za-z0-9._-]{0,199}$');
 
+/// The public Archive thumbnail URL. Plex fetches this itself; it refuses LAN URLs like our /thumb
+/// ("operation aborted by pre-request callback", is local: 0), so this is the default programme icon.
+String archiveThumbUrl(String itemId) => 'https://archive.org/services/img/$itemId';
+
 /// Returns the Archive thumbnail bytes; null = the item has none (permanent); throws = try again later.
 typedef ThumbFetch = Future<Uint8List?> Function(String itemId);
 
@@ -200,6 +204,57 @@ class Thumbs {
   final _logos = <int, img.Image?>{};
   int? _size;
   int _writes = 0;
+  final _known = <String, bool>{};
+  final _checking = <String>{};
+
+  /// Checks queued or running.
+  int get pending => _checking.length;
+
+  /// true = usable thumbnail, false = unusable (`thumbs/_bad/<id>`), null = not checked yet.
+  bool? usable(String itemId) {
+    if (_known[itemId] case final v?) return v;
+    final v = File('${dir.path}/thumbs/_bad/$itemId').existsSync()
+        ? false
+        : File('${dir.path}/thumbs/_ok/$itemId').existsSync()
+            ? true
+            : null;
+    if (v != null) _known[itemId] = v;
+    return v;
+  }
+
+  void _mark(String itemId, bool ok) {
+    _known[itemId] = ok;
+    File('${dir.path}/thumbs/${ok ? '_ok' : '_bad'}/$itemId')
+      ..parent.createSync(recursive: true)
+      ..writeAsStringSync('');
+  }
+
+  /// Queues a background usability check (fetch + [usableThumb], at most [concurrency] at once, no retries)
+  /// unless the verdict is known, the check is queued, or the item failed in the last hour. Never blocks.
+  void check(String itemId) {
+    if (!thumbIdPattern.hasMatch(itemId) || usable(itemId) != null) return;
+    final failed = _failedAt[itemId];
+    if (failed != null && DateTime.now().difference(failed) < const Duration(hours: 1)) return;
+    if (!_checking.add(itemId)) return;
+    unawaited(_limited(() => fetch(itemId)).then((b) {
+      fetches++;
+      _mark(itemId, usableThumb(b) != null);
+    }, onError: (Object e) {
+      _failedAt[itemId] = DateTime.now();
+      log?.call('thumb check $itemId: $e');
+    }).whenComplete(() {
+      _checking.remove(itemId); // block body (see poster)
+    }));
+  }
+
+  /// Direct-mode programme icon: the Archive URL, or null when the item is known unusable. An item with no
+  /// verdict yet gets the URL optimistically and is queued for [check]; once bad, the next guide build drops it.
+  String? directIcon(String itemId) {
+    if (!thumbIdPattern.hasMatch(itemId)) return null;
+    final u = usable(itemId);
+    if (u == null) check(itemId);
+    return u == false ? null : archiveThumbUrl(itemId);
+  }
 
   img.Image? _logo(Channel c) => _logos.putIfAbsent(c.number, () {
         final p = logoFile(c);
@@ -226,7 +281,7 @@ class Thumbs {
   Future<(Uint8List, bool)> poster(Channel c, String itemId) async {
     final out = File('${dir.path}/thumbs/${c.number}/$itemId.jpg');
     if (out.existsSync()) return (out.readAsBytesSync(), true);
-    if (File('${dir.path}/thumbs/_bad/$itemId').existsSync()) return (await card(c, jpg: true), true);
+    if (usable(itemId) == false) return (await card(c, jpg: true), true);
     final failed = _failedAt[itemId];
     if (failed != null && DateTime.now().difference(failed) < const Duration(hours: 1)) return (await card(c, jpg: true), false);
     final key = '${c.number}/$itemId';
@@ -248,12 +303,8 @@ class Thumbs {
     final bytes = await _limited(() => fetch(itemId));
     fetches++;
     final thumb = usableThumb(bytes);
-    if (thumb == null) {
-      File('${dir.path}/thumbs/_bad/$itemId')
-        ..parent.createSync(recursive: true)
-        ..writeAsStringSync('');
-      return card(c, jpg: true);
-    }
+    _mark(itemId, thumb != null);
+    if (thumb == null) return card(c, jpg: true);
     final jpg = img.encodeJpg(drawPoster(c, thumb, _logo(c)), quality: 85);
     out.parent.createSync(recursive: true);
     out.writeAsBytesSync(jpg);

@@ -59,6 +59,10 @@ class Settings {
   /// Programme pictures in the XMLTV guide (Archive thumbnails as posters, else the channel card).
   final bool programmeThumbs;
 
+  /// true (direct, default) = icons point at archive.org (Plex fetches them; known-bad items get none);
+  /// false (server) = our /thumb posters (Plex refuses LAN image URLs, so only for other clients).
+  final bool programmeThumbsDirect;
+
   final List<String> warnings;
 
   const Settings({
@@ -85,6 +89,7 @@ class Settings {
     this.weatherLon = -89.2903,
     this.weatherImperial = true,
     this.programmeThumbs = true,
+    this.programmeThumbsDirect = true,
     this.warnings = const [],
   });
 
@@ -146,6 +151,9 @@ weather_units = imperial
 # Programme pictures in the Plex guide ("On Now" tiles): the Archive item's thumbnail as a poster with the
 # channel badge, or the channel card when the item has no usable picture. false = no programme pictures.
 programme_thumbs = true
+# direct: the picture comes straight from archive.org (items without a usable picture get none).
+# server: this server's posters with the channel badge (Plex refuses to load pictures from LAN addresses).
+programme_thumbs_mode = direct
 ''';
 
   factory Settings.parse(String text, {int defaultTuners = 4}) {
@@ -207,6 +215,14 @@ programme_thumbs = true
         (wName, wLat, wLon) = (m[1]!.trim(), lat, lon);
       }
     }
+    var thumbsDirect = true;
+    if (kv['programme_thumbs_mode'] case final v? when v.isNotEmpty) {
+      if (v.toLowerCase() == 'server') {
+        thumbsDirect = false;
+      } else if (v.toLowerCase() != 'direct') {
+        warn.add('programme_thumbs_mode = "$v" is not direct/server, using direct');
+      }
+    }
     var imperial = true;
     if (kv['weather_units'] case final v? when v.isNotEmpty) {
       if (v.toLowerCase() == 'metric') {
@@ -244,6 +260,7 @@ programme_thumbs = true
       weatherLon: wLon,
       weatherImperial: imperial,
       programmeThumbs: flag('programme_thumbs', true),
+      programmeThumbsDirect: thumbsDirect,
       warnings: warn,
     );
   }
@@ -272,5 +289,6 @@ programme_thumbs = true
       'tune_banner=$tuneBanner (${tuneBannerSeconds}s), corner_bug=$cornerBug, discretion_card=$discretionCard, '
       'discretion_strip=$discretionStrip, late_night_notice=$lateNightNotice, guide_channel=$guideChannel, guide_music=$guideMusic, '
       'weather_channel=$weatherChannel, weather_music=$weatherMusic, weather_location=$weatherName; $weatherLat, $weatherLon, '
-      'weather_units=${weatherImperial ? 'imperial' : 'metric'}, programme_thumbs=$programmeThumbs';
+      'weather_units=${weatherImperial ? 'imperial' : 'metric'}, programme_thumbs=$programmeThumbs, '
+      'programme_thumbs_mode=${programmeThumbsDirect ? 'direct' : 'server'}';
 }

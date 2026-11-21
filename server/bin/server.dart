@@ -131,7 +131,12 @@ Future<void> main(List<String> args) async {
           ),
       if (weatherCh != null) (channel: weatherCh, slots: weatherChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
       if (guideCh != null) (channel: guideCh, slots: guideChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
-    ], programmeThumbs: settings.programmeThumbs);
+    ],
+        icon: !settings.programmeThumbs
+            ? null
+            : settings.programmeThumbsDirect
+                ? (c, e) => thumbs.directIcon(e.itemId)
+                : serverIcon(base));
     (guideVersion, guideAt, guideBase) = (engine.version, now, base);
     log('guide.xml built in ${sw.elapsedMilliseconds} ms (${guideXml!.length ~/ 1024} KB)');
     return guideXml!;
@@ -252,6 +257,18 @@ Future<void> main(List<String> args) async {
       engine.planWeek(c, DateTime.now());
     }
     log('pools loaded: ${engine.channels.where((c) => engine.statusOf(c) == PoolStatus.ready).length} ready');
+    if (settings.programmeThumbs && settings.programmeThumbsDirect) {
+      // check the guide window's thumbnails in the background, soonest first (guide builds never wait)
+      final from = DateTime.now().subtract(const Duration(hours: 2));
+      final slots = [
+        for (final c in engine.channels)
+          if (engine.statusOf(c) == PoolStatus.ready) ...guideSlots(engine, c, from, 7 * 24 + 2)
+      ]..sort((a, b) => a.start.compareTo(b.start));
+      for (final s in slots) {
+        thumbs.check(s.entry.itemId);
+      }
+      log('thumbs: ${thumbs.pending} thumbnail checks queued');
+    }
     unawaited(enrichTitles());
     if (args.contains('--load-only')) return; // staging/testing: no rebuilds
     while (true) {

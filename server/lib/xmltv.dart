@@ -24,10 +24,18 @@ String xmltvTime(DateTime t) {
 /// One channel's guide rows: [slots] are guide blocks (see core `guideBlocks`); [rated] marks R entries.
 typedef GuideRow = ({Channel channel, List<Slot> slots, bool Function(Entry) rated});
 
+/// Programme icon for an entry (null = no icon).
+typedef ProgrammeIcon = String? Function(Channel c, Entry e);
+
+/// Server mode icons: our /thumb poster, or the channel card when the entry has no Archive item.
+/// Note: Plex refuses to fetch LAN URLs for programme art, so this only helps other XMLTV clients.
+ProgrammeIcon serverIcon(String base) =>
+    (c, e) => thumbIdPattern.hasMatch(e.itemId) ? '$base/thumb/${c.number}/${e.itemId}.jpg' : '$base/cards/${c.number}.png';
+
 /// The XMLTV document. Channel ids are the channel numbers (= the lineup GuideNumber, how Plex matches them).
-/// [programmeThumbs]: every programme gets an icon (/thumb/<ch>/<item>.jpg, or the channel card when the
-/// entry has no Archive item), so Plex's "On Now" tiles are not black.
-String buildXmltv(String base, List<GuideRow> rows, {bool programmeThumbs = true}) {
+/// [icon]: each programme's picture (Plex "On Now" tiles); null = no programme icons.
+/// Descriptions start with "Channel <n> <name>." so tiles still say which channel.
+String buildXmltv(String base, List<GuideRow> rows, {ProgrammeIcon? icon}) {
   final b = StringBuffer('<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Archive TV Server">\n');
   for (final r in rows) {
     final c = r.channel;
@@ -46,6 +54,7 @@ String buildXmltv(String base, List<GuideRow> rows, {bool programmeThumbs = true
       final info = programmeTitleInfo(e, block: block);
       final rated = r.rated(e);
       final desc = [
+        'Channel ${c.number} ${c.name}.',
         if (info.description != null) info.description!,
         if (e.id == 'weather')
           'Local weather: current conditions, hourly, today and extended forecast, and weather alerts, with smooth jazz.'
@@ -68,10 +77,7 @@ String buildXmltv(String base, List<GuideRow> rows, {bool programmeThumbs = true
         b.writeln('    <episode-num system="xmltv_ns">${(info.season ?? 1) - 1}.${info.episode! - 1}.</episode-num>');
         b.writeln('    <episode-num system="onscreen">S${_2(info.season ?? 1)}E${_2(info.episode!)}</episode-num>');
       }
-      if (programmeThumbs) {
-        final icon = thumbIdPattern.hasMatch(e.itemId) ? '$base/thumb/${c.number}/${e.itemId}.jpg' : '$base/cards/${c.number}.png';
-        b.writeln('    <icon src="${_esc(icon)}"/>');
-      }
+      if (icon?.call(c, e) case final i?) b.writeln('    <icon src="${_esc(i)}"/>');
       if (rated) b.writeln('    <rating system="MPAA"><value>R</value></rating>');
       b.writeln('  </programme>');
     }

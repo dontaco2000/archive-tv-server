@@ -393,7 +393,7 @@ void main() {
       expect((c.title, c.subTitle, c.description), ('The Tonight Show Starring Johnny Carson', 'Mar 12, 1987', 'Johnny with guests.'));
       final xml2 = buildXmltv('http://h', [(channel: ch, slots: [Slot(e('1987-03-12'), DateTime(2026), DateTime(2026, 1, 1, 0, 1))], rated: (_) => false)]);
       expect(xml2, contains('<sub-title lang="en">Mar 12, 1987</sub-title>'));
-      expect(xml2, contains('<desc lang="en">Johnny with guests. From the Internet Archive'));
+      expect(xml2, contains('<desc lang="en">Channel ${ch.number} ${ch.name}. Johnny with guests. From the Internet Archive'));
       // a guide block keeps its own title and no item description
       expect(programmeTitleInfo(e('Carson Marathon'), block: true).description, isNull);
       itemInfos = null;

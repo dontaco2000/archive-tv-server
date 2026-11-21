@@ -163,7 +163,8 @@ The weather channel (Cumulus, the `weatherstar` channel in `channels.json`) is d
 | `weather_music` | `true` | Smooth-jazz background music on the weather channel. |
 | `weather_location` | `Hattiesburg, MS; 31.3271, -89.2903` | Place name; latitude, longitude (decimal degrees). |
 | `weather_units` | `imperial` | `imperial` (F, mph, inHg, miles) or `metric` (C, km/h, hPa, km). |
-| `programme_thumbs` | `true` | Programme pictures in the guide (Plex "On Now" tiles): the Archive item's thumbnail as a 600x900 poster with the channel badge (`/thumb/<ch>/<item>.jpg`), or the channel card (`/cards/<n>.png`, wide: `/cards/<n>-wide.png`) when the item has no usable picture. Cached in `data/thumbs` (capped at 200 MB). |
+| `programme_thumbs` | `true` | Programme pictures in the guide (Plex "On Now" tiles). `false` = none. |
+| `programme_thumbs_mode` | `direct` | `direct`: the icon is the public Archive thumbnail (`https://archive.org/services/img/<item>`); the server checks each item in the background (2 at a time, verdicts in `data/thumbs/_ok` and `_bad`) and drops the icon for items with no usable picture. `server`: this server's 600x900 posters with the channel badge (`/thumb/<ch>/<item>.jpg`, channel cards at `/cards/<n>.png`); Plex does not load pictures from LAN addresses, so this mode is only for other XMLTV clients. |
 
 Times (late-night window, guide and weather channel clocks, hourly forecast) use the server's local time zone: set the box to the viewers' time zone.
 
