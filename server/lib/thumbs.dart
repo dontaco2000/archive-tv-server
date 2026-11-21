@@ -94,15 +94,26 @@ void _stripes(img.Image im) {
   }
 }
 
-/// Channel card: navy, the channel's 4x3 logo, number and name. Portrait 600x900 or [wide] 960x540.
-img.Image drawCard(Channel c, img.Image? logo, {bool wide = false}) {
-  final im = img.Image(width: wide ? 960 : 600, height: wide ? 540 : 900);
+/// Channel card: navy, the channel's 4x3 logo, number and name. Portrait 600x900, [wide] 960x540 or [square] 600x600
+/// (the Plex "Recent Channels" tiles are square).
+img.Image drawCard(Channel c, img.Image? logo, {bool wide = false, bool square = false}) {
+  final im = img.Image(width: wide ? 960 : 600, height: wide ? 540 : (square ? 600 : 900));
   img.fill(im, color: _navy);
   _stripes(im);
   _frame(im, 10, 3, _edge);
   final name = sanitize(c.name).toUpperCase(), genre = sanitize(c.genre).toUpperCase();
   final (bg, fg) = genreColors(c.genre);
-  if (wide) {
+  if (square) {
+    if (logo != null) {
+      final l = _contain(logo, 520, 300);
+      img.compositeImage(im, l, dstX: 40 + (520 - l.width) ~/ 2, dstY: 35 + (300 - l.height) ~/ 2);
+    }
+    _rect(im, 215, 345, 385, 455, bg);
+    _text(im, '${c.number}', img.arial48, 350, fg, cx: 300, scale: 2);
+    final (f, n) = _fitFont(name, 520);
+    _text(im, n, f, 470, _white, cx: 300);
+    _text(im, fit(genre, 520, (t) => textWidth(img.arial24, t)), img.arial24, 535, _pale, cx: 300);
+  } else if (wide) {
     if (logo != null) {
       final l = _contain(logo, 480, 360);
       img.compositeImage(im, l, dstX: 50 + (480 - l.width) ~/ 2, dstY: 90 + (360 - l.height) ~/ 2);
@@ -266,10 +277,10 @@ class Thumbs {
       });
 
   /// The channel card as PNG ([wide] 960x540, else 600x900), or as JPEG ([jpg], portrait; served by /thumb).
-  Future<Uint8List> card(Channel c, {bool wide = false, bool jpg = false}) async {
-    final f = File('${dir.path}/cards/${c.number}${wide ? '-wide' : ''}.${jpg ? 'jpg' : 'png'}');
+  Future<Uint8List> card(Channel c, {bool wide = false, bool square = false, bool jpg = false}) async {
+    final f = File('${dir.path}/cards/${c.number}${wide ? '-wide' : square ? '-sq' : ''}.${jpg ? 'jpg' : 'png'}');
     if (f.existsSync()) return f.readAsBytesSync();
-    final im = drawCard(c, _logo(c), wide: wide && !jpg);
+    final im = drawCard(c, _logo(c), wide: wide && !jpg, square: square && !jpg && !wide);
     final bytes = jpg ? img.encodeJpg(im, quality: 88) : img.encodePng(im);
     f.parent.createSync(recursive: true);
     f.writeAsBytesSync(bytes);
@@ -362,12 +373,12 @@ class Thumbs {
   Future<bool> serve(HttpRequest req) async {
     final res = req.response, path = req.uri.path;
     void cache(bool long) => res.headers.set('Cache-Control', long ? 'public, max-age=2592000' : 'public, max-age=3600');
-    if (RegExp(r'^/cards/(\d+)(-wide)?\.png$').firstMatch(path) case final m?) {
+    if (RegExp(r'^/cards/(\d+)(-wide|-sq)?\.png$').firstMatch(path) case final m?) {
       final c = channel(int.parse(m[1]!));
       if (c == null) {
         res.statusCode = 404;
       } else {
-        final b = await card(c, wide: m[2] != null);
+        final b = await card(c, wide: m[2] == '-wide', square: m[2] == '-sq');
         res.headers.contentType = ContentType('image', 'png');
         cache(true);
         res.add(b);

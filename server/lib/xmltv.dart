@@ -35,7 +35,7 @@ ProgrammeIcon serverIcon(String base) =>
 /// The XMLTV document. Channel ids are the channel numbers (= the lineup GuideNumber, how Plex matches them).
 /// [icon]: each programme's picture (Plex "On Now" tiles); null = no programme icons.
 /// Descriptions start with "Channel <n> <name>." so tiles still say which channel.
-String buildXmltv(String base, List<GuideRow> rows, {ProgrammeIcon? icon}) {
+String buildXmltv(String base, List<GuideRow> rows, {ProgrammeIcon? icon, String channelIconBase = ''}) {
   final b = StringBuffer('<?xml version="1.0" encoding="UTF-8"?>\n<tv generator-info-name="Archive TV Server">\n');
   for (final r in rows) {
     final c = r.channel;
@@ -43,7 +43,9 @@ String buildXmltv(String base, List<GuideRow> rows, {ProgrammeIcon? icon}) {
     b.writeln('    <display-name>${_esc(c.name)}</display-name>');
     b.writeln('    <display-name>${c.number}</display-name>');
     b.writeln('    <display-name>${c.number} ${_esc(c.name)}</display-name>');
-    b.writeln('    <icon src="$base/logos/${c.number}.png"/>');
+    b.writeln(channelIconBase.isEmpty
+        ? '    <icon src="$base/logos/${c.number}.png"/>'
+        : '    <icon src="$channelIconBase/${c.number}.jpg"/>');
     b.writeln('  </channel>');
   }
   for (final r in rows) {

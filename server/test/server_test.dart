@@ -383,6 +383,10 @@ void main() {
       final xml = buildXmltv('http://h', [(channel: ch, slots: [Slot(e('Camp Lazlo S02E04'), DateTime(2026), DateTime(2026, 1, 1, 1))], rated: (_) => false)]);
       expect(xml, contains('<episode-num system="xmltv_ns">1.3.</episode-num>'));
       expect(xml, contains('<episode-num system="onscreen">S02E04</episode-num>'));
+      final slot = [Slot(e('x'), DateTime(2026), DateTime(2026, 1, 1, 1))];
+      expect(buildXmltv('http://h', [(channel: ch, slots: slot, rated: (_) => false)], channelIconBase: 'https://p/cards'),
+          contains('<icon src="https://p/cards/${ch.number}.jpg"/>'));
+      expect(buildXmltv('http://h', [(channel: ch, slots: slot, rated: (_) => false)]), contains('<icon src="http://h/logos/${ch.number}.png"/>'));
       expect(programmeTitleInfo(e('Plain Title')).episode, isNull);
       // item titles (core programmeInfo + item_info.json): a date-only file gets the item title and a sub-title
       final dir = Directory.systemTemp.createTempSync('atvitems');

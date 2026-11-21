@@ -63,6 +63,10 @@ class Settings {
   /// false (server) = our /thumb posters (Plex refuses LAN image URLs, so only for other clients).
   final bool programmeThumbsDirect;
 
+  /// Public folder of square channel cards `<n>.jpg` used as the XMLTV channel icons (Plex refuses LAN image
+  /// URLs, so its Recent Channels tiles stay black with the server's own /logos). Empty = the server's /logos.
+  final String channelIconBase;
+
   final List<String> warnings;
 
   const Settings({
@@ -90,6 +94,7 @@ class Settings {
     this.weatherImperial = true,
     this.programmeThumbs = true,
     this.programmeThumbsDirect = true,
+    this.channelIconBase = 'https://raw.githubusercontent.com/dontaco2000/archive-tv-server/main/cards',
     this.warnings = const [],
   });
 
@@ -154,6 +159,10 @@ programme_thumbs = true
 # direct: the picture comes straight from archive.org (items without a usable picture get none).
 # server: this server's posters with the channel badge (Plex refuses to load pictures from LAN addresses).
 programme_thumbs_mode = direct
+# Channel pictures (Plex "Recent Channels" tiles): a PUBLIC folder holding <number>.jpg squares (made with
+# `dart run tool/export_cards.dart`). Plex refuses LAN addresses, so this must be a public URL. Empty = this
+# server's /logos (works for non-Plex clients only).
+channel_icon_base = https://raw.githubusercontent.com/dontaco2000/archive-tv-server/main/cards
 ''';
 
   factory Settings.parse(String text, {int defaultTuners = 4}) {
@@ -223,6 +232,7 @@ programme_thumbs_mode = direct
         warn.add('programme_thumbs_mode = "$v" is not direct/server, using direct');
       }
     }
+    final iconBase = (kv['channel_icon_base'] ?? 'https://raw.githubusercontent.com/dontaco2000/archive-tv-server/main/cards').trim().replaceAll(RegExp(r'/+$'), '');
     var imperial = true;
     if (kv['weather_units'] case final v? when v.isNotEmpty) {
       if (v.toLowerCase() == 'metric') {
@@ -261,6 +271,7 @@ programme_thumbs_mode = direct
       weatherImperial: imperial,
       programmeThumbs: flag('programme_thumbs', true),
       programmeThumbsDirect: thumbsDirect,
+      channelIconBase: iconBase,
       warnings: warn,
     );
   }
@@ -290,5 +301,5 @@ programme_thumbs_mode = direct
       'discretion_strip=$discretionStrip, late_night_notice=$lateNightNotice, guide_channel=$guideChannel, guide_music=$guideMusic, '
       'weather_channel=$weatherChannel, weather_music=$weatherMusic, weather_location=$weatherName; $weatherLat, $weatherLon, '
       'weather_units=${weatherImperial ? 'imperial' : 'metric'}, programme_thumbs=$programmeThumbs, '
-      'programme_thumbs_mode=${programmeThumbsDirect ? 'direct' : 'server'}';
+      'programme_thumbs_mode=${programmeThumbsDirect ? 'direct' : 'server'}, channel_icon_base=$channelIconBase';
 }

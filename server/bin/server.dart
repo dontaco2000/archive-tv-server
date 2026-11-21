@@ -132,6 +132,7 @@ Future<void> main(List<String> args) async {
       if (weatherCh != null) (channel: weatherCh, slots: weatherChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
       if (guideCh != null) (channel: guideCh, slots: guideChannelSlots(from, 7 * 24 + 2), rated: (_) => false),
     ],
+        channelIconBase: settings.channelIconBase,
         icon: !settings.programmeThumbs
             ? null
             : settings.programmeThumbsDirect
