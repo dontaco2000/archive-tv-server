@@ -88,7 +88,10 @@ const _encode = [
   '-f', 'mpegts', 'pipe:1',
 ];
 const _fps = '30000/1001';
-const _scale = 'scale=640:480:force_original_aspect_ratio=decrease,pad=640:480:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=$_fps';
+// Every piece is encoded to one 16:9 canvas (the outer ffmpeg only copies, so the size must never change):
+// widescreen video fills it, 4:3 video is pillarboxed in it.
+const _w = 854, _h = 480;
+const _scale = 'scale=$_w:$_h:force_original_aspect_ratio=decrease,pad=$_w:$_h:(ow-iw)/2:(oh-ih)/2,setsar=1,fps=$_fps';
 
 /// Real-time reading with a first [burst] of seconds read as fast as possible.
 List<String> _rate(double burst) =>
@@ -106,7 +109,7 @@ List<String> jobArgs(Job job,
   const cfr = ['-fps_mode', 'cfr', '-r', _fps];
   if (overlay != null) {
     if (job.entry == null) {
-      final g = ov.buildFilterGraph(overlay, fontFile: overlayFont);
+      final g = ov.buildFilterGraph(overlay, fontFile: overlayFont, width: _w, height: _h);
       return [
         ...head,
         for (final a in g.inputArgs) ...(a == '-f' ? [...rate, a] : [a]),
@@ -120,9 +123,9 @@ List<String> jobArgs(Job job,
     ];
     // The overlay graph reads its video from input 0: a missing video's black stand-in goes first.
     final inputs = noVideo
-        ? [...rate, '-f', 'lavfi', '-i', 'color=c=black:s=640x480:r=$_fps', ...src]
+        ? [...rate, '-f', 'lavfi', '-i', 'color=c=black:s=${_w}x$_h:r=$_fps', ...src]
         : [...src, if (noAudio) ...silence];
-    final g = ov.buildFilterGraph(overlay, fontFile: overlayFont, firstInput: noAudio || noVideo ? 2 : 1);
+    final g = ov.buildFilterGraph(overlay, fontFile: overlayFont, width: _w, height: _h, firstInput: noAudio || noVideo ? 2 : 1);
     return [
       ...head, ...inputs, ...g.inputArgs, '-t', t,
       '-filter_complex', g.filterComplex, '-map', g.videoMap,
@@ -136,7 +139,7 @@ List<String> jobArgs(Job job,
         ? ",drawtext=fontfile=$font:text='STAND BY':fontcolor=white:fontsize=56:x=(w-tw)/2:y=(h-th)/2"
         : '';
     return [
-      ...head, ...rate, '-f', 'lavfi', '-i', 'color=c=0x14213d:s=640x480:r=$_fps', ...silence, //
+      ...head, ...rate, '-f', 'lavfi', '-i', 'color=c=0x14213d:s=${_w}x$_h:r=$_fps', ...silence, //
       '-t', t, '-map', '0:v', '-map', '1:a', '-vf', 'setsar=1$text', ..._encode,
     ];
   }
@@ -146,7 +149,7 @@ List<String> jobArgs(Job job,
     ...rate, '-reconnect', '1', '-reconnect_on_network_error', '1', '-reconnect_delay_max', '4', '-rw_timeout', '15000000',
     '-i', job.entry!.url,
     if (noAudio) ...silence,
-    if (noVideo) ...[...rate, '-f', 'lavfi', '-i', 'color=c=black:s=640x480:r=$_fps'],
+    if (noVideo) ...[...rate, '-f', 'lavfi', '-i', 'color=c=black:s=${_w}x$_h:r=$_fps'],
     '-t', t,
     '-map', noVideo ? '1:v' : '0:v:0',
     '-map', noAudio ? '1:a' : '0:a:0',

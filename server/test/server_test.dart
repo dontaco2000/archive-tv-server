@@ -274,7 +274,7 @@ void main() {
       final g = args[args.indexOf('-filter_complex') + 1];
       expect(g, contains('drawtext@atv_bname'));
       expect(g, contains('drawbox@atv_rbox=x=16:y=58:w=28:h=28:color=0xFFB300:t=2:enable=1'));
-      expect(g, contains(r'drawbox@atv_dcard=x=0:y=0:w=640:h=480:color=black:t=fill:enable=between(t\,0\,6)'));
+      expect(g, contains(r'drawbox@atv_dcard=x=0:y=0:w=854:h=480:color=black:t=fill:enable=between(t\,0\,6)'));
       expect(args, containsAllInOrder(['-map', '[vout]', '-map', '0:a:0']));
       expect(args, containsAllInOrder(['-fps_mode', 'cfr', '-r', '30000/1001', '-c:v', 'libx264']));
       expect(o.watermark, '/w.png');
@@ -310,7 +310,7 @@ void main() {
 
     test('a file without video: black stand-in is input 0, audio from the file', () {
       final args = jobArgs(job, noVideo: true, overlay: const OverlayParamsForTest().params);
-      expect(args.indexOf('color=c=black:s=640x480:r=30000/1001'), lessThan(args.indexOf('http://x/b.mp4')));
+      expect(args.indexOf('color=c=black:s=854x480:r=30000/1001'), lessThan(args.indexOf('http://x/b.mp4')));
       expect(args, containsAllInOrder(['-map', '[vout]', '-map', '1:a:0', '-shortest']));
     });
 
