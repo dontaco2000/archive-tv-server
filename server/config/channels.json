@@ -20597,10 +20597,10 @@
           "claim": true
         },
         {
-          "query": "(subject:cooking AND -title:(tampopo OR \"pie in the sky\" OR cbeebies OR promos OR trailer)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -subject:(sitcom OR cbeebies OR popeye) AND -title:(vostfr OR cbeebies OR \"big cook\" OR roseanne OR popeye OR \"pure pwnage\" OR \"love comes in spurts\" OR \"english marriage\") AND -identifier:(\"whites-tv-series-2010\" OR \"igm70\" OR \"iron-chef-s01-vostfr-1080p-hdlight-x265_\") AND -title:(\"mickey mouse\" OR alcf OR \"home movies\")"
+          "query": "(subject:cooking AND -title:(\"iron chef\" OR \"food network challenge\" OR masterchef OR \"baking championship\" OR chopped OR \"ready steady cook\" OR \"come dine\" OR tampopo OR \"pie in the sky\" OR cbeebies OR promos OR trailer)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -subject:(sitcom OR cbeebies OR popeye) AND -title:(vostfr OR cbeebies OR \"big cook\" OR roseanne OR popeye OR \"pure pwnage\" OR \"love comes in spurts\" OR \"english marriage\") AND -identifier:(\"whites-tv-series-2010\" OR \"igm70\" OR \"iron-chef-s01-vostfr-1080p-hdlight-x265_\") AND -title:(\"mickey mouse\" OR alcf OR \"home movies\")"
         },
         {
-          "query": "(title:(\"iron chef\" OR \"julia child\" OR \"french chef\" OR \"baking with julia\" OR \"two fat ladies\" OR \"frugal gourmet\" OR emeril OR \"jacques pepin\" OR \"great chefs\" OR \"cajun chef\") AND -title:(\"iron chef ashland\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -subject:(sitcom OR cbeebies OR popeye) AND -title:(vostfr OR cbeebies OR \"big cook\" OR roseanne OR popeye OR \"pure pwnage\" OR \"love comes in spurts\" OR \"english marriage\") AND -identifier:(\"whites-tv-series-2010\" OR \"igm70\" OR \"iron-chef-s01-vostfr-1080p-hdlight-x265_\") AND -title:(\"mickey mouse\" OR alcf OR \"home movies\")"
+          "query": "(title:(\"julia child\" OR \"french chef\" OR \"baking with julia\" OR \"two fat ladies\" OR \"frugal gourmet\" OR emeril OR \"jacques pepin\" OR \"great chefs\" OR \"cajun chef\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -subject:(sitcom OR cbeebies OR popeye) AND -title:(vostfr OR cbeebies OR \"big cook\" OR roseanne OR popeye OR \"pure pwnage\" OR \"love comes in spurts\" OR \"english marriage\") AND -identifier:(\"whites-tv-series-2010\" OR \"igm70\" OR \"iron-chef-s01-vostfr-1080p-hdlight-x265_\") AND -title:(\"mickey mouse\" OR alcf OR \"home movies\")"
         },
         {
           "identifiers": [
@@ -20618,6 +20618,68 @@
     },
     {
       "number": 84,
+      "name": "Sizzle",
+      "logo": "Logos/4x3/sizzle.png",
+      "genre": "World & Lifestyle",
+      "sources": [
+        {
+          "identifiers": [
+            "theironchefhdcollection"
+          ],
+          "maxEntriesPerItem": 80,
+          "ignoreYear": true
+        },
+        {
+          "identifiers": [
+            "season-4-episode-01-iron-chef-michiba-spotlight",
+            "iron-chef-food-network-episode-broadcast-from-may-2003-tofu-battle",
+            "nybattle-oa",
+            "iron-chef-japan-soft-shelled-crab-09.13.1996s"
+          ],
+          "maxEntriesPerItem": 8,
+          "ignoreYear": true
+        },
+        {
+          "query": "(title:(\"food network challenge\" OR \"food. network. challenge\") AND collection:opensource_movies) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(title:(\"baking championship\" OR \"kids baking\" OR \"cake wars christmas\") AND collection:opensource_movies) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams) AND -title:(\"baking class\")",
+          "ignoreYear": true,
+          "maxEntries": 30,
+          "maxEntriesPerItem": 6
+        },
+        {
+          "identifiers": [
+            "chopped-season-43-episode-7-horror-flick-halloween",
+            "chopped-sweets-season-1-episode-1-winter-celebration",
+            "08-finale_202408"
+          ],
+          "maxEntriesPerItem": 8,
+          "ignoreYear": true
+        },
+        {
+          "query": "(title:(\"master chef au\" OR \"masterchef au\") AND -title:(\"vhs rip\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams)",
+          "ignoreYear": true,
+          "maxEntries": 20,
+          "maxEntriesPerItem": 1
+        },
+        {
+          "query": "(identifier:(masterchef-1990-with-michael-caine OR masterchef-22-may-1994) OR (collection:BSLTV AND title:(masterchef OR \"great british menu\" OR \"bake off\"))) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 20
+        },
+        {
+          "query": "(identifier:(Ready_Steady_Cook* OR ready-steady-cook* OR ComeDineWithMe* OR 20220925-014034)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4
+        }
+      ]
+    },
+    {
+      "number": 85,
       "name": "Sweat",
       "logo": "Logos/4x3/sweat.png",
       "genre": "World & Lifestyle",
@@ -20632,7 +20694,7 @@
       ]
     },
     {
-      "number": 85,
+      "number": 86,
       "name": "Lighthouse",
       "logo": "Logos/4x3/lighthouse.png",
       "genre": "World & Lifestyle",
@@ -20719,7 +20781,7 @@
       ]
     },
     {
-      "number": 86,
+      "number": 87,
       "name": "Cablecast East",
       "logo": "Logos/4x3/cablecasteast.png",
       "genre": "World & Lifestyle",
@@ -20833,7 +20895,7 @@
       ]
     },
     {
-      "number": 87,
+      "number": 88,
       "name": "Cablecast West",
       "logo": "Logos/4x3/cablecastwest.png",
       "genre": "World & Lifestyle",
@@ -20919,7 +20981,7 @@
       ]
     },
     {
-      "number": 88,
+      "number": 89,
       "name": "Arcade",
       "logo": "Logos/4x3/arcade.png",
       "genre": "World & Lifestyle",
@@ -21069,7 +21131,7 @@
       "minSeconds": 60
     },
     {
-      "number": 89,
+      "number": 90,
       "name": "Notice",
       "shortContent": "PSAs",
       "logo": "Logos/4x3/notice.png",
@@ -21126,7 +21188,7 @@
       ]
     },
     {
-      "number": 90,
+      "number": 91,
       "name": "Telly",
       "logo": "Logos/4x3/telly.png",
       "genre": "World & Lifestyle",
