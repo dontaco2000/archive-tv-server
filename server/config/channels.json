@@ -20165,6 +20165,19 @@
       },
       "serials": [
         {
+          "start": "18:00",
+          "epoch": "2026-11-12",
+          "perDay": 2,
+          "shows": [
+            {
+              "title": "The Littlest Hobo",
+              "identifiers": [
+                "tlhcomplete"
+              ]
+            }
+          ]
+        },
+        {
           "start": "19:00",
           "epoch": "2026-11-12",
           "perDay": 2,
@@ -20203,12 +20216,15 @@
           "perDay": 1,
           "shows": [
             {
-              "title": "Due South",
+              "title": "Seeing Things",
               "identifiers": [
-                "due-south-1994-98"
-              ],
-              "exclude": "Pilot Part1|Season 03 episode 13 Part 1",
-              "episode": "Due South \\(1994\\) S0(\\d)E(\\d\\d)"
+                "seeing-things-season-1-1981",
+                "08-in-the-eyes-of-the-law",
+                "01-seeing-r.-e.-d",
+                "07-ill-be-seeing-you",
+                "seeing-things-season-5",
+                "03-spectacle-of-india"
+              ]
             }
           ]
         }
@@ -20227,7 +20243,7 @@
             "due-south-1994-98"
           ],
           "ignoreYear": true,
-          "maxEntriesPerItem": 26,
+          "maxEntriesPerItem": 3,
           "claim": true
         },
         {
@@ -20235,7 +20251,7 @@
             "due-south-1994-99"
           ],
           "ignoreYear": true,
-          "maxEntriesPerItem": 27,
+          "maxEntriesPerItem": 3,
           "claim": true
         },
         {
@@ -20243,7 +20259,7 @@
             "due-south-s1"
           ],
           "ignoreYear": true,
-          "maxEntriesPerItem": 27,
+          "maxEntriesPerItem": 3,
           "claim": true
         },
         {
@@ -20251,7 +20267,7 @@
             "due-south-s2"
           ],
           "ignoreYear": true,
-          "maxEntriesPerItem": 14,
+          "maxEntriesPerItem": 2,
           "claim": true
         },
         {
@@ -20336,6 +20352,68 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 18,
           "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "tlhcomplete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 45,
+          "tag": "maple_variety"
+        },
+        {
+          "identifiers": [
+            "seeing-things-season-1-1981",
+            "08-in-the-eyes-of-the-law",
+            "01-seeing-r.-e.-d",
+            "07-ill-be-seeing-you",
+            "seeing-things-season-5",
+            "03-spectacle-of-india"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "maple_variety"
+        },
+        {
+          "identifiers": [
+            "ready-or-not-1993-97"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 45,
+          "tag": "maple_variety"
+        },
+        {
+          "identifiers": [
+            "the-beachcombers-1975-11-16",
+            "the-beachcombers-1975-09-28-invisible-reli",
+            "the-beachcombers-1979-09-16",
+            "the-beachcombers-1990-12-12",
+            "the-beachcombers-1977-11-13",
+            "the-beachcombers-easy-day-s-01-e-12-decemb",
+            "the-beachcombers-mollys-reach-s-01-e-02-oc"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "maple_variety"
+        },
+        {
+          "identifiers": [
+            "king.of.kensington.s01e07.half.way.home.48",
+            "KingofKensingtonCBCGem",
+            "King-of-Kensington-Season-1-DVDRips",
+            "road-to-avonlea-s-05-e-01-fathers-and-sons",
+            "road-to-avonlea",
+            "avonlea-someone-to-believe-in-s-5-e-8",
+            "street-legal-1987-01-06",
+            "street-legal-1992-11-27-first-42-minutes-r",
+            "kids-of-degrassi-street-complete",
+            "anne-of-green-gables-side-a",
+            "anne-of-green-gables-side-b",
+            "This_Hour_Has_22_Minutes__Rick_Mercer_512kb"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "maple_variety"
         }
       ],
       "timeBlocks": [
