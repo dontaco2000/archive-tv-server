@@ -1385,7 +1385,51 @@
     "ringostar742_yahoo_1781/178-2.mp4",
     "ringostar742_yahoo_1781/178-3.mp4",
     "VampireCircusCutTVDivx/Vampire Circus (1972 US PG edition)/Preview Double-feature VC+ Countess Dracula divx.mp4",
-    "1910-kinemacolor-fording-the-river/1910 Fording the River Kinemacolor.ia.mp4"
+    "1910-kinemacolor-fording-the-river/1910 Fording the River Kinemacolor.ia.mp4",
+    "60434YesterdaysNewsreelAmericasIdol",
+    "FiringLineRonPaulAndWilliamF.Buckley1988",
+    "GAM-S1-TDCA",
+    "Ghostbusters_Trailer_Betamax_RCA_Columbia_Pictures_Hoyts_Video_1985",
+    "Jacques_Cousteau-The_Undersea_World-Octopus_Octopus",
+    "Lawrence-of-Arabia_1962_AI_1080p.BluRay.10b-HEVC.DTS-HD.MA.TrueHD.7.1.Atmos_BLUD",
+    "lidsville-full-series",
+    "robotech-original-vhs",
+    "rugrats-pre-school-daze",
+    "youtube-o1IwjXY4Q7Q",
+    "youtube-w_ggwLouHtw",
+    "youtube-RxXlmXe4e5Y",
+    "youtube-k9EE0lBTRhc",
+    "youtube-S9gHK8R53kM",
+    "youtube-FbZxIEfi4GA",
+    "youtube-tnthoLgkVBo",
+    "youtube--FFFv9rAqw0",
+    "youtube-fatwHNF_pYU",
+    "youtube-MBVIV9x3js8",
+    "yt-PL059E38785A0BB5F6",
+    "youtube-2nYfFAib9vw",
+    "youtube-0NsSDNEaPjU",
+    "youtube-tVHcV8xYebQ",
+    "youtube-ia_vGxvXOiU",
+    "youtube-HHpJE0tRTww",
+    "youtube-bZQ9L9POhCM",
+    "youtube-zGvamsr7gL4",
+    "youtube-vDraFl_IpqM",
+    "youtube-VlNyVyVk3j0",
+    "youtube-9penfXgG96g",
+    "youtube-7m8WonP6lb8",
+    "youtube-mLnR-eX3XhY",
+    "youtube-vVRs8xACLsY",
+    "youtube-o5Wx3ieXNQk",
+    "youtube-Pc_yHON1oiQ",
+    "yt-5s.io-fahrenheit-9-11-2004-480p",
+    "youtube-AtmsyXwpvzY",
+    "yt-5s.com-cops-too-hot-for-tv-deluxe-edition-95-vhs",
+    "youtube-GlJlq88GptU",
+    "youtube_i4CFWTYFRlw_1920x1080_h264",
+    "youtube-RBCAkM0H5fY",
+    "youtube-6kvXzG8ICV0",
+    "youtube-bx025ZlANzs",
+    "youtube-PkBpe6tAkS8"
   ],
   "channels": [
     {
@@ -2266,6 +2310,67 @@
           "maxBitrateKbps": 4500,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "peewee-playhouse"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Pee-wee's Playhouse (CBS Saturday morning 1986-90)"
+        },
+        {
+          "identifiers": [
+            "rugrats-pre-school-daze",
+            "rugratsilikeyou2000vhs",
+            "rugrats-decade-in-diapers-volume-1-2001-vhs-rip_202304",
+            "rugrats-decade-in-diapers-volume-2-2001-vhs-rip_202304"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026",
+          "label": "Rugrats (Nicktoons VHS compilations)"
+        },
+        {
+          "identifiers": [
+            "please-stand-by-video-effect_202409",
+            "spongebob-complete-fifth-season"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "SpongeBob SquarePants (seasons 1 and 5)"
+        },
+        {
+          "identifiers": [
+            "timonpumbaa"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Timon & Pumbaa (Disney Afternoon)"
+        },
+        {
+          "identifiers": [
+            "618AS",
+            "1541AS"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Chip 'n Dale Rescue Rangers (laserdisc volumes)"
+        },
+        {
+          "identifiers": [
+            "10starwarsdroids1x09.5thegreatheep",
+            "113starwarsewoks1x13asha",
+            "28starwarsewoks2x08theseasonscepter"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026",
+          "label": "Star Wars: Droids / Ewoks (ABC 1985-86)"
         }
       ],
       "timeBlocks": [
@@ -2534,6 +2639,61 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 26,
           "tag": "diversity"
+        },
+        {
+          "identifiers": [
+            "wonder_woman_1975"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026",
+          "label": "Wonder Woman (Lynda Carter, 1975-79)"
+        },
+        {
+          "identifiers": [
+            "the-adventures-of-superman-1951-1958-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "Adventures of Superman (George Reeves, 1952-58)"
+        },
+        {
+          "identifiers": [
+            "spectacular-spiderman-cholerascum"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "The Spectacular Spider-Man (2008)"
+        },
+        {
+          "identifiers": [
+            "the-tick-2001"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 9,
+          "tag": "era_2026",
+          "label": "The Tick (2001 live action)"
+        },
+        {
+          "identifiers": [
+            "The_Secrets_Of_Isis_Volume_1_Tape"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "The Secrets of Isis (Shazam!/Isis Hour 1975)"
+        },
+        {
+          "identifiers": [
+            "superman-1978-kcop-extended-cut",
+            "the-death-of-the-incredible-hulk"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Superhero TV movies / broadcasts"
         }
       ],
       "timeBlocks": [
@@ -2716,6 +2876,57 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 20,
           "tag": "merge5"
+        },
+        {
+          "identifiers": [
+            "robotech-original-vhs"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "tag": "era_2026",
+          "label": "Robotech (Harmony Gold, 1985 syndication)"
+        },
+        {
+          "identifiers": [
+            "captain-power-and-the-soldiers-of-the-future_202606"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "tag": "era_2026",
+          "label": "Captain Power and the Soldiers of the Future (1987)"
+        },
+        {
+          "identifiers": [
+            "Galtar",
+            "inhumanoids-e-02-the-evil-that-lies-within-pt-2"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "tag": "era_2026",
+          "label": "Galtar / Inhumanoids (1985-86)"
+        },
+        {
+          "identifiers": [
+            "double-dragon-complete-series-1993",
+            "18.HighlanderTheAnimatedSeriesOrane",
+            "RobocopTAS"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "tag": "era_2026",
+          "label": "Double Dragon / Highlander / RoboCop animated"
+        },
+        {
+          "identifiers": [
+            "01-flesh-and-bone",
+            "swamp-thing-animated-series-1990-1991",
+            "phantom-2040-tv-series",
+            "s-01-e-02-ultraforce-s-01-e-02-the-stuff-of-heroes"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "tag": "era_2026",
+          "label": "Skeleton Warriors / Swamp Thing / Phantom 2040 / Ultraforce"
         }
       ]
     },
@@ -2905,6 +3116,75 @@
           ],
           "ignoreYear": true,
           "maxEntriesPerItem": 40
+        },
+        {
+          "identifiers": [
+            "sailor-moon-complete-s01-dic-dub",
+            "Sailor-Moon-R-Dic-Dub-DVD-H264"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "Sailor Moon (DiC English dub)"
+        },
+        {
+          "identifiers": [
+            "one_piece_4Kids_Full_Series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "One Piece (4Kids English dub)"
+        },
+        {
+          "identifiers": [
+            "inuyasha-animax"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "Inuyasha (English dub, season 1)"
+        },
+        {
+          "identifiers": [
+            "hamtaro_complete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "Hamtaro (English dub)"
+        },
+        {
+          "identifiers": [
+            "astro-boy-1963",
+            "kimba-the-white-lion-ultra-edition-dvd-box-set",
+            "the-new-adventures-of-gigantor"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "Astro Boy / Kimba / Gigantor (classic English dubs)"
+        },
+        {
+          "identifiers": [
+            "speed_racer_vol_1",
+            "speed-racer-vol.-2"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Speed Racer (1967 English dub)"
+        },
+        {
+          "identifiers": [
+            "battleoftheplanets",
+            "07thereflexgunpart1_202004",
+            "18dessloksescape"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026",
+          "label": "Battle of the Planets / Star Blazers (70s US dubs)"
         }
       ]
     },
@@ -3115,6 +3395,86 @@
           "maxBitrateKbps": 4500,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "barney-friends"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Barney & Friends (PBS 1992-2010)"
+        },
+        {
+          "identifiers": [
+            "teletubbies_202012"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "Teletubbies"
+        },
+        {
+          "identifiers": [
+            "bob-the-builder-complete-classic-us-dub"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 24,
+          "tag": "era_2026",
+          "label": "Bob the Builder (classic, US dub)"
+        },
+        {
+          "identifiers": [
+            "the-wiggles-series-2",
+            "the-wiggles-series-3"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "The Wiggles"
+        },
+        {
+          "identifiers": [
+            "the-big-comfy-couch",
+            "shining-time-station-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "The Big Comfy Couch / Shining Time Station"
+        },
+        {
+          "identifiers": [
+            "RPOTVSeries",
+            "maisy-full-series_202403",
+            "stanley_202404",
+            "zoobilee-zoo-episodes"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "Rolie Polie Olie / Maisy / Stanley / Zoobilee Zoo"
+        },
+        {
+          "identifiers": [
+            "bananas-in-pyjamas-the-complete-collection-1992-2001",
+            "make-way-for-noddy-us-dub",
+            "fireman-sam-the-complete-series-1-4-1987-94"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "tag": "era_2026",
+          "label": "Bananas in Pyjamas / Noddy / Fireman Sam"
+        },
+        {
+          "identifiers": [
+            "kidsongs-series",
+            "nickelodeon-pinwheel-1987-1-hr-20m_202408"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026",
+          "label": "Kidsongs / Pinwheel (Nick)"
         }
       ]
     },
@@ -3282,6 +3642,58 @@
           "ignoreYear": true,
           "maxEntries": 36,
           "maxEntriesPerItem": 4
+        },
+        {
+          "identifiers": [
+            "RichardScarrysBusyTown",
+            "franklin-and-friends-deep-sea-voyage_202603",
+            "SevenLittleMonstersTheCompleteSeries",
+            "GAM-S1-TDCA"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "Richard Scarry / Franklin / Seven Little Monsters / George and Martha"
+        },
+        {
+          "identifiers": [
+            "paddington-1976-86",
+            "kipper-the-dog-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "tag": "era_2026",
+          "label": "Paddington (1976) / Kipper (short episodes)"
+        },
+        {
+          "identifiers": [
+            "curious-george-full-series",
+            "the-wubbulous-world-of-dr-seuss-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026",
+          "label": "Curious George (PBS s1) / The Wubbulous World of Dr. Seuss"
+        },
+        {
+          "identifiers": [
+            "cbs-storybreak-complete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026",
+          "label": "CBS Storybreak (1985-93)"
+        },
+        {
+          "identifiers": [
+            "dr.-seuss-horton-hears-a-who-1970-vhs-rip",
+            "dr-seuss-on-the-loose-high-quality",
+            "Madeline_In_New_York_1993_DIC_Sony_Wonder_Tape"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Dr. Seuss TV specials / Madeline"
         }
       ]
     },
@@ -3560,6 +3972,26 @@
           "maxEntriesPerItem": 1,
           "tag": "vintage_kids",
           "label": "Sense and Nonsense"
+        },
+        {
+          "identifiers": [
+            "really-wild-animals-complete-series",
+            "popular-mechanics-for-kids",
+            "timewarptrio"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Really Wild Animals / Popular Mechanics for Kids / Time Warp Trio"
+        },
+        {
+          "identifiers": [
+            "Eyewitness_Butterfly_And_Moth_1996_BBC"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Eyewitness (BBC/DK 1996)"
         }
       ]
     },
@@ -3659,6 +4091,57 @@
           "perDay": 1,
           "perDayMinMinutes": 90,
           "blockLabel": "Off-Air Tape"
+        },
+        {
+          "identifiers": [
+            "h_r_pufnstuf",
+            "lidsville-full-series",
+            "the-lost-saucer"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026",
+          "label": "Sid & Marty Krofft Saturday mornings (Pufnstuf, Lidsville, Lost Saucer)"
+        },
+        {
+          "identifiers": [
+            "the-krofft-supershow-ep-1",
+            "the-krofft-supershow",
+            "krofft-supershow",
+            "thekrofftsupershow",
+            "krofft7",
+            "sigmund-and-the-sea-monsters-s-01-e-01_202106",
+            "sigmund-and-the-sea-monsters-s-01-e-10",
+            "sigmundandtheseamonsters",
+            "sigmundandtheseamonsters2",
+            "bugaloos",
+            "bugaloos_202106",
+            "electra-woman",
+            "electrawomanandynagirl",
+            "electra-woman-and-dyna-girl-online"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Krofft Supershow / Sigmund / Bugaloos / Electra Woman (single episodes)"
+        },
+        {
+          "identifiers": [
+            "lancelot-link-tv-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026",
+          "label": "Lancelot Link, Secret Chimp (ABC 1970)"
+        },
+        {
+          "identifiers": [
+            "gigglesnort-hotel"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Gigglesnort Hotel (WLS-TV Chicago)"
         }
       ]
     },
@@ -4037,6 +4520,34 @@
           "rated": "R",
           "tag": "movies",
           "label": "Letterboxd films (R)"
+        },
+        {
+          "identifiers": [
+            "billy-jack_202409"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026",
+          "label": "Billy Jack films"
+        },
+        {
+          "identifiers": [
+            "easy-rider-1969",
+            "white-lightning-1973",
+            "gone-in-60-seconds-1974-hot-rod-nerd-remaster",
+            "two-lane-blacktop",
+            "american-graffiti_202403",
+            "movie-ramones-rock-n-roll-high-school-1979",
+            "the-wild-one-marlon-brando-1953-full-movie-hd",
+            "Them.theatrical",
+            "attack-of-the-50-foot-woman-1958_202510",
+            "WalkingTall21975FullMovie",
+            "the-cannonball-run-ii-1984-remastered-1080p-x-264-i-c"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Drive-in hits (car, biker, teen, creature)"
         }
       ]
     },
@@ -4310,6 +4821,55 @@
           "rated": "R",
           "tag": "movies",
           "label": "Letterboxd films (R)"
+        },
+        {
+          "identifiers": [
+            "vts-01-1_20211222_2055",
+            "vts-01-1_20211223"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 9,
+          "tag": "era_2026",
+          "label": "Have Gun - Will Travel (DVD discs 1-2)"
+        },
+        {
+          "identifiers": [
+            "wagon-train_202007",
+            "theriflemanpd"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026",
+          "label": "Wagon Train / The Rifleman (PD episodes)"
+        },
+        {
+          "identifiers": [
+            "cheyenne-s-01-e-15-the-last-train-west",
+            "httpsarchive.orgdownloadpdtv0184"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026",
+          "label": "Cheyenne (Clint Walker, seasons 1 and 6)"
+        },
+        {
+          "identifiers": [
+            "stagecoach-1939-john-ford",
+            "HighNoon_201603",
+            "butch.-cassidy.-and.-the.-sundance.-kid.-1969.1080p.-blu-ray.x-264-yts.-am",
+            "the-outlaw-josey-wales",
+            "tombstone.-1993.1080p.-br-rip.x-264.-yify",
+            "blazing-saddles-1974_202210",
+            "YOUNG-GUNS-1988-YOUNG-GUNS-II-1990-DVD-RIP",
+            "Jeremiah-Johnson_1972_AI_1080p.BluRay.10b.HEVC.DTS.5.1_BLUDUAINE",
+            "little-big-man-1970_202511",
+            "cat-ballou-1965_202406",
+            "the-alamo-1960_202507"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Top western films"
         }
       ]
     },
@@ -4430,6 +4990,29 @@
           "maxBitrateKbps": 4500,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "the-last-dragon-1985_20251229",
+            "Rumble_In_The_Bronx_FOX_WOC_2001-03-15",
+            "sidekicks-full-screen-1992"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Martial arts hits (The Last Dragon, Rumble in the Bronx, Sidekicks)"
+        },
+        {
+          "identifiers": [
+            "wmac-masters",
+            "mortal-kombat-defenders-of-the-realm-the-complete-collection-1996",
+            "the-karate-kid-the-animated-series-complete-series-1989",
+            "sidekicks-the-last-electric-knight"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "90s martial-arts kids TV (WMAC Masters, MK: Defenders, Karate Kid animated, Sidekicks)"
         }
       ]
     },
@@ -5114,6 +5697,47 @@
           "rated": "R",
           "tag": "movies",
           "label": "Letterboxd films (R)"
+        },
+        {
+          "identifiers": [
+            "back-to-the-future-trilogy"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "tag": "era_2026",
+          "label": "Back to the Future trilogy"
+        },
+        {
+          "identifiers": [
+            "close-encounters-of-the-third-kind-1977-dc-remastered-blueray",
+            "the-x-files-movie",
+            "invasionofthebodysnatchers1956_201911",
+            "the.-fly.-1958",
+            "tron-1982-4-k-hdr"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Sci-fi box-office classics"
+        },
+        {
+          "identifiers": [
+            "the-six-million-dollar-man-sp.-no.-01-season-1-001-the-moon-and-the-desert-part-1",
+            "the-bionic-woman"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "The Six Million Dollar Man / The Bionic Woman"
+        },
+        {
+          "identifiers": [
+            "the-x-files-1993-season-10-complete-720p-blu-ray-x-264-i-c"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026",
+          "label": "The X-Files (2016 revival season)"
         }
       ]
     },
@@ -5232,14 +5856,6 @@
             "star-trek-enterprise-complete"
           ],
           "maxEntriesPerItem": 100,
-          "ignoreYear": true,
-          "tag": "newch_j"
-        },
-        {
-          "identifiers": [
-            "star-trek-new-voyages-phase-ii-2004"
-          ],
-          "maxEntriesPerItem": 12,
           "ignoreYear": true,
           "tag": "newch_j"
         },
@@ -5622,6 +6238,48 @@
           "rated": "R",
           "tag": "movies",
           "label": "Letterboxd films (R)"
+        },
+        {
+          "identifiers": [
+            "are-you-afraid-of-the-dark-1992",
+            "GTVSeries1995"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026",
+          "label": "Are You Afraid of the Dark? / Goosebumps (90s kids horror TV)"
+        },
+        {
+          "identifiers": [
+            "it-1990-miniseries"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "era_2026",
+          "label": "Stephen King's IT (1990 miniseries)"
+        },
+        {
+          "identifiers": [
+            "tales.-from.-the.-crypt.-1972",
+            "house-of-dark-shadows-1970",
+            "night-of-dark-shadows-1971",
+            "Poltergeist1982.MP4"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Horror hits (Tales from the Crypt 1972, Dark Shadows films, Poltergeist)"
+        },
+        {
+          "identifiers": [
+            "a-nightmare-on-elm-street-1984-bluray-720p",
+            "the-thing_202010"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "80s R horror (night block)",
+          "rated": "R"
         }
       ],
       "timeBlocks": [
@@ -5670,6 +6328,28 @@
         },
         {
           "query": "(subject:trailer AND title:(trailer OR \"tv spot\" OR \"tv spots\") AND -title:(\"trailer park\" OR \"park boys\") AND -subject:(\"video game\" OR videogame OR \"video games\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR spanish OR jpn OR japanese OR chi OR chinese OR zho OR pol OR polish OR fre OR french OR fra OR ger OR german OR deu OR ita OR italian OR por OR portuguese OR rus OR russian OR kor OR korean OR hin OR hindi OR ara OR arabic OR tur OR vie OR ind OR tha OR hmn) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist) AND -title:(\"trailer town\" OR milf OR \"barely legal\" OR \"sex addict\" OR \"after sex\" OR \"stripped naked\" OR emmanuelle OR \"midnight tease\" OR \"human desires\" OR hooker OR arrombada OR \"max payne\" OR \"half-life\" OR \"team fortress\" OR \"knights of the old republic\" OR \"last express\") AND -identifier:(\"turner_video_181525\" OR \"trailertown2003\" OR \"trailer-town\" OR \"Limbo_0\") AND -title:(caligula OR sleaziest)"
+        },
+        {
+          "identifiers": [
+            "jaws_20210811",
+            "RaidersOfTheLostArk1981OriginalTrailerTeaserHD",
+            "titanic_1997_trailer",
+            "terminator-2-teaser-trailer-1991",
+            "back-to-the-future_202108",
+            "Ghostbusters_Trailer_Betamax_RCA_Columbia_Pictures_Hoyts_Video_1985",
+            "the-godfather-part-ii-1974_202108",
+            "RockyTrailer",
+            "1949-reissue-trailer-for-the-wizard-of-oz",
+            "CasablancaTrailer",
+            "home-alone_202109",
+            "trailer-for-home-alone-2-lost-in-new-york",
+            "FORRESTGUMPTrailer",
+            "THELOSTWORLDJURASSICPARKTrailer"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Blockbuster trailers by era"
         }
       ]
     },
@@ -6774,6 +7454,18 @@
           "maxBitrateKbps": 4500,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "modern.-times.-1936.1080p.-blu-ray.x-264-yts.-am",
+            "show-people-1928",
+            "ChelovekskinoapparatomManWithAMovieCamera",
+            "silent-the-last-laugh"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Silent classics"
         }
       ]
     },
@@ -7815,6 +8507,22 @@
           "maxBitrateKbps": 4500,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "The-Maltese-Falcon_1941_AI_1080p.BluRay.10b.HEVC.DTS-HD.MA.2.0_BLUDUAINE",
+            "some.-like.-it.-hot.-1959.1080p.-blu-ray.x-264-yts.-am",
+            "sunset-boulevatrd-1950-restored-movie-720p",
+            "dr.-strangelove.-1964.720p.-blu-ray.x-264.-yify",
+            "roman-holiday_202501",
+            "the-thin-man-1934-blu-ray.-1080p.-dts-48-32",
+            "the-lady-eve-comedy-1941-barbara-stanwyck-henry-fonda-charles-coburn_202401",
+            "sullivans.-travels.-1941.1080p.-blu-ray.x-264.-yify_202401"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "AFI-list B&W classics"
         }
       ]
     },
@@ -9319,6 +10027,19 @@
           "ignoreYear": true,
           "tag": "movies",
           "label": "Letterboxd serials"
+        },
+        {
+          "identifiers": [
+            "the-new-adventures-of-tarzan-complete-serial",
+            "g-men-vs-the-black-dragon",
+            "tiger-woman-1944",
+            "jungle-girl-complete-serial",
+            "the-lost-city-serial"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026",
+          "label": "More serials (Tarzan 1935, G-Men vs the Black Dragon, Tiger Woman, Jungle Girl, The Lost City)"
         }
       ]
     },
@@ -9375,6 +10096,18 @@
           "ignoreYear": true,
           "maxEntries": 20,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "movie_201903",
+            "warning-from-space",
+            "creature-double-feature-godzilla-vs-the-smog-monster-and-giant-gilla-monster-6-24-06",
+            "elvira-mistress-of-the-dark"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "More horror hosts (Shilling Shockers, Creature Double Feature, Elvira film)"
         }
       ]
     },
@@ -10130,6 +10863,20 @@
           "rated": "R",
           "tag": "movies",
           "label": "Late night (R)"
+        },
+        {
+          "identifiers": [
+            "The-Godfather-I_1972_AI_Remastered.1080p.BluRay.10b.HEVC.DTS-HD.MA.TrueHD.5.1_BL",
+            "Lawrence-of-Arabia_1962_AI_1080p.BluRay.10b-HEVC.DTS-HD.MA.TrueHD.7.1.Atmos_BLUD",
+            "west-side-story-1961_202412",
+            "my-fair-lady_202401",
+            "walt-disneys-mary-poppins-vhs-1996",
+            "mrs....-doubtfire..-full-movie..-hd"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "label": "Box-office / Best Picture classics"
         }
       ],
       "timeBlocks": [
@@ -10593,6 +11340,36 @@
           "maxEntries": 40,
           "maxEntriesPerItem": 20,
           "tag": "sitcoms"
+        },
+        {
+          "identifiers": [
+            "toocloseforcomfort-season1_202209",
+            "toocloseforcomfort-season2",
+            "toocloseforcomfort-season3",
+            "toocloseforcomfort-season4",
+            "toocloseforcomfort-season5",
+            "toocloseforcomfort-season6"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "my-sister-sam-season-one",
+            "my-sister-sam-s02"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "9-to-5-tv-series-sitcom-rachel-dennison-sally-struthers-valerie-curtin-rita-moreno"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
         }
       ],
       "timeBlocks": [
@@ -10948,6 +11725,34 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 24,
           "tag": "foldin_b"
+        },
+        {
+          "identifiers": [
+            "coach-tv-series_202511"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 60,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "murphy-brown-season-4",
+            "murphy-brown-season-6",
+            "murphy-brown-season-7_202505",
+            "murphy-brown-season-8_20241222",
+            "murphy-brown-season-10"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "15-my-brothers-back-and-theres-going-to-be-trouble-20260730003353397"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 25,
+          "tag": "era_2026"
         }
       ],
       "timeBlocks": [
@@ -11202,6 +12007,42 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "chappelles-show-1x-01-pop-copy-clayton-bigsby"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 28,
+          "rated": "R",
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "b-1-t-00_20251023_1518"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "rated": "R",
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-dana-carvey-show-s-01-e-07-the-newt-gingrich-dana-carvey-show"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "TheBobHopeChevyShow-28december1956",
+            "bobhopechristmas65",
+            "Bob_Hope_Thanks_For_The_Memories"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -11335,7 +12176,7 @@
           "identifiers": [
             "late-late-show-craig-kilborn-ass-eps"
           ],
-          "maxEntriesPerItem": 700,
+          "maxEntriesPerItem": 120,
           "ignoreYear": true,
           "tag": "newch_i"
         },
@@ -11403,6 +12244,30 @@
           "maxEntriesPerItem": 30,
           "ignoreYear": true,
           "tag": "merge5"
+        },
+        {
+          "identifiers": [
+            "night-stand-s-01-e-01-the-cult-show"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 55,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "lopez-tonight-2009"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 13,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-soup-2010-03-05-the-soup-awards-2010"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 40,
+          "tag": "era_2026"
         }
       ]
     },
@@ -11471,6 +12336,58 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "comedy-central-presents-102-marc-maron"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "01-stand-up-comedy"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "rated": "R",
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "01-just-for-laughs"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "rated": "R",
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "lee-evans-collection"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "peter-kay-live-at-the-bolton-albert-halls-2003-uk-vhs",
+            "SteveMartinAWildAndCrazyGuy1978"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "jerry-seinfeld-comedian"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "rated": "R",
+          "tag": "era_2026"
         }
       ]
     },
@@ -11722,6 +12639,39 @@
           "maxEntriesPerItem": 8,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "the-simpsons-s-01-e-04-theres-no-disgrace-like-home_202607"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "DrawnTogetherComplete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "rated": "R",
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "god-the-devil-and-bob"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "clerks-animated-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
         }
       ],
       "timeBlocks": [
@@ -11932,6 +12882,24 @@
           "maxBitrateKbps": 4500,
           "rated": "R",
           "tag": "merge5"
+        },
+        {
+          "identifiers": [
+            "change-of-heart-amy-eric-2002"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "average-joe-1.5"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 5,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
         }
       ]
     },
@@ -12235,6 +13203,78 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "wheelnbc-7581-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 34,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "familyfeud1976-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 34,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "tpir-7582-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 16,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "tpir-8992-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "superpassword84-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 34,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "passwordplus-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 34,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "chainreaction1980-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 34,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "whew-bmp"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 30,
+          "claim": true,
+          "tag": "era_2026"
         }
       ]
     },
@@ -12356,6 +13396,44 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult3"
+        },
+        {
+          "identifiers": [
+            "who-wants-to-be-a-millionaire-uk-series-10"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "celebrity-who-wants-to-be-a-millionaire-uk"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "supermarket-sweep-uk-s-1-ep-01-sept-6th-1993",
+            "supermarket-sweep-uk-s-6-ep-1-sept-1st-1998",
+            "supermarket-sweep-dalewinton"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 14,
+          "claim": true,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "big-break-series-1"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "claim": true,
+          "tag": "era_2026"
         }
       ]
     },
@@ -12516,6 +13594,31 @@
           "ignoreYear": true,
           "maxEntries": 25,
           "maxEntriesPerItem": 3
+        },
+        {
+          "identifiers": [
+            "americas-funniest-people-balancing-acts-1990"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 13,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "just-for-laughs-gags-on-tubi"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the_smoking_gun_presents_worlds_dumbest"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 11,
+          "tag": "era_2026"
         }
       ]
     },
@@ -13059,6 +14162,79 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 14,
           "tag": "sitcoms"
+        },
+        {
+          "identifiers": [
+            "threes-company-1976-1984-complete-us-tv-series-xvid-version"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 40,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "maude-season-1",
+            "ep-18_202604",
+            "ep-16_202604",
+            "ep-14_202604",
+            "ep-08_20260410",
+            "ep-06_202604"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 7,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "mc-hales-navy-complete"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "dobie-gillis"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "Room-222-Season-1",
+            "Room-222-Season-2",
+            "room-222-1969-season-3",
+            "Room-222-Season-4",
+            "Room-222-Season-5"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 7,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "themonkees.series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "x-kk-p.-t.-a"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 36,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "te-d-re-s-s-7-e-02"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 29,
+          "tag": "era_2026"
         }
       ]
     },
@@ -13542,6 +14718,41 @@
           "maxEntriesPerItem": 20,
           "rated": "R",
           "tag": "b12_rated"
+        },
+        {
+          "identifiers": [
+            "memories-are-forever-sound",
+            "resolutions-full"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "simon-and-simon-the-lost-episodes",
+            "simon-and-simon-s-01-e-03-trapdoors-1080p",
+            "simon-and-simon"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "silk-stalkings-1991-1999-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 25,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "riptide-s3"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
         }
       ]
     },
@@ -13665,6 +14876,94 @@
           "maxEntriesPerItem": 20,
           "tag": "newch_f",
           "rated": "R"
+        },
+        {
+          "identifiers": [
+            "studio-one"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "StudioOne-TwelveAngryMen",
+            "StudioOneAbrahamLincoln",
+            "StudioOne19841953",
+            "Playhouse90--Days_of_Wine_and_Roses",
+            "Playhouse_90--The_Comedian",
+            "playhouse-90-judgement-at-nuremberg-cbs-1959",
+            "forbidden-area-1956",
+            "heart-of-darkness-roddy-mc-dowall-and-boris-karloff",
+            "ClimaxCasinoRoyale",
+            "Climax-DrJekyllAndMrHyde",
+            "ClimaxTrialByFire",
+            "night-gallery-green-fingers"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "four-star-playhouse"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "schlitz-playhouse-of-stars"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "GeneralElectricTheater_201601"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "lights-out-tv-series",
+            "lights-out-tv-series-season-2-of-4-xvid-avi"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 5,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "suspense-1949-1954-tv-show-s-1-s-2-episodes",
+            "suspense-1949-1954-tv-show-s-3-s-4-episodes",
+            "suspense-1949-1954-tv-show-s-5-s-6-episodes"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 5,
+          "tag": "era_2026"
+        },
+        {
+          "query": "(identifier:(KraftSuspenseTheatre-*)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR mirrortube OR movie_trailers OR podcasts-video) AND -title:(trailer OR promo OR intro OR commercials)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "shattered-vows",
+            "split-decision_202401",
+            "when-morning-comes"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "rated": "R",
+          "tag": "era_2026"
         }
       ]
     },
@@ -13763,6 +15062,41 @@
           "ignoreYear": true,
           "maxEntries": 30,
           "maxEntriesPerItem": 6
+        },
+        {
+          "identifiers": [
+            "strong-medicine-107-do-no-harm"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "city-of-angels-1.01"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 5,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "heartbeat-s-01-complete",
+            "heartbeat-s-02"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "china-beach-home-1x-01"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -13841,6 +15175,23 @@
           "maxEntriesPerItem": 1,
           "rated": "R",
           "tag": "adult3"
+        },
+        {
+          "identifiers": [
+            "santa-barbara-1984"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 25,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "loving-pilot-june-26-1983",
+            "texas-001-08-04-80-monday"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -14015,6 +15366,52 @@
           "maxEntriesPerItem": 1,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "dallas-s1-1080p",
+            "Dallas-s2-1080p",
+            "Dallas-s3-1080p",
+            "Dallas-S4-1080p",
+            "Dallas-s5-1080p",
+            "dallas-s6-1080p",
+            "dallas-s07-1080p",
+            "dallas-s09-1080p",
+            "dallas-s10-1080p",
+            "dallas-s11-1080p",
+            "dallas-s12-1080p",
+            "dallas-s13-1080p",
+            "dallas-s14-1080p"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-o.c."
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "party-of-five-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "dynasty-the-reunion-part-02-october-22-1991-by-abc-veronica-inc.-ltd.",
+            "90210-marathon-1992",
+            "beverly-hills-90210-the-final-goodbye-fox-29-may-10-2000"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -14056,6 +15453,40 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult3"
+        },
+        {
+          "identifiers": [
+            "Hollyoaks_2011"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-sullivans-1x-01-1x-02-on-the-brink-of-war-part-1-on-the-brink-of-war-part-2"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "crossroads-1759-august-1972",
+            "crossroads1980"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "howards-way-4x-12"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "maxBitrateKbps": 3500,
+          "tag": "era_2026"
         }
       ]
     },
@@ -14927,6 +16358,21 @@
           ],
           "maxEntriesPerItem": 3,
           "ignoreYear": true
+        },
+        {
+          "identifiers": [
+            "a-christmas-story_202105",
+            "Scrooged",
+            "white-christmas-full-movie",
+            "muppet-christmas-carol-1992-ld-bu",
+            "elf-2003-trailers.to",
+            "the-santa-clause-1994_202602",
+            "jingle-all-the-way_202601"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxBitrateKbps": 4500,
+          "tag": "era_2026"
         }
       ]
     },
@@ -15171,6 +16617,12 @@
           "maxEntries": 200
         },
         {
+          "query": "(title:(\"mama's family\" OR \"mamas family\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR jpn OR chi OR hin OR kor OR tur) AND -collection:(audio_sermons OR audio_religion OR sermonindex) AND -subject:(sermon OR tbn OR worship OR \"praise the lord\") AND -collection:(tvnews OR tvarchive OR mirrortube OR social-media-video OR fringe OR deemphasize OR community_media OR movie_trailers OR funnyordie OR roosterteetharchive OR podcasts OR bliptv OR vlogs OR gamevideos OR videogameprev) AND -identifier:(youtube-* OR yt_* OR g4tv.com-* OR acidplanet-* OR soundcloud-* OR nratv_*) AND -title:(promo OR trailer OR bloopers OR intro OR credits OR logos OR teaser OR preview OR parody OR spoof OR \"funny or die\" OR \"vhs #\" OR \"tape #\" OR \"dvd+r\" OR \"market box\" OR commercial OR commercials OR psp OR playstation OR xbox OR nintendo OR wii OR \"video game\" OR gameplay OR longplay OR \"let's play\" OR walkthrough OR playthrough OR apk OR gta OR unboxing OR review OR reacts OR podcast OR nightmare OR hindi OR \"dual audio\") AND -title:(clip OR clips OR continuity OR \"final 7 minutes\" OR kelo OR kdlt OR ksfy OR \"cartoon network\" OR \"funniest home videos\" OR reunion OR anniversary OR \"fight scene\" OR avengers OR \"how to train\" OR \"cmt recording\" OR karaoke OR multishow) AND -title:(\"complete series\" OR trump OR emmys OR \"francis goes\" OR \"arnold the pig\" OR shower OR \"to bed\" OR \"wakes up\" OR \"five-star gait\" OR \"falls out\" OR \"nothing to wear\" OR \"we are there\" OR \"family affair\")",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "tag": "mamas_family"
+        },
+        {
           "identifiers": [
             "roots-1977-complete-original",
             "roots-the-next-generations-pt-3"
@@ -15217,6 +16669,48 @@
           "maxEntriesPerItem": 1,
           "rated": "R",
           "tag": "adult2_m"
+        },
+        {
+          "identifiers": [
+            "CarterCountry"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "christyepisodes67woctape",
+            "christy-wral-tv-5-cbs-1994"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "ill_fly_away_1991"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "reba-complete-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-misadventures-of-sheriff-lobo-s-2-e-1",
+            "harper-valley-s-2-e-2-the-return-of-charlies-place"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -15720,6 +17214,32 @@
           "maxEntriesPerItem": 99,
           "rated": "R",
           "tag": "adult4"
+        },
+        {
+          "identifiers": [
+            "the-undersea-world-of-jacques-cousteau-1976",
+            "CousteauOdysseyISOs",
+            "Jacques_Cousteau-The_Undersea_World-Octopus_Octopus"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "gothic-cathedrals-1995-vhs",
+            "tvrec00022",
+            "tvrec0002",
+            "08-the-new-york-city-subway",
+            "modern-marvels-coal-mines-2007-09-14-0",
+            "15-earthmovers-the-power-to-move-mountains",
+            "modern-marvels-concept-cars",
+            "modern-marvels-silver-miners",
+            "modern-marvels-niagara-power"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -16358,6 +17878,23 @@
           "maxEntriesPerItem": 1,
           "ignoreYear": true,
           "tag": "trainee_big"
+        },
+        {
+          "identifiers": [
+            "Designfo1956",
+            "isforAto1953",
+            "Last_Clear_Chance_The",
+            "ToNewHor1940",
+            "middleton_family_worlds_fair_1939",
+            "American1958",
+            "American1958_2",
+            "American1958_3",
+            "OnceUpon1956",
+            "Frigidai1957"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ],
       "timeBlocks": [
@@ -16477,6 +18014,52 @@
         },
         {
           "query": "(subject:(\"public television\" OR \"public broadcasting\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR \"strip show\") AND -collection:(audio_sermons OR audio_religion OR tvnews OR tvarchive) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR tbn OR worship OR bible OR biblical OR ministry OR religious) AND -subject:(anime OR disney OR \"walt disney\") AND -title:(disney OR \"making of a masterpiece\" OR \"masterpiece collection\" OR \"candy candy\" OR \"water margin\" OR osbournes OR \"full vhs tape\" OR nhk OR filetofsoul) AND -identifier:(4964CS OR 239CS OR poohmasterpiece OR g4techtvtape2004) AND -subject:(children OR \"children's television\" OR \"children's programming\" OR kids OR preschool OR \"pbs kids\" OR puppets) AND -title:(barney OR \"pbs kids\" OR \"sesame street\" OR teletubbies OR arthur OR clifford OR \"mister rogers\" OR \"mr rogers\" OR \"mr. rogers\" OR cyberchase OR \"between the lions\" OR \"super why\" OR \"martha speaks\" OR \"sid the science\" OR \"curious george\" OR \"reading rainbow\" OR \"magic school bus\" OR \"comfy couch\" OR \"dragon tales\" OR zoom OR wishbone OR \"ptv park\" OR kids OR \"lamb chop\" OR thomas OR \"dinosaur train\" OR kratts OR zoboomafoo OR \"electric company\" OR \"3-2-1\" OR ghostwriter OR \"bill nye\" OR \"real wheels\" OR \"yule log\" OR elmo OR muppet) AND -title:(commercial OR commercials OR promo OR promos OR bumper OR interstitial OR \"funding credits\" OR \"pledge break\" OR ids OR \"program break\" OR \"this is pbs\")"
+        },
+        {
+          "identifiers": [
+            "firing-line-tv-show-1966"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "firing-line-the-news-twisters-september-1-1971",
+            "bf-skinner-firing-line-the-case-against-freedom-1971",
+            "FiringLineRonPaulAndWilliamF.Buckley1988"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "arthur_delano_Antiques_Roadshow"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "vcdvcd10145300101747",
+            "VCD1618430",
+            "bestofantiquesroadshow",
+            "thebestofantiquesroadshow1997",
+            "antiquesroadshowspecial"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "TheVistaGroup-PBSNatureDocumentaryDeathTrap"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -16488,6 +18071,58 @@
       "sources": [
         {
           "query": "(collection:computerchronicles) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist)"
+        },
+        {
+          "query": "(collection:netcafe AND -title:(sex OR voyeur* OR voyeurism OR gambling OR porn OR adult OR \"news magazine\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist)",
+          "ignoreYear": true,
+          "maxEntries": 60,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "screensavers2004",
+            "the-screen-savers-techtv",
+            "TechTV_TSS_2002_Full_Episodes",
+            "TechTV_TSS_2004_04_Full_Episodes",
+            "TechTV_TSS_2004_05_Full_Episodes"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "query": "(collection:bitsandbytes AND identifier:*v2) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "query": "(collection:computer-programme) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "triumph_of_the_nerds",
+            "the-machine-that-changed-the-world-1-1",
+            "the-machine-that-changed-the-world-1",
+            "the-machine-that-changed-the-world-3",
+            "the-machine-that-changed-the-world-4",
+            "the-machine-that-changed-the-world-5",
+            "Nerds_2.0.1_-_A_Brief_History_of_the_Internet_-_Part1",
+            "Nerds_2.0.1_-_A_Brief_History_of_the_Internet_-_Part3",
+            "RevolutionOS",
+            "piratesofsiliconvalley_201908",
+            "HyperlandBBSDouglasAdamsAndTomBaker1990",
+            "SteveJobsIntroducesTheFirstMac1984",
+            "wwdc-1997-fireside-chat-steve-jobs",
+            "siggraph95keynote-stevejobs"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "tag": "era_2026"
         }
       ]
     },
@@ -16497,6 +18132,16 @@
       "logo": "Logos/4x3/patrol.png",
       "genre": "News & Docs",
       "sources": [
+        {
+          "identifiers": [
+            "beyond-scared-straight-2011-2015-ae-orig",
+            "season-1-episode-1-chowchilla"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "claim": true,
+          "tag": "era_2026"
+        },
         {
           "identifiers": [
             "CopsVHSTapes"
@@ -16576,6 +18221,14 @@
           "maxEntriesPerItem": 1,
           "rated": "R",
           "tag": "adult2_c"
+        },
+        {
+          "identifiers": [
+            "WWPVTheCompleteOriginalSeries"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 10,
+          "tag": "era_2026"
         }
       ]
     },
@@ -16782,6 +18435,27 @@
           "maxEntriesPerItem": 1,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "ElleryQueenSeries",
+            "banacek-complete-series-1972"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "Ellery_Queen_DuMont",
+            "theAdventuresOfElleryQueen-DeathSpinsAWheel1951",
+            "theAdventuresOfElleryQueen-MurderToMusic1951",
+            "theAdventuresOfElleryQueen-BuckFever1952",
+            "theAdventuresOfElleryQueen-ManWhoEnjoyedDeath1951"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -17021,6 +18695,39 @@
           "maxEntriesPerItem": 4,
           "ignoreYear": true,
           "tag": "foldin_a"
+        },
+        {
+          "identifiers": [
+            "ancient-mysteries-sasquatch-1994-narrated-by-leonard-nimoy",
+            "Ancient_Mysteries_Ark_Of_The_Covenant_A_And_E_WOC_1994",
+            "ancient-mysteries-new-investigations-of-the-unsolved-the-great-pyramids",
+            "Ancient_Mysteries_Easter_Island_A_And_E_WOC_1995-08",
+            "ancient-mysteries-vampire-origins",
+            "vintage-vhs-ancient-mysteries-the-hidden-city-of-petra-narrated-by-leonard-nimoy",
+            "ancient-mysteries-dark-history-of-witches",
+            "guardian-of-the-ages-sphinx-ancient-mysteries-a-e-1996",
+            "vintage-vhs-ancient-mysteries-enigma-of-the-dead-sea-scrolls",
+            "the-vikings-in-north-america-a-e-1995"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "monsters-and-mysteries-full-series"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "destination-truth-s-01-e-01-iguanodon-and-r.-i.-mermaid"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -17148,6 +18855,21 @@
           ],
           "ignoreYear": true,
           "maxEntriesPerItem": 2
+        },
+        {
+          "identifiers": [
+            "1960_kennedy-nixon_1",
+            "1960_kennedy-nixon_2",
+            "flight_of_apollo_11",
+            "DDay1944",
+            "August141945NewsreelV-jDay",
+            "23534alindberghsflightandreturn",
+            "52264-yesterdays-newsreel-lindbergh-makes-epic-flight-to-paris-2-vwr",
+            "60434YesterdaysNewsreelAmericasIdol"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -17556,6 +19278,53 @@
           "ignoreYear": true,
           "maxEntries": 140,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "mtv-video-music-awards-1987",
+            "awards-1992",
+            "mtv-video-music-awards-1993",
+            "mtv-video-music-awards-1997",
+            "mtv-video-music-awards-september-9-1999_202602"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "query": "(title:countdown AND title:(host OR \"molly meldrum\") AND date:[1974-01-01 TO 1987-12-31]) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR gameplay OR \"full album\" OR remix OR \"lyric video\" OR loveline OR \"real world\" OR \"road rules\" OR jackass OR \"tom green\" OR \"fear factor\" OR \"parental control\" OR germany OR interview OR playlist OR medley OR \"ft.\" OR feat OR report)",
+          "ignoreYear": true,
+          "maxEntries": 30,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "night-flight-fp-cutting-edge-robyn-hitcock-toni-basil-video-block",
+            "Night_Flight_NBC_WOC_1991-05",
+            "night-flight-cult-classics-nbc-woc-1992-02"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "night-flight-compilation-mixtape",
+            "much-music-canada-music-station-various-shows-1992-2000"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "muchmusic",
+            "MTVMuchMusic2002"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ],
       "excludeIdentifiers": [
@@ -18103,6 +19872,44 @@
           "query": "(title:(\"donny and marie\" OR \"donny & marie\" OR \"captain and tennille\" OR \"captain & tennille\" OR \"glen campbell goodtime\" OR \"glen campbell music\" OR \"tony orlando\" OR \"sha na na\" OR \"kraft music hall\" OR \"andy williams show\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity OR naturism) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR nudist OR naturisme OR tabou OR taboo OR \"real sex\" OR stripper) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -identifier:(youtube-* OR twitter-* OR facebook-* OR TikTok-* OR bliptv-* OR g4tv.com-* OR dailymotion-* OR yt_* OR OakleyTapes_*) AND -collection:(mirrortube OR bliptv OR podcasts OR twitchstreams OR tvnews OR tvarchive OR fringe OR deemphasize OR movie_trailers) AND -title:(reaction OR reacts OR review OR podcast OR karaoke OR tutorial OR remix OR \"lyric video\" OR interview OR interviews OR trailer OR promo OR commercial OR commercials OR \"vhs tape\" OR vh1 OR \"vh 1\" OR mtv OR cbeebies OR zingzillas OR cranium OR firefly OR documentary OR \"behind the music\") AND -title:(christmas OR commercial OR berle OR roast OR \"jack benny\" OR 1999 OR 2000 OR 2001) AND -identifier:(tobacco_*)",
           "ignoreYear": true,
           "maxEntriesPerItem": 2
+        },
+        {
+          "identifiers": [
+            "ELVISSINGERSPECIALAIRCUTWithAds2",
+            "frank_sinatra_show_welcome_home_elvis",
+            "elvis-presley-in-concert-aloha-from-hawaii-january-14-1973",
+            "vintage-vhs-elvis-thats-the-way-it-is"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-beatles-the-4-ed-sullivan-shows"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-beatles-on-thank-your-lucky-stars-december-15-1963",
+            "mmtvhs",
+            "6.5-special-1958",
+            "thePattiPageShow-23June1956"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "1969-10-27-richie-havens-issac-hayes-janis-joplin-smith-jerry-lee-lewis-ten-year"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 6,
+          "tag": "era_2026"
         }
       ]
     },
@@ -18309,6 +20116,22 @@
           "ignoreYear": true,
           "maxEntries": 40,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "hi_de_ho",
+            "st-louis-blues-1929",
+            "black-and-tan_1929",
+            "jammin-the-blues-1944-edited",
+            "0751_Soundies_Black_Music_15_01_07_00",
+            "SHPX6FezLtSyohqaoIWx02ada0Enup",
+            "xd-38984c-official-films-african-americanand-southern-soundies-vwr",
+            "BvlW7HtWWXOs073BXLH75Yc0vRY3SX",
+            "cab-calloway-soundies"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -18738,6 +20561,16 @@
           ],
           "ignoreYear": true,
           "maxEntriesPerItem": 4
+        },
+        {
+          "identifiers": [
+            "tyson-vs-douglas",
+            "RiddickBoweVsEvanderHolyfieldNovember131992FullFight",
+            "1996-11-09-mike-tyson-vs-evander-holyfield-1"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "era_2026"
         }
       ]
     },
@@ -18903,6 +20736,14 @@
           ],
           "ignoreYear": true,
           "maxEntriesPerItem": 1
+        },
+        {
+          "identifiers": [
+            "vintage-vhs-game-of-the-century-1971-nebraska-vs-oklahoma"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -18979,6 +20820,20 @@
           "tag": "b12",
           "maxEntries": 40,
           "rated": "R"
+        },
+        {
+          "identifiers": [
+            "HoopDreams1994",
+            "vintage-vhs-nfl-best-of-the-football-follies",
+            "nflfilmsstrikeforce1989_201906",
+            "dvd-transfer-17",
+            "dvd-transfer-51",
+            "HearnsVsLeonardShowdownKWHY",
+            "MikeTysonVsEvanderHolyfieldII1997FullFight"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
         }
       ],
       "timeBlocks": [
@@ -19237,6 +21092,30 @@
         {
           "query": "(title:(\"hot rod\" OR \"hot rods\" OR \"car show\" OR \"car cruise\" OR \"cruise night\" OR \"motorweek\" OR \"speedvision\" OR \"rod run\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR jpn OR chi OR hin OR kor OR tur) AND -collection:(tvnews OR tvarchive OR mirrortube OR social-media-video OR fringe OR deemphasize OR community_media OR movie_trailers OR funnyordie OR podcasts OR bliptv OR vlogs OR gamevideos OR videogameprev) AND -identifier:(youtube-* OR yt_* OR g4tv.com-* OR acidplanet-* OR soundcloud-* OR nratv_*) AND -title:(promo OR trailer OR intro OR teaser OR preview OR parody OR spoof OR \"vhs #\" OR commercial OR commercials OR playstation OR xbox OR gameplay OR walkthrough OR playthrough OR unboxing OR review OR podcast OR nightmare OR hindi) AND -title:(toy OR toys OR \"hot wheels\" OR lego OR diecast OR kids OR children OR blippi OR learn OR song OR cartoon OR gta OR forza OR apk OR \"need for speed\") AND -title:(\"hot rod girl\" OR \"hot rod gang\" OR \"hot rod circuit\" OR \"hot-rod and reel\" OR nude OR \"tilted kilt\" OR \"show time\" OR \"heidi lee\" OR svengoolie OR \"public defender\" OR \"super why\" OR \"swizz beatz\" OR \"gone in 60\" OR \"hot rod (1979)\" OR \"tuner fest\" OR \"how to hot rod\" OR guitar OR study OR worship OR wumpa's OR gekko OR playlist OR bally OR \"slide show\" OR hcr2 OR hulbert OR claster OR photographs OR \"hot rod (2007)\" OR \"hot rod edit\" OR juvenile OR \"dalles schneider\") AND -identifier:(surf-inst-*)",
           "ignoreYear": true
+        },
+        {
+          "identifiers": [
+            "top-gear-complete-collection"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "all-the-formula-1-races-from-1950-to-2018"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "pimp-my-ride-s-3-eng"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
         }
       ]
     },
@@ -19300,6 +21179,13 @@
         {
           "query": "(title:(\"rodeo\" OR \"bull riding\" OR \"barrel racing\" OR \"pbr bull\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR jpn OR chi OR hin OR kor OR tur) AND -collection:(tvnews OR tvarchive OR mirrortube OR social-media-video OR fringe OR deemphasize OR community_media OR movie_trailers OR funnyordie OR podcasts OR bliptv OR vlogs OR gamevideos OR videogameprev) AND -identifier:(youtube-* OR yt_* OR g4tv.com-* OR acidplanet-* OR soundcloud-* OR nratv_*) AND -title:(promo OR trailer OR intro OR teaser OR preview OR parody OR spoof OR \"vhs #\" OR commercial OR commercials OR playstation OR xbox OR gameplay OR walkthrough OR playthrough OR unboxing OR review OR podcast OR nightmare OR hindi) AND -title:(anime OR zombie OR horror OR ghost OR ghosts OR paranormal OR treasure OR witch OR vampire OR \"deer hunter\" OR cabela OR \"rodeo drive\" OR game OR games OR sega OR \"music video\" OR nickelodeon OR \"for kids\" OR \"hard hat harry\" OR cartoon OR disney OR sex OR lemonparty OR ghetto) AND -title:(punk OR punkcast OR graveyard OR \"rodeo, california\" OR \"richard diamond\" OR \"drive-in\" OR \"royalty free\" OR \"king of the hill\" OR \"time express\" OR \"blue rodeo\" OR sparkle OR everland OR \"lost highway\" OR romeo OR dough OR \"rodeo red\" OR \"global fires\" OR \"move to amend\" OR ident OR \"rodeo jones\" OR \"rodeo cop\" OR \"papa was\" OR \"dance off\" OR \"scent-imental\" OR pathecomedy OR mechanical OR \"boot video\" OR flappers OR \"shape and color\") AND -identifier:(richard_diamond*)",
           "ignoreYear": true
+        },
+        {
+          "query": "(title:(\"zoo life with jack hanna\" OR \"zoolife with jack hanna\" OR \"jack hanna's animal adventures\" OR \"zoo life collection\" OR \"animal bloopers with jack hanna\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -title:(kickbutt OR landscapers OR cyberchase)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 20,
+          "tag": "era_2026"
         }
       ]
     },
@@ -19659,6 +21545,13 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 20,
           "tag": "foldin_b"
+        },
+        {
+          "query": "(title:(\"saturday night's main event\" OR \"saturday nights main event\" OR snme OR \"tuesday night titans\") OR identifier:(wwe.-*saturday-nights-main-event*)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -title:(2025 OR 2026 OR countdown) AND -identifier:(img2828_202003 OR andyland-* OR perma_cc_* OR wwe-snme-november-1st-2025-ld)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 40,
+          "tag": "era_2026"
         }
       ]
     },
@@ -19956,6 +21849,21 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 2,
           "maxEntries": 25
+        },
+        {
+          "query": "(title:(\"world cup classics\") OR identifier:*-world-cup-classics-*) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -identifier:(03-world-cup-classics-s-01-e-03-brazil-vs-italy-1970)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 40,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "england-vs-spain-euro-96-full-match"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -20150,6 +22058,51 @@
           "maxEntriesPerItem": 1,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "Lovejoy"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 20,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "abfab-absolutely-everything"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 15,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "it-crowd-collection"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "to-the-manor-born-season-1-of-3-tv-series-1979-xvid-avi",
+            "to-the-manor-born-season-2-of-3-tv-series-1979-xvid-avi"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 7,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "vid-20230922-144532",
+            "men-behaving-badly-series-5-part-1-1996-uk-vhs",
+            "peter-kays-phoenix-nights-the-complete-series-one-2002-uk-vhs",
+            "The_Office_Christmas_Special_and_How_I_Made_The_Office_Special_BBC_America_WOC_2",
+            "minder-1984-se-4-ep-5-sorry-pal-wrong-number"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "tag": "era_2026"
         }
       ]
     },
@@ -20557,6 +22510,28 @@
           "maxEntriesPerItem": 1,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "identifiers": [
+            "rashomon-1950_202408",
+            "seven-samurai-1954_202408",
+            "yojimbo-1961_202408",
+            "bicycle-thieves-1948-restored-movie-720p-hd",
+            "wild-strawberries_202209",
+            "life-is-beautiful-english-dubbed-1"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "ran-1985_202408"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026",
+          "rated": "R"
         }
       ]
     },
@@ -20649,6 +22624,13 @@
           "ignoreYear": true,
           "maxEntries": 40,
           "maxEntriesPerItem": 2
+        },
+        {
+          "query": "(title:(\"antiques roadshow\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -title:(segment OR magic OR beatles OR photos OR political OR \"how to\")",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 25,
+          "tag": "era_2026"
         }
       ]
     },
@@ -20687,6 +22669,56 @@
             "chinese-banquet-yan-can-cook-kqed"
           ],
           "ignoreYear": true
+        },
+        {
+          "identifiers": [
+            "the-galloping-gourmet-tearaway-soup-and-fried-fish"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "the-urban-peasant"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 7,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "nigella-bites",
+            "nigella-bites-2002-uk-dvd",
+            "floyd-on-italy",
+            "floyd_on_britain_and_ireland_202509"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "MadhurJaffreyCurr103"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "floyd-on-spain-barcelona-sbs-26-06-92",
+            "vid-20230220-131237",
+            "first-molto-mario-episode-pasta",
+            "molto-mario-pasta-sauce-the-essence-of-ingredients",
+            "graham-kerr-show-stir-fry-1991",
+            "TheVistaGroup-LookThenCookWithGrahamKerr1990s",
+            "Good-Eats-Specials",
+            "good_eats-_season_01_-_episode_14___577282e1efdb9"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ],
       "yearRange": [
@@ -20764,6 +22796,13 @@
       "sources": [
         {
           "query": "(title:(\"richard simmons\" OR sweatin OR \"denise austin\" OR \"billy blanks\" OR \"tae bo\" OR \"body electric\" OR \"20 minute workout\" OR \"buns of steel\" OR \"jack lalanne\" OR \"gilad step\" OR \"gilad aerobics\" OR \"jane fonda workout\" OR \"workout starring jane fonda\" OR \"start up with jane fonda\" OR \"jane fonda lower body\" OR \"jane fonda prime time\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic) AND -language:(spa OR spanish OR jpn OR japanese OR chi OR chinese OR zho OR pol OR polish OR fre OR french OR fra OR ger OR german OR deu OR ita OR italian OR por OR portuguese OR rus OR russian OR kor OR korean OR hin OR hindi OR ara OR arabic OR tur OR vie OR ind OR tha OR hmn) AND -collection:(audio_sermons OR audio_religion) AND -subject:(christian OR christianity OR gospel OR church OR sermon OR sermons OR \"praise the lord\" OR tbn OR worship OR bible OR biblical OR ministry OR religious OR evangelist) AND -title:(\"tough and deadly\")"
+        },
+        {
+          "query": "(title:(\"kathy smith\" OR \"body by jake\" OR \"cher fitness\" OR \"30 day shred\" OR \"bodies in motion\" OR \"joanie greggains\" OR jazzercise OR \"leslie sansone\" OR \"walk aerobics\" OR \"aerobics oz style\" OR \"cindy crawford\" OR aerobicise OR \"abs of steel\" OR \"totally firm\" OR \"step reebok\" OR \"jane fonda's\" OR \"jane fondas\" OR p90x OR \"tonetics\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -title:(stern OR \"ribbon cutting\" OR barbie OR \"horror workout\" OR \"huge bust\" OR \"baby fat\")",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 3,
+          "maxEntries": 90,
+          "tag": "era_2026"
         }
       ],
       "yearRange": [
@@ -20855,6 +22894,26 @@
           "ignoreYear": true,
           "maxEntriesPerItem": 7,
           "tag": "b12_kids"
+        },
+        {
+          "identifiers": [
+            "GreatestHeroesOfTheBibleTheCompleteCollection"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 5,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "vlc-record-2024-08-22-01h07m45s-dvd____D__-",
+            "LifeIsWorthLiving-Angels",
+            "HourOfPowerFirstEpisode1970_201811",
+            "kids-praise-5-psaltys-camping-adventure",
+            "oral-roberts-celebration-christmas-special-1981-convert-video-online.com"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     },
@@ -21204,6 +23263,14 @@
           "maxEntries": 12,
           "maxEntriesPerItem": 1,
           "tag": "b12"
+        },
+        {
+          "identifiers": [
+            "game-center-cx-english-subbed-episodes-collection-gamecenter-cx-2021-02"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 12,
+          "tag": "era_2026"
         }
       ],
       "minSeconds": 60
@@ -21622,6 +23689,46 @@
           "maxEntriesPerItem": 1,
           "tag": "movies",
           "label": "Letterboxd films"
+        },
+        {
+          "query": "(identifier:(the_saint_1_dvd* OR the_saint_2_dvd* OR the_saint_3_dvd*)) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 2,
+          "maxEntries": 40,
+          "tag": "era_2026"
+        },
+        {
+          "query": "(title:(\"the avengers\") AND title:(\"s 04\" OR s04 OR 1965 OR \"s 02\" OR \"s 03\")) AND -subject:(xxx OR nsfw OR erotica OR erotic OR fetish OR sexploitation OR porn OR pornography OR softcore OR hentai OR ecchi OR nudity) AND -title:(nsfw OR xxx OR porn OR hentai OR erotic OR nude OR naked OR topless OR sexy OR bikini OR playboy OR lingerie) AND -language:(spa OR por OR pol OR fre OR ger OR ita OR rus OR chi OR hin OR kor OR tur OR ara OR dut OR jpn) AND -collection:(tvnews OR tvarchive OR movie_trailers OR mirrortube OR fringe OR deemphasize OR podcasts OR gamevideos OR bliptv OR funnyordie OR videogameprev OR community_media) AND -identifier:(youtube-* OR yt_* OR twitter-* OR g4tv.com-*) AND -title:(trailer OR promo OR teaser OR commercial OR commercials OR review OR reaction OR parody OR podcast OR interview OR gameplay OR intro OR opening) AND -title:(colorized OR colourised OR colorised OR \"in color\" OR \"in colour\" OR color OR colour OR vf OR vostfr OR chapeau OR marvel OR 2012 OR comics) AND -collection:(colorized-movies OR movie_trailers_unsorted)",
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "maxEntries": 26,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "MaigretBlackWhite",
+            "maigret_s1_60s"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 4,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "adam-adamant-lives-complete-series-1966"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 8,
+          "tag": "era_2026"
+        },
+        {
+          "identifiers": [
+            "SchoolForScoundrels1959",
+            "a-night-to-remember-1958-true-story-titanic"
+          ],
+          "ignoreYear": true,
+          "maxEntriesPerItem": 1,
+          "tag": "era_2026"
         }
       ]
     }
